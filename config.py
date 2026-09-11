@@ -13,7 +13,7 @@ DB_DIR = os.path.join(BASE_DIR, "vector_db")
 # MODEL EMBEDDING (LOCAL)
 # ============================================================
 
-EMBEDDING_MODEL = "BAAI/bge-m3"
+EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 
 # ============================================================
@@ -36,7 +36,7 @@ CHUNK_OVERLAP = 200
 # ============================================================
 
 USE_HYBRID = True
-USE_RERANKER = True
+USE_RERANKER = False
 
 CANDIDATES_K = 20
 FINAL_TOP_K = 6
