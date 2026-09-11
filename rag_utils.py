@@ -213,6 +213,28 @@ def rerank(question, documents, metadatas, top_k=FINAL_TOP_K):
 # 6. EMBEDDING
 # ============================================================
 
+_embedder = None
+
+
+def get_embedder():
+    """Model embedding chạy local qua sentence-transformers (không cần Ollama)."""
+    global _embedder
+
+    if _embedder is not None:
+        return _embedder
+
+    try:
+        from sentence_transformers import SentenceTransformer
+    except ImportError:
+        raise RuntimeError(
+            "Chưa cài sentence-transformers. "
+            "Chạy: pip install sentence-transformers"
+        )
+
+    _embedder = SentenceTransformer(EMBEDDING_MODEL)
+    return _embedder
+
+
 @lru_cache(maxsize=EMBEDDING_CACHE_SIZE)
 def create_embedding(question):
     question = normalize_question(question)
@@ -220,17 +242,12 @@ def create_embedding(question):
         raise ValueError("Câu hỏi không được để trống.")
 
     try:
-        response = ollama.embed(
-            model=EMBEDDING_MODEL,
-            input=question,
-        )
+        model = get_embedder()
+        vector = model.encode(question, normalize_embeddings=True)
     except Exception as e:
         raise RuntimeError(f"Lỗi tạo embedding: {e}")
 
-    embeddings = response.get("embeddings")
-    if not embeddings:
-        raise RuntimeError("Ollama không trả về embedding.")
-    return embeddings[0]
+    return vector.tolist()
 
 
 # ============================================================
@@ -738,7 +755,7 @@ def warm_up(provider: str = "ollama"):
 # ============================================================
 
 def clear_rag_cache():
-    global _bm25_index, _bm25_corpus, _bm25_metadatas, _reranker
+    global _bm25_index, _bm25_corpus, _bm25_metadatas, _reranker, _embedder
     create_embedding.cache_clear()
     get_chroma_client.cache_clear()
     get_chroma_collection.cache_clear()
@@ -746,6 +763,7 @@ def clear_rag_cache():
     _bm25_corpus = None
     _bm25_metadatas = None
     _reranker = None
+    _embedder = None
 
 
 # ============================================================

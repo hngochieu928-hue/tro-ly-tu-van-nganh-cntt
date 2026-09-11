@@ -13,7 +13,7 @@ DB_DIR = os.path.join(BASE_DIR, "vector_db")
 # MODEL EMBEDDING (LOCAL)
 # ============================================================
 
-EMBEDDING_MODEL = "bge-m3"
+EMBEDDING_MODEL = "BAAI/bge-m3"
 
 
 # ============================================================
@@ -91,7 +91,7 @@ LLM_NUM_CTX = 6144
 # LLM PROVIDER
 # ============================================================
 
-DEFAULT_PROVIDER = "ollama"
+DEFAULT_PROVIDER = "gemini"
 
 # ⚡ Gemini: chỉ dùng model hỗ trợ SDK tương ứng
 #   - gemini-1.5-*  → SDK cũ (google-generativeai)

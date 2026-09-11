@@ -7,7 +7,6 @@
 import os
 import hashlib
 
-import ollama
 import chromadb
 
 from config import (
@@ -209,7 +208,6 @@ def load_documents():
 # ============================================================
 
 def create_embeddings(documents):
-    embeddings = []
     total = len(documents)
 
     if total == 0:
@@ -221,41 +219,19 @@ def create_embeddings(documents):
     print(f"📦 Batch: {EMBED_BATCH_SIZE}")
     print()
 
-    start = 0
-    while start < total:
-        end = min(start + EMBED_BATCH_SIZE, total)
-        batch = documents[start:end]
+    from sentence_transformers import SentenceTransformer
 
-        batch_number = (start // EMBED_BATCH_SIZE) + 1
-        total_batches = (total + EMBED_BATCH_SIZE - 1) // EMBED_BATCH_SIZE
+    model = SentenceTransformer(EMBEDDING_MODEL)
 
-        print(f"🔄 Batch {batch_number}/{total_batches}")
-
-        try:
-            response = ollama.embed(
-                model=EMBEDDING_MODEL,
-                input=batch,
-            )
-        except Exception as e:
-            raise RuntimeError(
-                f"Lỗi embedding batch {batch_number}: {e}"
-            )
-
-        batch_embeddings = response.get("embeddings")
-
-        if not batch_embeddings:
-            raise RuntimeError("Ollama không trả về embedding.")
-
-        if len(batch_embeddings) != len(batch):
-            raise RuntimeError(
-                "Số embedding không khớp với số document."
-            )
-
-        embeddings.extend(batch_embeddings)
-        start = end
+    vectors = model.encode(
+        documents,
+        batch_size=EMBED_BATCH_SIZE,
+        normalize_embeddings=True,
+        show_progress_bar=True,
+    )
 
     print()
-    return embeddings
+    return vectors.tolist()
 
 
 # ============================================================

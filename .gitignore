@@ -2,7 +2,7 @@ venv/
 __pycache__/
 *.pyc
 .vs/
-vector_db/
+.claude/
 .streamlit/secrets.toml
 .env
 *.log
