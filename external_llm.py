@@ -202,7 +202,7 @@ def stream_external(
 
     default_models = {
         "openai":   "gpt-4o-mini",
-        "gemini":   "gemini-3.0-flash",
+        "gemini":   "gemini-flash-latest",
         "claude":   "claude-3-5-sonnet-latest",
         "deepseek": "deepseek-chat",
         "groq":     "llama-3.3-70b-versatile",
