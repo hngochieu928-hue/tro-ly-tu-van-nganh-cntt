@@ -654,6 +654,16 @@ div[data-baseweb="popover"] li[role="option"]:hover {{
     padding: 12px 4px !important;
     color: var(--text) !important;
 }}
+[data-testid="stChatInput"] textarea::placeholder {{
+    color: var(--text-faint) !important;
+    opacity: 1 !important;
+}}
+[data-testid="stChatInputSubmitButton"] {{
+    background: var(--hover-bg) !important;
+}}
+[data-testid="stChatInputSubmitButton"] svg {{
+    fill: var(--text) !important;
+}}
 .stSpinner > div {{ border-top-color: var(--accent) !important; }}
 
 @keyframes fadeUp {{
