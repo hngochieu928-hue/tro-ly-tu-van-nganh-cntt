@@ -99,9 +99,10 @@ DEFAULT_PROVIDER = "gemini"
 PROVIDER_MODELS = {
     "ollama":   ["qwen2.5:3b", "qwen2.5:7b", "llama3.2:3b"],
     "openai":   ["gpt-4o-mini", "gpt-4o", "gpt-4-turbo"],
-    "gemini":   ["gemini-1.5-flash",        # ổn định, khuyến nghị
-                 "gemini-1.5-pro",          # chất lượng cao
-                 "gemini-2.0-flash"],       # nhanh nhất (SDK mới)
+    "gemini":   ["gemini-3.0-flash",        # mới nhất, khuyến nghị
+                 "gemini-2.5-flash",
+                 "gemini-2.0-flash",
+                 "gemini-1.5-flash"],       # cũ, có thể đã bị Google ngừng hỗ trợ
     "claude":   ["claude-3-5-sonnet-latest",
                  "claude-3-5-haiku-latest",
                  "claude-3-opus-latest"],

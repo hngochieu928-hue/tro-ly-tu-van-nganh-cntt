@@ -70,17 +70,17 @@ def stream_openai_compatible(
 def stream_gemini(prompt: str, model: str, api_key: str):
     """
     ⚡ Tự động dùng SDK phù hợp:
-    - Model gemini-2.0+ / 2.5 → google-genai (SDK mới)
     - Model gemini-1.5       → google-generativeai (SDK cũ)
+    - Model gemini-2.0 trở lên → google-genai (SDK mới)
     """
     if not api_key:
         raise RuntimeError("Thiếu API key Gemini.")
 
-    # Model 2.0+ cần SDK mới
-    if "2.0" in model or "2.5" in model:
-        yield from _stream_gemini_new(prompt, model, api_key)
-    else:
+    # Chỉ model 1.5 dùng SDK cũ, mọi phiên bản mới hơn dùng SDK mới
+    if "1.5" in model:
         yield from _stream_gemini_legacy(prompt, model, api_key)
+    else:
+        yield from _stream_gemini_new(prompt, model, api_key)
 
 
 def _stream_gemini_new(prompt: str, model: str, api_key: str):
@@ -202,7 +202,7 @@ def stream_external(
 
     default_models = {
         "openai":   "gpt-4o-mini",
-        "gemini":   "gemini-1.5-flash",
+        "gemini":   "gemini-3.0-flash",
         "claude":   "claude-3-5-sonnet-latest",
         "deepseek": "deepseek-chat",
         "groq":     "llama-3.3-70b-versatile",
