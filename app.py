@@ -260,7 +260,7 @@ html, body, .stApp {
 }
 
 /* ═══ Nút menu (⋯) ═══ */
-[data-testid="stSidebar"] div[data-testid="stPopover"] > button {
+[data-testid="stSidebar"] [data-testid="stPopover"] button {
     position: relative !important;
     background: transparent !important;
     border: none !important;
@@ -273,21 +273,21 @@ html, body, .stApp {
     opacity: 0.6;
     overflow: hidden !important;
 }
-[data-testid="stSidebar"] div[data-testid="stPopover"] > button > *,
-[data-testid="stSidebar"] div[data-testid="stPopover"] > button svg {
+[data-testid="stSidebar"] [data-testid="stPopover"] button > *,
+[data-testid="stSidebar"] [data-testid="stPopover"] button svg {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
     width: 0 !important;
     height: 0 !important;
 }
-[data-testid="stSidebar"] div[data-testid="stPopover"] > button::after {
+[data-testid="stSidebar"] [data-testid="stPopover"] button::after {
     content: "..." !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     color: #8e8ea0 !important;
-    font-size: 12px !important;
+    font-size: 16px !important;
     font-weight: 900 !important;
     letter-spacing: 1px !important;
     line-height: 1 !important;
@@ -297,12 +297,16 @@ html, body, .stApp {
     transform: translate(-50%, -50%) !important;
     pointer-events: none !important;
 }
-[data-testid="stSidebar"] div[data-testid="stPopover"] > button:hover {
+[data-testid="stSidebar"] [data-testid="stPopover"] button:hover {
     background: #d9d9e0 !important;
     opacity: 1;
 }
-[data-testid="stSidebar"] div[data-testid="stPopover"] > button:hover::after {
+[data-testid="stSidebar"] [data-testid="stPopover"] button:hover::after {
     color: #17191d !important;
+}
+[data-testid="stSidebar"] [data-testid="stHorizontalBlock"] {
+    align-items: center !important;
+    gap: 2px !important;
 }
 [data-testid="stPopoverBody"] {
     border-radius: 12px !important;
@@ -907,7 +911,9 @@ with st.sidebar:
         for conv in ordered:
             is_pinned = conv.get("pinned", False)
 
-            col_title, col_menu = st.columns([9, 1])
+            col_title, col_menu = st.columns(
+                [9, 1], vertical_alignment="center"
+            )
 
             with col_title:
                 title = conv["title"]
