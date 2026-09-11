@@ -10,6 +10,8 @@
 #   • Groq
 # ============================================================
 
+import time
+
 from config import (
     LLM_TEMPERATURE,
     LLM_NUM_PREDICT,
@@ -18,6 +20,38 @@ from config import (
     GROQ_BASE_URL,
     PROVIDER_MODELS,
 )
+
+
+# ============================================================
+# 0. RETRY CHO LỖI TẠM THỜI (503/429 — quá tải, rate limit)
+# ============================================================
+
+MAX_RETRIES = 2
+RETRY_DELAY_SECONDS = 3
+
+_TRANSIENT_MARKERS = (
+    "503", "UNAVAILABLE", "429", "RESOURCE_EXHAUSTED", "overloaded",
+)
+
+
+def _is_transient_error(exc) -> bool:
+    text = str(exc)
+    return any(marker in text for marker in _TRANSIENT_MARKERS)
+
+
+def _call_with_retry(fn, *args, **kwargs):
+    """Gọi fn(*args, **kwargs); tự thử lại nếu lỗi tạm thời (quá tải/rate limit)."""
+    last_error = None
+    for attempt in range(MAX_RETRIES + 1):
+        try:
+            return fn(*args, **kwargs)
+        except Exception as e:
+            last_error = e
+            if attempt < MAX_RETRIES and _is_transient_error(e):
+                time.sleep(RETRY_DELAY_SECONDS)
+                continue
+            raise
+    raise last_error
 
 
 # ============================================================
@@ -44,7 +78,8 @@ def stream_openai_compatible(
     client = OpenAI(api_key=api_key, base_url=base_url)
 
     try:
-        stream = client.chat.completions.create(
+        stream = _call_with_retry(
+            client.chat.completions.create,
             model=model,
             messages=[{"role": "user", "content": prompt}],
             temperature=LLM_TEMPERATURE,
@@ -102,7 +137,8 @@ def _stream_gemini_new(prompt: str, model: str, api_key: str):
     )
 
     try:
-        stream = client.models.generate_content_stream(
+        stream = _call_with_retry(
+            client.models.generate_content_stream,
             model=model,
             contents=prompt,
             config=config,
@@ -133,7 +169,8 @@ def _stream_gemini_legacy(prompt: str, model: str, api_key: str):
     gm = genai.GenerativeModel(model)
 
     try:
-        response = gm.generate_content(
+        response = _call_with_retry(
+            gm.generate_content,
             prompt,
             generation_config={
                 "temperature": LLM_TEMPERATURE,
