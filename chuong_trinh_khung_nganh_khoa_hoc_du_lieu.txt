@@ -1,0 +1,80 @@
+================================================================================
+              CHƯƠNG TRÌNH KHUNG CHUNG NGÀNH KHOA HỌC DỮ LIỆU
+================================================================================
+
+[HỌC KỲ 1]
+- Lập trình cơ bản
+- Vật lý đại cương
+- Pháp luật đại cương
+- Toán cao cấp 1
+- Tiếng Anh 1
+- Xác suất thống kê
+- Triết học Mác - Lênin
+
+[HỌC KỲ 2]
+- Năng lượng cho phát triển bền vững
+- Đại cương về quản lý điều hành và khởi nghiệp
+- Toán cao cấp 2
+- Tiếng Anh 2
+- Ngôn ngữ lập trình Python
+- Toán rời rạc
+- Kinh tế chính trị Mác - Lênin
+
+[HỌC KỲ 3]
+- Kỹ thuật lập trình hướng đối tượng
+- Cơ sở dữ liệu
+- Mạng máy tính
+- Kiến trúc máy tính
+- Toán trong KHDL
+- Cấu trúc dữ liệu và giải thuật
+- Chủ nghĩa xã hội khoa học
+
+[HỌC KỲ 4]
+- Lập trình Java
+- Cơ sở lập trình Web
+- Nhập môn an toàn và bảo mật thông tin
+- Nguyên lý hệ điều hành
+- Nhập môn KHDL
+- Trí tuệ nhân tạo
+- Tư tưởng Hồ Chí Minh
+
+[HỌC KỲ 5]
+- Kho dữ liệu
+- Bảo mật và quản lý dữ liệu
+- Công nghệ điện toán đám mây
+- Thu thập và hiển thị dữ liệu cơ bản
+- Tiếng Anh chuyên ngành KHDL
+- Học máy nâng cao
+- Lịch sử Đảng Cộng sản Việt Nam
+
+[HỌC KỲ 6]
+- Quản trị dự án CNTT
+- Xử lý dữ liệu lớn
+- Trực quan hóa dữ liệu
+- Khai phá dữ liệu ảnh
+- Lập trình Blockchain
+- Học sâu
+- Lập trình Web nâng cao
+
+[HỌC KỲ 7]
+- Phân tích chuỗi thời gian
+- Khai phá dữ liệu Web
+* TỰ CHỌN 12 TÍN CHỈ (chọn trong các môn sau):
+  + HTTT không gian
+  + Hệ phân tán
+  + Hệ chuyên gia
+  + Phân tích DL IoT
+  + Phát triển phần mềm Web an toàn
+  + Ngôn ngữ lập trình R
+  + Kiểm thử và đảm bảo chất lượng phần mềm
+  + Công nghệ phần mềm
+  + Quản trị rủi ro
+
+[HỌC KỲ 8]
+- Thực tập quản trị dự án
+- Thực tập Khoa học dữ liệu
+- Thực tập trực quan hóa dữ liệu
+
+[HỌC KỲ 9]
+- Thực tập tốt nghiệp
+- Đồ án tốt nghiệp

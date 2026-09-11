@@ -1,0 +1,214 @@
+1. NGÀNH CÔNG NGHỆ THÔNG TIN – MÃ NGÀNH 7480201
+
+Trang bị cho sinh viên nền tảng kiến thức về:
+    -Thuật toán và lập trình.
+    -Phân tích, thiết kế hệ thống thông tin.
+    -Xây dựng và phát triển phần mềm.
+    -Quản trị và vận hành hệ thống công nghệ thông tin.
+    -Ứng dụng công nghệ thông tin trong doanh nghiệp và thực tế.
+
+Sinh viên được lựa chọn định hướng chuyên sâu theo các chuyên ngành:
+    -Công nghệ phần mềm.
+    -Quản trị và An ninh mạng.
+    -Hệ thống Thương mại điện tử.
+
+Điểm chung của ngành:
+    -Được trang bị nền tảng kiến thức về công nghệ thông tin và lập trình.
+    -Có nhiều hướng phát triển nghề nghiệp.
+    -Có thể tham gia các đề tài nghiên cứu khoa học và dự án thực tế dưới sự hướng dẫn của thầy cô.
+    -Có thể tiếp tục học lên trình độ Thạc sĩ hoặc Tiến sĩ trong và ngoài nước.
+
+2. CHUYÊN NGÀNH CÔNG NGHỆ PHẦN MỀM
+
+Phù hợp với sinh viên:
+    -Yêu thích lập trình và viết code.
+    -Thích xây dựng website, ứng dụng và phần mềm.
+    -Có tư duy logic và thích giải quyết vấn đề.
+    -Muốn trực tiếp tạo ra các sản phẩm công nghệ.
+
+Sinh viên được trang bị kiến thức về:
+    -Các kiến thức nền tảng chung về Công nghệ thông tin.
+    -Các thuật toán và ngôn ngữ lập trình.
+    -Phân tích và thiết kế hệ thống thông tin.
+    -Các công nghệ và nền tảng phát triển phần mềm.
+
+Phát triển phần mềm trên nhiều nền tảng:
+    -Phần mềm chạy trên Desktop.
+    -Phần mềm trên nền tảng Web.
+    -Ứng dụng trên nền tảng Mobile.
+    -Các kiến thức về Trí tuệ nhân tạo và An ninh, an toàn ứng dụng.
+    -Định hướng phát triển phần mềm có tích hợp AI và các giải pháp bảo mật.
+
+Ưu điểm của chuyên ngành:
+    -Có nền tảng kiến thức lập trình và phát triển phần mềm.
+    -Có thể phát triển sản phẩm trên Desktop, Web và Mobile.
+    -Kiến thức có thể ứng dụng trong nhiều lĩnh vực khác nhau.
+    -Có nhiều hướng phát triển nghề nghiệp trong lĩnh vực công nghệ.
+    -Có thể tiếp tục phát triển sang các lĩnh vực như AI, dữ liệu và bảo mật ứng dụng.
+
+Sau khi tốt nghiệp có thể làm:
+    -Lập trình viên Back-End.
+    -Lập trình viên Front-End.
+    -Lập trình viên phát triển phần mềm.
+    -Chuyên viên phân tích nghiệp vụ – Business Analyst.
+    -Kiểm thử phần mềm – Tester.
+    -Chuyên viên phân tích và thiết kế hệ thống.
+
+Có thể làm việc tại:
+    -Các công ty phát triển phần mềm.
+    -Công ty công nghệ thông tin.
+    -Doanh nghiệp phát triển website và ứng dụng.
+    -Các tổ chức, doanh nghiệp ứng dụng công nghệ thông tin.
+👉 Nếu bạn thích lập trình, muốn xây dựng website, ứng dụng Mobile hoặc các phần mềm trên máy tính thì Công nghệ phần mềm là lựa chọn phù hợp.
+
+3. CHUYÊN NGÀNH QUẢN TRỊ VÀ AN NINH MẠNG
+
+Phù hợp với sinh viên:
+    -Yêu thích máy tính và hệ thống mạng.
+    -Quan tâm đến bảo mật và an toàn thông tin.
+    -Thích tìm hiểu cách các hệ thống hoạt động.
+    -Có tư duy phân tích và thích xử lý các vấn đề kỹ thuật.
+    -Sinh viên được trang bị kiến thức về:
+    -Các kiến thức nền tảng chung về Công nghệ thông tin.
+    -Phân tích và thiết kế hệ thống mạng.
+    -Quản trị các hệ thống mạng.
+    -Phân tích các lỗ hổng trong hệ thống mạng LAN và WAN.
+    -Tìm hiểu và ứng dụng các công nghệ điện toán đám mây – Cloud Computing.
+    -Phân tích rủi ro và các lỗ hổng trong hệ thống công nghệ thông tin.
+    -Các kỹ thuật bảo đảm an ninh, an toàn hệ thống.
+    -Các kỹ thuật phòng chống tấn công trên không gian mạng.
+
+Ưu điểm của chuyên ngành:
+    -Được trang bị kiến thức từ thiết kế, xây dựng đến quản trị và bảo vệ hệ thống mạng.
+    -Có khả năng phát triển theo hướng quản trị mạng, hệ thống hoặc an ninh mạng.
+    -Kiến thức có tính ứng dụng thực tế cao.
+    -Có thể làm việc tại các doanh nghiệp công nghệ hoặc các tổ chức có hệ thống CNTT.
+    -Có cơ hội tham gia các dự án và nghiên cứu liên quan đến mạng và bảo mật.
+
+Sau khi tốt nghiệp có thể làm:
+    -Chuyên viên phân tích và thiết kế hệ thống mạng.
+    -Chuyên viên quản trị mạng.
+    -Chuyên viên quản trị hệ thống.
+    -Chuyên viên phân tích rủi ro và lỗ hổng hệ thống.
+    -Chuyên viên an ninh mạng.
+    -Chuyên viên bảo mật và an toàn thông tin.
+
+Có thể làm việc tại:
+    -Các công ty công nghệ thông tin.
+    -Các doanh nghiệp cung cấp giải pháp mạng và bảo mật.
+    -Các doanh nghiệp và tổ chức có hệ thống mạng, máy chủ và dữ liệu cần quản trị, bảo vệ.
+    -Các tổ chức ứng dụng công nghệ thông tin trong hoạt động và sản xuất.
+👉 Nếu bạn thích hệ thống mạng, máy chủ, bảo mật và muốn tìm hiểu cách bảo vệ hệ thống trước các rủi ro trên không gian mạng thì Quản trị và An ninh mạng là lựa chọn phù hợp.
+
+4. CHUYÊN NGÀNH HỆ THỐNG THƯƠNG MẠI ĐIỆN TỬ
+
+Phù hợp với sinh viên:
+    -Yêu thích công nghệ nhưng cũng quan tâm đến kinh doanh trực tuyến.
+    -Thích tìm hiểu về các nền tảng thương mại điện tử.
+    -Muốn kết hợp kiến thức Công nghệ thông tin với hoạt động kinh doanh.
+    -Quan tâm đến việc xây dựng và vận hành các hệ thống kinh doanh trực tuyến.
+
+Sinh viên được trang bị kiến thức về:
+    -Các kiến thức nền tảng chung về Công nghệ thông tin.
+    -Phân tích và thiết kế hệ thống công nghệ thông tin.
+    -Phát triển phần mềm trên nền tảng Web và Mobile phục vụ kinh doanh trực tuyến.
+    -Xây dựng và phát triển các hệ thống thương mại điện tử.
+    -Quản trị và vận hành các nền tảng kinh doanh trực tuyến.
+    -Các kiến thức về kinh tế và nghiệp vụ phù hợp với hoạt động kinh doanh trực tuyến.
+    -Các kiến thức về Trí tuệ nhân tạo và An ninh, an toàn ứng dụng.
+    -Định hướng phát triển các hệ thống có tích hợp AI và các giải pháp bảo mật.
+
+Ưu điểm của chuyên ngành:
+    -Kết hợp giữa kiến thức Công nghệ thông tin và hoạt động kinh doanh trực tuyến.
+    -Vẫn được trang bị kiến thức về lập trình và phát triển phần mềm.
+    -Có hiểu biết về phân tích, thiết kế và quản trị hệ thống thương mại điện tử.
+    -Có thể phát triển theo cả hướng công nghệ và quản trị, vận hành hệ thống kinh doanh trực tuyến.
+    -Kiến thức phù hợp với nhu cầu chuyển đổi số và phát triển kinh doanh trên nền tảng số.
+
+Sau khi tốt nghiệp có thể làm:
+    -Lập trình viên Back-End.
+    -Lập trình viên Front-End.
+    -Chuyên viên phân tích nghiệp vụ – Business Analyst.
+    -Kiểm thử phần mềm – Tester.
+    -Chuyên viên phân tích và thiết kế hệ thống.
+    -Chuyên viên quản trị và vận hành hệ thống thương mại điện tử.
+    -Chuyên viên kinh doanh trên các nền tảng thương mại điện tử.
+
+Có thể làm việc tại:
+    -Các công ty công nghệ.
+    -Doanh nghiệp thương mại điện tử.
+    -Các doanh nghiệp kinh doanh trực tuyến.
+    -Các công ty phát triển nền tảng Web và Mobile.
+    -Các doanh nghiệp đang triển khai chuyển đổi số và kinh doanh trên nền tảng số.
+👉 Nếu bạn muốn vừa học công nghệ, vừa hiểu cách xây dựng, vận hành và phát triển các hệ thống phục vụ kinh doanh trực tuyến thì Hệ thống Thương mại điện tử là lựa chọn phù hợp.
+
+5. NGÀNH KHOA HỌC DỮ LIỆU
+
+Phù hợp với sinh viên:
+    -Yêu thích lập trình và làm việc với dữ liệu.
+    -Thích phân tích, tìm ra thông tin từ dữ liệu.
+    -Quan tâm đến AI, Machine Learning và dự báo.
+    -Có tư duy logic, phân tích và thích giải quyết các bài toán thực tế.
+    -Sinh viên được trang bị kiến thức về:
+    -Các kiến thức cơ bản về Công nghệ thông tin và lập trình.
+    -Thu thập và tổ chức dữ liệu.
+    -Quản trị dữ liệu truyền thống và phi truyền thống.
+    -Phân tích và xử lý dữ liệu lớn – Big Data.
+    -Khai thác dữ liệu.
+    -Thống kê và xác suất phục vụ phân tích dữ liệu.
+    -Ứng dụng phần mềm, Trí tuệ nhân tạo và các phương pháp phân tích để dự báo.
+    -Các ngôn ngữ lập trình phục vụ phân tích dữ liệu, dự báo và phát triển phần mềm.
+
+Ưu điểm của ngành:
+    -Kết hợp giữa lập trình, dữ liệu, thống kê và Trí tuệ nhân tạo.
+    -Có khả năng xử lý và khai thác dữ liệu phục vụ hoạt động của doanh nghiệp.
+    -Có thể ứng dụng AI và các công nghệ phần mềm để phân tích và dự báo.
+    -Có nhiều hướng phát triển từ lập trình đến phân tích dữ liệu và AI.
+    -Kiến thức có thể ứng dụng trong nhiều lĩnh vực khác nhau.
+
+Sau khi tốt nghiệp có thể làm:
+    -Lập trình viên Back-End.
+    -Lập trình viên Front-End.
+    -Chuyên viên phân tích nghiệp vụ – Business Analyst.
+    -Kiểm thử phần mềm – Tester.
+    -Chuyên viên phân tích và thiết kế hệ thống.
+    -Chuyên viên tổ chức và quản trị cơ sở dữ liệu.
+    -Chuyên viên phân tích, thiết kế và quản trị hệ thống dữ liệu lớn.
+    -Chuyên viên phân tích dữ liệu.
+    -Chuyên viên trực quan hóa và mô tả dữ liệu.
+    -Chuyên viên ứng dụng công nghệ phần mềm để phân tích và dự báo.
+    -Chuyên viên ứng dụng Trí tuệ nhân tạo trong phân tích và dự báo.
+
+Có thể làm việc tại:
+    -Các công ty công nghệ.
+    -Các doanh nghiệp có nhu cầu thu thập và phân tích dữ liệu.
+    -Các tổ chức tài chính, ngân hàng và thương mại điện tử.
+    -Các doanh nghiệp ứng dụng Big Data và Trí tuệ nhân tạo.
+    -Các tổ chức nghiên cứu và phát triển công nghệ.
+👉 Nếu bạn thích lập trình, dữ liệu, phân tích, AI và muốn sử dụng dữ liệu để giải quyết các bài toán thực tế hoặc đưa ra dự báo thì Khoa học dữ liệu là lựa chọn phù hợp.
+
+6. GỢI Ý LỰA CHỌN CHUYÊN NGÀNH/NGÀNH HỌC
+Thích lập trình, xây dựng website, ứng dụng Mobile và phần mềm
+→ Chọn Công nghệ phần mềm.
+Thích hệ thống mạng, máy chủ, Cloud, bảo mật và an toàn thông tin
+→ Chọn Quản trị và An ninh mạng.
+Thích công nghệ, kinh doanh trực tuyến và xây dựng, vận hành các nền tảng thương mại điện tử
+→ Chọn Hệ thống Thương mại điện tử.
+Thích dữ liệu, phân tích, thống kê, AI và Machine Learning
+→ Chọn Khoa học dữ liệu.
+
+THÔNG ĐIỆP DÀNH CHO SINH VIÊN
+Mỗi chuyên ngành và ngành học đều có những thế mạnh và hướng phát triển riêng.
+Không có lựa chọn nào phù hợp với tất cả mọi người.
+Điều quan trọng là lựa chọn dựa trên:
+Sở thích.
+Năng lực.
+Thế mạnh cá nhân.
+Định hướng nghề nghiệp trong tương lai.
+Bên cạnh kiến thức trên giảng đường, sinh viên nên:
+Chủ động học tập và thực hành.
+Tham gia các dự án và đề tài nghiên cứu khoa học.
+Rèn luyện kỹ năng ngoại ngữ.
+Xây dựng các sản phẩm, dự án cá nhân.
+Thường xuyên cập nhật kiến thức và công nghệ mới.
+Hãy tìm hiểu kỹ các hướng đào tạo, xác định sở thích và thế mạnh của bản thân để lựa chọn phù hợp. Dù theo Công nghệ phần mềm, Quản trị và An ninh mạng, Hệ thống Thương mại điện tử hay Khoa học dữ liệu, sinh viên đều có cơ hội phát triển nếu chủ động học tập, thực hành và không ngừng nâng cao năng lực của mình.

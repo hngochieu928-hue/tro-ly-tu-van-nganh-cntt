@@ -1,0 +1,77 @@
+================================================================================
+         CHƯƠNG TRÌNH KHUNG CHUNG CHUYÊN NGÀNH CÔNG NGHỆ PHẦN MỀM
+================================================================================
+
+[HỌC KỲ 1]
+- Toán cao cấp 1
+- Xác suất thống kê
+- Vật lý đại cương
+- Triết học Mác - Lênin
+- Pháp luật đại cương
+- Lập trình cơ bản
+
+[HỌC KỲ 2]
+- Tiếng Anh 1
+- Toán cao cấp 2
+- Toán rời rạc
+- Kinh tế chính trị Mác - Lênin
+- Năng lượng cho phát triển bền vững
+- Đại cương về quản lý điều hành và khởi nghiệp
+
+[HỌC KỲ 3]
+- Tiếng Anh 2
+- Chủ nghĩa xã hội khoa học
+- Ngôn ngữ lập trình Python
+- Công nghệ phần mềm
+- Lập trình C nâng cao
+- Cơ sở dữ liệu
+- Mạng máy tính
+- Kiến trúc máy tính
+
+[HỌC KỲ 4]
+- Tư tưởng Hồ Chí Minh
+- Tiếng Anh chuyên ngành CNPM
+- Nhập môn CTDL & GT
+- Nguyên lý lập trình hướng đối tượng
+- Cơ sở lập trình Web
+- Thiết bị mạng
+- Công nghệ điện toán đám mây
+- Nguyên lý hệ điều hành
+
+[HỌC KỲ 5]
+- Lịch sử Đảng Cộng sản Việt Nam
+- CTDL & GT nâng cao
+- Lập trình Java
+- Phân tích thiết kế HĐT
+- Lập trình .NET
+- Nhập môn an toàn và bảo mật thông tin
+- Hệ phân tán
+
+[HỌC KỲ 6]
+- Học máy cơ bản
+- Quản trị dự án CNTT
+- Kiểm thử và đảm bảo chất lượng phần mềm
+- Trí tuệ nhân tạo
+- Lập trình trên thiết bị di động
+- Lập trình Web nâng cao
+- Lập trình hệ thống
+- Phần mềm mã nguồn mở
+
+[HỌC KỲ 7]
+- Nhập môn xử lý ảnh
+- Học máy nâng cao
+- Phân tích và trực quan hóa dữ liệu
+- Lập trình Blockchain
+- Phát triển phần mềm Web an toàn
+- Ngôn ngữ kịch bản
+- IoT & Ứng dụng
+- Hệ thống thông tin không gian
+
+[HỌC KỲ 8]
+- Thực tập hệ thống thông tin quản lý
+- Thực tập quản trị dự án phần mềm
+- Thực tập hệ thống thông tin tích hợp
+
+[HỌC KỲ 9]
+- Thực tập tốt nghiệp
+- Đồ án tốt nghiệp

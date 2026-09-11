@@ -1,0 +1,76 @@
+================================================================================
+     CHƯƠNG TRÌNH KHUNG CHUNG CHUYÊN NGÀNH HỆ THỐNG THƯƠNG MẠI ĐIỆN TỬ
+================================================================================
+
+[HỌC KỲ 1]
+- Xác suất thống kê
+- Toán cao cấp 1
+- Vật lý đại cương
+- Lập trình cơ bản
+- Triết học Mác - Lênin
+- Pháp luật đại cương
+
+[HỌC KỲ 2]
+- Toán rời rạc
+- Tiếng Anh 1
+- Toán cao cấp 2
+- Kinh tế chính trị Mác - Lênin
+- Năng lượng cho phát triển bền vững
+- Đại cương về quản lý, điều hành và khởi nghiệp
+
+[HỌC KỲ 3]
+- Lập trình Python
+- Tiếng Anh 2
+- Chủ nghĩa xã hội khoa học
+- Lập trình C nâng cao
+- Cơ sở dữ liệu
+- Công nghệ phần mềm
+- Mạng máy tính
+- Kiến trúc máy tính
+
+[HỌC KỲ 4]
+- Tư tưởng Hồ Chí Minh
+- Nhập môn CTDL & GT
+- Nguyên lý lập trình HĐT
+- Cơ sở lập trình Web
+- Công nghệ điện toán đám mây
+- Nguyên lý hệ điều hành
+- Quản trị doanh nghiệp
+- Kinh tế học đại cương
+- Thống kê ứng dụng trong kinh doanh
+
+[HỌC KỲ 5]
+- Lịch sử Đảng
+- CTDL & GT nâng cao
+- Phân tích thiết kế HĐT
+- Lập trình .NET
+- Nhập môn an toàn và bảo mật thông tin
+- Nhập môn thương mại điện tử
+- Tài chính - tiền tệ
+
+[HỌC KỲ 6]
+- Học máy cơ bản
+- Trí tuệ nhân tạo
+- Lập trình Web nâng cao
+- Phần mềm mã nguồn mở
+- Phân tích chiến lược thương mại điện tử
+- Tiếng Anh chuyên ngành thương mại điện tử
+- Nghiệp vụ kinh doanh online và TTQM
+
+[HỌC KỲ 7]
+- Học máy nâng cao
+- Phân tích và trực quan hóa dữ liệu
+- Lập trình Blockchain
+- Truyền thông marketing tích hợp
+- ERP
+- E-Logistics
+- Pháp luật trong kinh doanh thương mại điện tử
+
+[HỌC KỲ 8]
+- Thực tập phân tích chiến lược thương mại điện tử
+- Thực tập quản trị hệ thống thương mại điện tử
+- Thực tập xây dựng hệ thống thương mại điện tử
+
+[HỌC KỲ 9]
+- Thực tập tốt nghiệp
+- Đồ án tốt nghiệp

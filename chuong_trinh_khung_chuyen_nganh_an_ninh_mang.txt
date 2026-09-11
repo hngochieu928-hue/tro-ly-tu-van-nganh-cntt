@@ -1,0 +1,77 @@
+================================================================================
+           CHƯƠNG TRÌNH KHUNG CHUNG CHUYÊN NGÀNH AN NINH MẠNG
+================================================================================
+
+[HỌC KỲ 1]
+- Xác suất thống kê
+- Toán cao cấp 1
+- Vật lý đại cương
+- Lập trình cơ bản
+- Triết học Mác - Lênin
+- Pháp luật đại cương
+
+[HỌC KỲ 2]
+- Toán rời rạc
+- Tiếng Anh 1
+- Toán cao cấp 2
+- Kinh tế chính trị Mác - Lênin
+- Năng lượng cho phát triển bền vững
+- Đại cương về quản lý, điều hành và khởi nghiệp
+
+[HỌC KỲ 3]
+- Lập trình Python
+- Tiếng Anh 2
+- Chủ nghĩa xã hội khoa học
+- Lập trình C nâng cao
+- Cơ sở dữ liệu
+- Mạng máy tính
+- Kiến trúc máy tính
+- Công nghệ phần mềm
+
+[HỌC KỲ 4]
+- Tư tưởng Hồ Chí Minh
+- Nhập môn CTDL & GT
+- Nguyên lý lập trình HĐT
+- Cơ sở lập trình Web
+- Công nghệ điện toán đám mây
+- Tiếng Anh chuyên ngành an ninh mạng
+- Nguyên lý hệ điều hành
+- Thiết bị mạng
+
+[HỌC KỲ 5]
+- Lịch sử Đảng
+- CTDL & GT nâng cao
+- Phân tích thiết kế HĐT
+- Lập trình .NET
+- Đánh giá hiệu năng mạng
+- Nhập môn an toàn và bảo mật thông tin
+- Hệ điều hành mạng
+- Phân tích và thiết kế an toàn mạng máy tính
+
+[HỌC KỲ 6]
+- Học máy cơ bản
+- Trí tuệ nhân tạo
+- Lập trình Web nâng cao
+- Lập trình hệ thống
+- Phần mềm mã nguồn mở
+- Quản trị mạng
+- Thu thập và phân tích thông tin an ninh mạng
+
+[HỌC KỲ 7]
+- Học máy nâng cao
+- Phân tích và trực quan hóa dữ liệu
+- Mật mã ứng dụng
+- An toàn hệ thống IoT và OT
+- Quản trị tường lửa
+- Quản trị dự án CNTT
+- Kiểm thử xâm nhập mạng
+- Hệ phân tán
+
+[HỌC KỲ 8]
+- Thực tập an ninh mạng
+- Thực tập phân tích thiết kế an toàn mạng
+- Thực tập quản trị mạng
+
+[HỌC KỲ 9]
+- Thực tập tốt nghiệp
+- Đồ án tốt nghiệp
