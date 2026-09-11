@@ -122,114 +122,197 @@ else:
 # 3. CSS  (giữ nguyên như bản gốc)
 # ============================================================
 
+THEMES = {
+    "light": {
+        "bg": "#ffffff",
+        "bg-elevated": "#ffffff",
+        "sidebar-bg": "#f7f7f8",
+        "sidebar-border": "#ececf1",
+        "border": "#e8ebf2",
+        "border-input": "#dfe3ec",
+        "border-strong": "#cdd8ff",
+        "text": "#17191d",
+        "text-strong": "#14161c",
+        "text-secondary": "#7a8194",
+        "text-faint": "#8e8ea0",
+        "user-bubble-bg": "#f1f3f5",
+        "assistant-text": "#24272c",
+        "accent": "#315bea",
+        "accent-grad-to": "#7b96ff",
+        "hover-bg": "#ececf1",
+        "hover-bg-strong": "#d9d9e0",
+        "popover-hover": "#f0f0f5",
+        "code-bg": "#f1f3f8",
+        "accent-soft-bg": "#eef3ff",
+        "table-header-bg": "#f5f7fb",
+        "shadow-soft": "rgba(16,24,40,.05)",
+        "shadow-card": "rgba(16,24,40,.08)",
+        "shadow-popover": "rgba(16,24,40,.18)",
+        "shadow-focus": "rgba(49,91,234,.18)",
+    },
+    "dark": {
+        "bg": "#16171b",
+        "bg-elevated": "#1e2025",
+        "sidebar-bg": "#1a1b1f",
+        "sidebar-border": "#2a2c33",
+        "border": "#2a2c33",
+        "border-input": "#34363d",
+        "border-strong": "#4a5aa8",
+        "text": "#e7e8ea",
+        "text-strong": "#f5f5f7",
+        "text-secondary": "#9aa0ab",
+        "text-faint": "#7d828d",
+        "user-bubble-bg": "#2a2d34",
+        "assistant-text": "#dfe1e5",
+        "accent": "#6c8bff",
+        "accent-grad-to": "#7b96ff",
+        "hover-bg": "#2a2c33",
+        "hover-bg-strong": "#34363d",
+        "popover-hover": "#26282f",
+        "code-bg": "#24262c",
+        "accent-soft-bg": "#232a45",
+        "table-header-bg": "#24262c",
+        "shadow-soft": "rgba(0,0,0,.35)",
+        "shadow-card": "rgba(0,0,0,.4)",
+        "shadow-popover": "rgba(0,0,0,.5)",
+        "shadow-focus": "rgba(108,139,255,.25)",
+    },
+}
+
+_theme_vars = THEMES.get(st.session_state.get("theme_mode", "light"), THEMES["light"])
+_root_vars = "\n".join(f"    --{k}: {v};" for k, v in _theme_vars.items())
+
 st.markdown(
-    """
+    f"""
 <style>
+:root {{
+{_root_vars}
+}}
+
 /* ═══════════════════════════════════════════
    ẨN CHROME MẶC ĐỊNH
    ═══════════════════════════════════════════ */
-#MainMenu, footer { visibility: hidden; }
+#MainMenu, footer {{ visibility: hidden; }}
 
-header[data-testid="stHeader"] {
+header[data-testid="stHeader"] {{
     background: transparent !important;
     height: 2.5rem !important;
-}
+}}
 
-[data-testid="stSidebarCollapsedControl"] button {
-    background: #ffffff !important;
-    border: 1px solid #e5e5e5 !important;
+[data-testid="stSidebarCollapsedControl"] button {{
+    background: var(--bg-elevated) !important;
+    border: 1px solid var(--border-input) !important;
     border-radius: 8px !important;
     padding: 6px 8px !important;
-}
-[data-testid="stSidebarCollapsedControl"] svg {
-    fill: #17191d !important;
-}
+}}
+[data-testid="stSidebarCollapsedControl"] svg {{
+    fill: var(--text) !important;
+}}
 
 /* ═══════════════════════════════════════════
    NỀN & FONT
    ═══════════════════════════════════════════ */
-html, body, .stApp {
-    background: #ffffff;
+html, body, .stApp {{
+    background: var(--bg);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                  Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+}}
 
 [data-testid="stMainBlockContainer"],
-[data-testid="stAppViewBlockContainer"] {
+[data-testid="stAppViewBlockContainer"] {{
     max-width: 880px;
     padding-top: 2.2rem;
     padding-bottom: 6rem;
-}
+}}
 
 /* ═══════════════════════════════════════════
    SIDEBAR
    ═══════════════════════════════════════════ */
-[data-testid="stSidebar"] {
-    background: #f7f7f8;
-    border-right: 1px solid #ececf1;
-}
+[data-testid="stSidebar"] {{
+    background: var(--sidebar-bg);
+    border-right: 1px solid var(--sidebar-border);
+}}
 
-.brand {
+.brand {{
     display: flex;
     align-items: center;
     gap: 12px;
     padding: 4px 4px 18px 4px;
-}
-.custom-logo {
+}}
+.custom-logo {{
     width: 42px; height: 42px;
     object-fit: contain;
     border-radius: 8px;
     background: #ffffff;
-}
-.brand-logo {
+}}
+.brand-logo {{
     width: 38px; height: 38px;
     border-radius: 10px;
-    background: linear-gradient(135deg, #315bea 0%, #6c8bff 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-grad-to) 100%);
     color: #fff;
     display: flex; align-items: center; justify-content: center;
     font-size: 12px; font-weight: 700;
-}
-.brand-text { line-height: 1.15; }
-.brand-text .t1 {
-    font-size: 14px; font-weight: 700; color: #17191d;
-}
-.brand-text .t2 {
-    font-size: 11.5px; color: #8a90a0;
-}
+}}
+.brand-text {{ line-height: 1.15; }}
+.brand-text .t1 {{
+    font-size: 14px; font-weight: 700; color: var(--text);
+}}
+.brand-text .t2 {{
+    font-size: 11.5px; color: var(--text-faint);
+}}
 
-.side-heading {
+.side-heading {{
     font-size: 11.5px;
-    color: #8e8ea0;
+    color: var(--text-faint);
     font-weight: 600;
     margin: 18px 0 8px 6px;
-}
+}}
+
+/* ═══ Toggle theme ═══ */
+[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="secondary"].theme-toggle-btn {{
+    padding: 6px !important;
+}}
+[data-testid="stSidebar"] [data-testid="column"] div[data-testid="stButton"] > button {{
+    width: 100% !important;
+    background: var(--bg-elevated) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border-input) !important;
+    border-radius: 8px !important;
+    font-size: 12.5px !important;
+    padding: 6px 4px !important;
+    min-height: 32px !important;
+}}
+[data-testid="stSidebar"] [data-testid="column"] div[data-testid="stButton"] > button p {{
+    color: inherit !important;
+    font-size: 12.5px !important;
+}}
 
 /* ═══ Nút PRIMARY ═══ */
-[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="primary"] {
+[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="primary"] {{
     width: 100%;
-    background: #ffffff !important;
-    color: #17191d !important;
-    border: 1px solid #e5e5e5 !important;
+    background: var(--bg-elevated) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border-input) !important;
     border-radius: 10px !important;
     font-weight: 600 !important;
     font-size: 13px !important;
     padding: 10px 14px !important;
-    box-shadow: 0 1px 3px rgba(0,0,0,.04) !important;
+    box-shadow: 0 1px 3px var(--shadow-soft) !important;
     text-align: left !important;
     justify-content: flex-start !important;
-}
-[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="primary"] p {
-    color: #17191d !important;
+}}
+[data-testid="stSidebar"] div[data-testid="stButton"] > button[kind="primary"] p {{
+    color: var(--text) !important;
     text-align: left !important;
     font-weight: 600 !important;
     font-size: 13px !important;
-}
+}}
 
 /* ═══ Nút SECONDARY ═══ */
-[data-testid="stSidebar"] div[data-testid="stButton"] > button:not([kind="primary"]) {
+[data-testid="stSidebar"] div[data-testid="stButton"] > button:not([kind="primary"]) {{
     width: 100%;
     background: transparent !important;
-    color: #17191d !important;
+    color: var(--text) !important;
     border: none !important;
     border-radius: 8px !important;
     font-weight: 400 !important;
@@ -244,11 +327,11 @@ html, body, .stApp {
     text-overflow: ellipsis;
     line-height: 1.3;
     margin-bottom: 1px;
-}
-[data-testid="stSidebar"] div[data-testid="stButton"] > button:not([kind="primary"]):hover {
-    background: #ececf1 !important;
-}
-[data-testid="stSidebar"] div[data-testid="stButton"] > button:not([kind="primary"]) p {
+}}
+[data-testid="stSidebar"] div[data-testid="stButton"] > button:not([kind="primary"]):hover {{
+    background: var(--hover-bg) !important;
+}}
+[data-testid="stSidebar"] div[data-testid="stButton"] > button:not([kind="primary"]) p {{
     text-align: left !important;
     font-size: 13.5px !important;
     font-weight: 400 !important;
@@ -257,10 +340,10 @@ html, body, .stApp {
     text-overflow: ellipsis;
     white-space: nowrap;
     color: inherit !important;
-}
+}}
 
 /* ═══ Nút menu (⋯) ═══ */
-[data-testid="stSidebar"] [data-testid="stPopover"] button {
+[data-testid="stSidebar"] [data-testid="stPopover"] button {{
     position: relative !important;
     background: transparent !important;
     border: none !important;
@@ -272,21 +355,21 @@ html, body, .stApp {
     border-radius: 8px !important;
     opacity: 0.6;
     overflow: hidden !important;
-}
+}}
 [data-testid="stSidebar"] [data-testid="stPopover"] button > *,
-[data-testid="stSidebar"] [data-testid="stPopover"] button svg {
+[data-testid="stSidebar"] [data-testid="stPopover"] button svg {{
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
     width: 0 !important;
     height: 0 !important;
-}
-[data-testid="stSidebar"] [data-testid="stPopover"] button::after {
+}}
+[data-testid="stSidebar"] [data-testid="stPopover"] button::after {{
     content: "..." !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    color: #8e8ea0 !important;
+    color: var(--text-faint) !important;
     font-size: 16px !important;
     font-weight: 900 !important;
     letter-spacing: 1px !important;
@@ -296,29 +379,29 @@ html, body, .stApp {
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
     pointer-events: none !important;
-}
-[data-testid="stSidebar"] [data-testid="stPopover"] button:hover {
-    background: #d9d9e0 !important;
+}}
+[data-testid="stSidebar"] [data-testid="stPopover"] button:hover {{
+    background: var(--hover-bg-strong) !important;
     opacity: 1;
-}
-[data-testid="stSidebar"] [data-testid="stPopover"] button:hover::after {
-    color: #17191d !important;
-}
-[data-testid="stSidebar"] [data-testid="stHorizontalBlock"] {
+}}
+[data-testid="stSidebar"] [data-testid="stPopover"] button:hover::after {{
+    color: var(--text) !important;
+}}
+[data-testid="stSidebar"] [data-testid="stHorizontalBlock"] {{
     align-items: center !important;
     gap: 2px !important;
-}
-[data-testid="stPopoverBody"] {
+}}
+[data-testid="stPopoverBody"] {{
     border-radius: 12px !important;
     padding: 6px !important;
-    box-shadow: 0 10px 30px rgba(16,24,40,.18) !important;
-    border: 1px solid #e5e5e5 !important;
-    background: #ffffff !important;
+    box-shadow: 0 10px 30px var(--shadow-popover) !important;
+    border: 1px solid var(--border-input) !important;
+    background: var(--bg-elevated) !important;
     min-width: 160px !important;
-}
-[data-testid="stPopoverBody"] button {
+}}
+[data-testid="stPopoverBody"] button {{
     background: transparent !important;
-    color: #17191d !important;
+    color: var(--text) !important;
     border: none !important;
     border-radius: 8px !important;
     padding: 8px 12px !important;
@@ -330,214 +413,253 @@ html, body, .stApp {
     margin-bottom: 1px !important;
     box-shadow: none !important;
     min-height: auto !important;
-}
-[data-testid="stPopoverBody"] button:hover {
-    background: #f0f0f5 !important;
-}
-[data-testid="stPopoverBody"] button p {
+}}
+[data-testid="stPopoverBody"] button:hover {{
+    background: var(--popover-hover) !important;
+}}
+[data-testid="stPopoverBody"] button p {{
     text-align: left !important;
     color: inherit !important;
     font-size: 13.5px !important;
     margin: 0 !important;
-}
+}}
+
+/* ═══ Selectbox / Text input (sidebar) ═══ */
+[data-testid="stSidebar"] [data-baseweb="select"] > div {{
+    background: var(--bg-elevated) !important;
+    border-color: var(--border-input) !important;
+    color: var(--text) !important;
+}}
+[data-testid="stSidebar"] [data-baseweb="select"] * {{
+    color: var(--text) !important;
+}}
+[data-testid="stSidebar"] input {{
+    background: var(--bg-elevated) !important;
+    border-color: var(--border-input) !important;
+    color: var(--text) !important;
+}}
+div[data-baseweb="popover"] ul[role="listbox"] {{
+    background: var(--bg-elevated) !important;
+}}
+div[data-baseweb="popover"] li[role="option"] {{
+    background: var(--bg-elevated) !important;
+    color: var(--text) !important;
+}}
+div[data-baseweb="popover"] li[role="option"]:hover {{
+    background: var(--hover-bg) !important;
+}}
 
 /* ═══════════════════════════════════════════
    HERO
    ═══════════════════════════════════════════ */
-.hero {
+.hero {{
     text-align: center;
     margin: 18px 0 34px 0;
     animation: fadeUp .55s ease;
-}
-.hero-icon {
+}}
+.hero-icon {{
     width: 120px; height: 120px;
     margin: 0 auto 22px auto;
     object-fit: contain;
     background: #ffffff;
     border-radius: 20px;
     padding: 6px;
-}
-.hero-icon-text {
+}}
+.hero-icon-text {{
     width: 90px; height: 90px;
     margin: 0 auto 22px auto;
     font-size: 24px;
     border-radius: 22px;
-}
-.hero h1 {
-    color: #14161c;
+}}
+.hero h1 {{
+    color: var(--text-strong);
     font-size: 28px;
     line-height: 1.35;
     margin: 0 0 12px 0;
     font-weight: 800;
     letter-spacing: -.5px;
-}
-.hero h1 .accent {
-    background: linear-gradient(135deg, #315bea 0%, #7b96ff 100%);
+}}
+.hero h1 .accent {{
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-grad-to) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
-.hero p {
-    color: #7a8194;
+}}
+.hero p {{
+    color: var(--text-secondary);
     font-size: 15px;
     line-height: 1.65;
     max-width: 560px;
     margin: 0 auto;
-}
+}}
 
 /* ═══════════════════════════════════════════
    CHAT MESSAGE
    ═══════════════════════════════════════════ */
-[data-testid="stChatMessage"] {
+[data-testid="stChatMessage"] {{
     background: transparent !important;
     border: none !important;
     padding: 8px 0 !important;
     margin: 6px 0 !important;
     animation: fadeUp .35s ease;
-}
-[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"])
-[data-testid="stChatMessageContent"] {
-    background: #f1f3f5;
+}}
+[data-testid="stChatMessageContent"] {{
+    color: var(--text);
+}}
+[data-testid="stChatMessageContent"][aria-label="Chat message from user"] {{
+    background: var(--user-bubble-bg);
     padding: 12px 18px;
     border-radius: 20px 20px 6px 20px;
-    color: #17191d;
+    color: var(--text);
     font-size: 15px;
     line-height: 1.6;
-}
-[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"])
-[data-testid="stChatMessageContent"] p,
-[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"])
-[data-testid="stChatMessageContent"] strong {
-    color: #17191d !important;
-}
-[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarAssistant"])
-[data-testid="stChatMessageContent"] {
-    background: #ffffff;
-    color: #24272c;
+}}
+[data-testid="stChatMessageContent"][aria-label="Chat message from user"] p,
+[data-testid="stChatMessageContent"][aria-label="Chat message from user"] strong {{
+    color: var(--text) !important;
+}}
+[data-testid="stChatMessageContent"][aria-label="Chat message from assistant"] {{
+    background: var(--bg-elevated);
+    color: var(--assistant-text);
     font-size: 15px;
     line-height: 1.75;
     padding: 16px 20px;
     border-radius: 4px 20px 20px 20px;
-    border: 1px solid #eef0f5;
-    box-shadow: 0 4px 14px rgba(16,24,40,.05);
-}
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p {
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 14px var(--shadow-soft);
+}}
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p {{
     margin: 0 0 12px 0;
-}
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p:last-child {
+}}
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p:last-child {{
     margin-bottom: 0;
-}
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] strong {
-    color: #14161c;
+}}
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] strong {{
+    color: var(--text-strong);
     font-weight: 700;
-}
+}}
 [data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] h1,
 [data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] h2,
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] h3 {
-    color: #14161c;
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] h3 {{
+    color: var(--text-strong);
     margin: 18px 0 10px 0;
     font-weight: 700;
     line-height: 1.35;
-}
+}}
 [data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] ul,
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] ol {
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] ol {{
     margin: 0 0 12px 0;
     padding-left: 22px;
-}
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] li {
+}}
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] li {{
     margin-bottom: 5px;
-}
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] code {
-    background: #f1f3f8;
+}}
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] code {{
+    background: var(--code-bg);
     padding: 2px 6px;
     border-radius: 5px;
     font-size: 13px;
-    color: #315bea;
-}
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] table {
+    color: var(--accent);
+}}
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] table {{
     border-collapse: collapse;
     width: 100%;
     margin: 14px 0;
     font-size: 14px;
-}
+}}
 [data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] th,
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] td {
-    border: 1px solid #e8ebf2;
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] td {{
+    border: 1px solid var(--border);
     padding: 9px 12px;
-}
-[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] th {
-    background: #f5f7fb;
+}}
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] th {{
+    background: var(--table-header-bg);
     font-weight: 700;
-}
-[data-testid="stChatMessageAvatarUser"] {
-    background: #eef3ff !important;
-    color: #315bea !important;
+}}
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageContent"][aria-label="Chat message from user"]) > div:first-child {{
+    background: var(--accent-soft-bg) !important;
+    color: var(--accent) !important;
     border: none !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     font-weight: 700 !important;
-}
-[data-testid="stChatMessageAvatarAssistant"] {
+}}
+[data-testid="stChatMessage"] img[alt="assistant avatar"] {{
     background: #ffffff !important;
-    border: 1px solid #e8ebf2 !important;
-    overflow: hidden !important;
-}
-[data-testid="stChatMessageAvatarAssistant"] img {
+    border: 1px solid var(--border) !important;
+    border-radius: 50% !important;
     object-fit: contain !important;
     padding: 2px;
-    background: #ffffff;
-}
+}}
 
 /* ═══════════════════════════════════════════
    EXPANDER
    ═══════════════════════════════════════════ */
-[data-testid="stExpander"] {
-    border: 1px solid #e8ebf2 !important;
+[data-testid="stExpander"] {{
+    border: 1px solid var(--border) !important;
     border-radius: 14px !important;
     margin-top: 12px !important;
-    background: #ffffff !important;
-}
-[data-testid="stExpander"]:hover {
-    border-color: #cdd8ff !important;
-}
-[data-testid="stExpander"] summary {
+    background: var(--bg-elevated) !important;
+}}
+[data-testid="stExpander"]:hover {{
+    border-color: var(--border-strong) !important;
+}}
+[data-testid="stExpander"] summary {{
     font-size: 13px !important;
-    color: #454a51 !important;
+    color: var(--text-secondary) !important;
     font-weight: 600 !important;
     padding: 11px 16px !important;
-}
-[data-testid="stExpander"] [data-testid="stMarkdownContainer"] p {
+}}
+[data-testid="stExpander"] [data-testid="stMarkdownContainer"] p {{
     font-size: 13px;
     margin: 4px 0;
-}
-[data-testid="stExpander"] [data-testid="stMarkdownContainer"] code {
-    background: #eef3ff;
-    color: #315bea;
+    color: var(--text);
+}}
+[data-testid="stExpander"] [data-testid="stMarkdownContainer"] code {{
+    background: var(--accent-soft-bg);
+    color: var(--accent);
     padding: 1px 6px;
     border-radius: 5px;
-}
+}}
 
 /* ═══════════════════════════════════════════
    CHAT INPUT
    ═══════════════════════════════════════════ */
-[data-testid="stChatInput"] {
+[data-testid="stChatInput"] {{
     border-radius: 26px !important;
-    border: 1px solid #dfe3ec !important;
-    background: #ffffff !important;
-    box-shadow: 0 6px 20px rgba(16,24,40,.08) !important;
-}
-[data-testid="stChatInput"]:focus-within {
-    border-color: #315bea !important;
-    box-shadow: 0 8px 26px rgba(49,91,234,.18) !important;
-}
-[data-testid="stChatInput"] textarea {
+    border: 1px solid var(--border-input) !important;
+    background: var(--bg-elevated) !important;
+    box-shadow: 0 6px 20px var(--shadow-card) !important;
+}}
+[data-testid="stChatInput"] > div {{
+    background: transparent !important;
+}}
+[data-testid="stBottom"] > div {{
+    background: var(--bg) !important;
+}}
+[data-testid="stBottomBlockContainer"] {{
+    background: var(--bg) !important;
+}}
+[data-testid="stBottomBlockContainer"] > div {{
+    background: transparent !important;
+}}
+[data-testid="stChatInput"]:focus-within {{
+    border-color: var(--accent) !important;
+    box-shadow: 0 8px 26px var(--shadow-focus) !important;
+}}
+[data-testid="stChatInput"] textarea {{
     font-size: 15px !important;
     padding: 12px 4px !important;
-}
-.stSpinner > div { border-top-color: #315bea !important; }
+    color: var(--text) !important;
+}}
+.stSpinner > div {{ border-top-color: var(--accent) !important; }}
 
-@keyframes fadeUp {
-    from { opacity: 0; transform: translateY(8px); }
-    to   { opacity: 1; transform: translateY(0); }
-}
+@keyframes fadeUp {{
+    from {{ opacity: 0; transform: translateY(8px); }}
+    to   {{ opacity: 1; transform: translateY(0); }}
+}}
 </style>
 """,
     unsafe_allow_html=True,
@@ -809,6 +931,30 @@ with st.sidebar:
         """,
         unsafe_allow_html=True,
     )
+
+    # ----- Chọn theme sáng / tối -----
+    if "theme_mode" not in st.session_state:
+        st.session_state.theme_mode = "light"
+
+    col_light, col_dark = st.columns(2)
+    with col_light:
+        if st.button(
+            "☀️ Sáng",
+            use_container_width=True,
+            disabled=st.session_state.theme_mode == "light",
+            key="theme_light_btn",
+        ):
+            st.session_state.theme_mode = "light"
+            st.rerun()
+    with col_dark:
+        if st.button(
+            "🌙 Tối",
+            use_container_width=True,
+            disabled=st.session_state.theme_mode == "dark",
+            key="theme_dark_btn",
+        ):
+            st.session_state.theme_mode = "dark"
+            st.rerun()
 
     # ----- Nút tạo cuộc trò chuyện mới -----
     if st.button(
