@@ -38,8 +38,8 @@ CHUNK_OVERLAP = 200
 USE_HYBRID = True
 USE_RERANKER = False
 
-CANDIDATES_K = 20
-FINAL_TOP_K = 6
+CANDIDATES_K = 30
+FINAL_TOP_K = 10
 
 TOP_K = FINAL_TOP_K
 
@@ -59,7 +59,7 @@ RERANKER_MAX_LENGTH = 512
 # CONTEXT
 # ============================================================
 
-MAX_CONTEXT_CHARS = 5000
+MAX_CONTEXT_CHARS = 9000
 
 
 # ============================================================

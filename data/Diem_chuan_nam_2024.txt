@@ -1,0 +1,25 @@
+===== ĐIỂM TRÚNG TUYỂN ĐHCQ NĂM 202 4
+
+STT | Mã ngành | Tên ngành tuyển sinh | Điểm TT
+1   | 7340101  | Quản trị kinh doanh | 22,35
+2   | 7340122  | Thương mại điện tử | 24,00
+3   | 7340201  | Tài chính - Ngân hàng | 22,35
+4   | 7340301  | Kế toán | 22,35
+5   | 7340302  | Kiểm toán | 21,50
+6   | 7480201  | Công nghệ thông tin | 23,00
+7   | 7510102  | Công nghệ kỹ thuật công trình xây dựng | 21,00
+8   | 7510201  | Công nghệ kỹ thuật cơ khí | 23,25
+(Bảng điểm chuẩn trúng tuyển Đại học chính quy năm 2024 - Trường Đại học Điện lực)
+9   | 7510203  | Công nghệ kỹ thuật cơ - điện tử | 24,00
+10  | 7510301  | Công nghệ kỹ thuật điện, điện tử | 23,50
+11  | 7510302  | Công nghệ kỹ thuật điện tử - viễn thông | 22,75
+12  | 7510303  | Công nghệ kỹ thuật điều khiển và tự động hóa | 23,50
+13  | 7510403  | Công nghệ kỹ thuật năng lượng | 22,00
+14  | 7510406  | Công nghệ kỹ thuật môi trường | 19,50
+15  | 7510601  | Quản lý công nghiệp | 22,70
+16  | 7510602  | Quản lý năng lượng | 21,50
+(Bảng điểm chuẩn trúng tuyển Đại học chính quy năm 2024 - Trường Đại học Điện lực)
+17  | 7510605  | Logistics và Quản lý chuỗi cung ứng | 23,70
+18  | 7520115  | Kỹ thuật nhiệt | 21,90
+19  | 7810103  | Quản trị dịch vụ du lịch và lữ hành | 21,80
+

@@ -1,0 +1,44 @@
+===== ĐIỂM TRÚNG TUYỂN ĐHCQ NĂM 2025 =====
+
+1. Điểm trúng tuyển ĐHCQ năm 2025
+Trường Đại học Điện lực (mã trường DDL) thông báo điểm trúng tuyển đại học chính quy năm 2025 theo phương thức xét tuyển dựa trên kết quả điểm thi tốt nghiệp THPT, kết quả học tập THPT và chứng chỉ tiếng Anh Quốc tế đã quy đổi (đã bao gồm điểm ưu tiên đối tượng và khu vực nếu có), cụ thể như sau:
+
+STT | Mã xét tuyển | Tên ngành, xét tuyển | Điểm trúng tuyển
+1   | 7220201      | Ngôn ngữ Anh | 24,20
+2   | 7340101      | Quản trị kinh doanh | 23,25
+3   | 7340115      | Marketing | 24,50
+4   | 7340122      | Thương mại Điện tử | 24,50
+5   | 7340201      | Tài chính - Ngân hàng | 23,50
+6   | 7340205      | Công nghệ tài chính | 16,50
+7   | 7340301      | Kế toán | 23,00
+8   | 7340302      | Kiểm toán | 22,30
+9   | 7380107      | Luật kinh tế | 23,00
+10  | 7460108      | Khoa học dữ liệu | 17,50
+(Bảng điểm chuẩn trúng tuyển Đại học chính quy năm 2025 - Trường Đại học Điện lực)
+11  | 7460117      | Toán tin | 16,50
+12  | 7480106      | Kỹ thuật máy tính | 22,75
+13  | 7480107      | Trí tuệ nhân tạo | 22,50
+14  | 7480201      | Công nghệ thông tin | 23,55
+15  | 7510102      | Công nghệ kỹ thuật công trình xây dựng | 21,50
+
+2
+STT | Mã xét tuyển | Tên ngành, xét tuyển | Điểm trúng tuyển
+16  | 7510201      | Công nghệ kỹ thuật cơ khí | 24,10
+17  | 7510203      | Công nghệ kỹ thuật cơ điện tử | 24,75
+18  | 7510205      | Công nghệ kỹ thuật ô tô | 24,30
+19  | 7510301      | Công nghệ kỹ thuật điện, điện tử | 24,50
+20  | 7510302      | Công nghệ kỹ thuật điện tử - viễn thông | 23,50
+(Bảng điểm chuẩn trúng tuyển Đại học chính quy năm 2025 - Trường Đại học Điện lực)
+21  | 7510303      | Công nghệ kỹ thuật điều khiển và tự động hoá | 25,00
+22  | 7510402      | Công nghệ vật liệu | 21,35
+23  | 7510403      | Công nghệ kỹ thuật năng lượng | 21,00
+24  | 7510406      | Công nghệ kỹ thuật môi trường | 20,50
+25  | 7510407      | Công nghệ kỹ thuật hạt nhân | 18,00
+26  | 7510601      | Quản lý công nghiệp | 21,50
+27  | 7510602      | Quản lý năng lượng | 20,50
+28  | 7510605      | Logistics và Quản lý chuỗi cung ứng | 24,50
+29  | 7520107      | Kỹ thuật Robot | 20,50
+30  | 7520115      | Kỹ thuật nhiệt | 22,10
+(Bảng điểm chuẩn trúng tuyển Đại học chính quy năm 2025 - Trường Đại học Điện lực)
+31  | 7810103      | Quản trị dịch vụ Du lịch và Lữ hành | 22,00
+32  | 7810201      | Quản trị khách sạn | 22,00
