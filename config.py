@@ -83,7 +83,7 @@ OLLAMA_NUM_THREAD = None
 # ============================================================
 
 LLM_TEMPERATURE = 0.05
-LLM_NUM_PREDICT = 900
+LLM_NUM_PREDICT = 2048
 LLM_NUM_CTX = 6144
 
 

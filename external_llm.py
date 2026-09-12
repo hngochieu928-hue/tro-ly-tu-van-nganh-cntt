@@ -141,9 +141,15 @@ def _stream_gemini_new(prompt: str, model: str, api_key: str):
 
     client = genai.Client(api_key=api_key)
 
+    # ⚡ Tắt "thinking" (chain-of-thought ẩn): các model Gemini 2.5+/3.x mặc
+    # định dành phần lớn max_output_tokens cho suy nghĩ nội bộ không hiển thị,
+    # khiến câu trả lời thật bị cắt cụt gần như ngay khi vừa bắt đầu (đã xác
+    # minh: thoughts_token_count chiếm ~860/900 token ngân sách). Tắt hẳn để
+    # toàn bộ ngân sách token dành cho câu trả lời hiển thị.
     config = types.GenerateContentConfig(
         temperature=LLM_TEMPERATURE,
         max_output_tokens=LLM_NUM_PREDICT,
+        thinking_config=types.ThinkingConfig(thinking_budget=0),
     )
 
     def make_stream():
