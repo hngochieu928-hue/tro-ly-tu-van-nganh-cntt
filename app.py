@@ -6,11 +6,13 @@
 
 import os
 import time
+import json
 import base64
 import uuid
 from datetime import datetime
 
 import streamlit as st
+from streamlit_javascript import st_javascript
 
 from config import (
     LLM_MODEL,
@@ -718,6 +720,44 @@ if "ollama_model" not in st.session_state:
 
 
 # ============================================================
+# 4b. KHÔI PHỤC LỊCH SỬ TỪ LOCALSTORAGE (giữ khi F5 lại trang)
+# ============================================================
+
+HISTORY_KEY = "cntt_chat_history"
+
+if "history_loaded" not in st.session_state:
+    st.session_state.history_loaded = False
+
+if not st.session_state.history_loaded:
+    _raw_history = st_javascript(
+        f"localStorage.getItem('{HISTORY_KEY}') || '__EMPTY__'"
+    )
+    if _raw_history not in (None, 0):
+        if _raw_history not in ("__EMPTY__", ""):
+            try:
+                _data = json.loads(_raw_history)
+                st.session_state.conversations = _data.get("conversations", [])
+                st.session_state.current_id = _data.get("current_id")
+            except Exception:
+                pass
+        st.session_state.history_loaded = True
+
+
+def persist_history():
+    payload = json.dumps(
+        {
+            "conversations": st.session_state.conversations,
+            "current_id": st.session_state.current_id,
+        },
+        ensure_ascii=False,
+    )
+    st.iframe(
+        f"<script>localStorage.setItem('{HISTORY_KEY}', {json.dumps(payload)});</script>",
+        height=1,
+    )
+
+
+# ============================================================
 # 5. QUẢN LÝ CONVERSATION
 # ============================================================
 
@@ -1246,4 +1286,13 @@ elif st.session_state.pending_question:
 
 if question:
     process_question(question)
+    persist_history()
     st.rerun()
+
+
+# ============================================================
+# 15. LƯU LỊCH SỬ (mỗi lần render)
+# ============================================================
+
+if st.session_state.history_loaded:
+    persist_history()
