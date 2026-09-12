@@ -501,7 +501,11 @@ div[data-baseweb="popover"] li[role="option"]:hover {{
     border: none !important;
     padding: 8px 0 !important;
     margin: 6px 0 !important;
+    align-items: flex-start !important;
     animation: fadeUp .35s ease;
+}}
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageContent"][aria-label="Chat message from user"]) {{
+    align-items: center !important;
 }}
 [data-testid="stChatMessageContent"] {{
     color: var(--text);
