@@ -39,19 +39,32 @@ def _is_transient_error(exc) -> bool:
     return any(marker in text for marker in _TRANSIENT_MARKERS)
 
 
-def _call_with_retry(fn, *args, **kwargs):
-    """Gọi fn(*args, **kwargs); tự thử lại nếu lỗi tạm thời (quá tải/rate limit)."""
+def _stream_with_retry(make_stream, extract_text, error_prefix):
+    """
+    Mở stream bằng make_stream() và yield từng đoạn text qua extract_text(chunk).
+    ⚡ QUAN TRỌNG: lỗi 503/429 thường chỉ lộ ra khi BẮT ĐẦU ĐỌC stream (lazy),
+    không phải lúc gọi hàm khởi tạo — nên phải bọc retry quanh cả vòng lặp đọc,
+    không chỉ quanh lệnh gọi API ban đầu.
+    Chỉ tự thử lại khi CHƯA có đoạn text nào được yield ra ngoài (tránh lặp
+    lại nội dung đã gửi cho người dùng nếu lỗi xảy ra giữa chừng).
+    """
     last_error = None
     for attempt in range(MAX_RETRIES + 1):
+        got_any = False
         try:
-            return fn(*args, **kwargs)
+            for chunk in make_stream():
+                text = extract_text(chunk)
+                if text:
+                    got_any = True
+                    yield text
+            return
         except Exception as e:
             last_error = e
-            if attempt < MAX_RETRIES and _is_transient_error(e):
+            if not got_any and attempt < MAX_RETRIES and _is_transient_error(e):
                 time.sleep(RETRY_DELAY_SECONDS)
                 continue
-            raise
-    raise last_error
+            raise RuntimeError(f"{error_prefix}: {e}")
+    raise RuntimeError(f"{error_prefix}: {last_error}")
 
 
 # ============================================================
@@ -77,25 +90,22 @@ def stream_openai_compatible(
 
     client = OpenAI(api_key=api_key, base_url=base_url)
 
-    try:
-        stream = _call_with_retry(
-            client.chat.completions.create,
+    def make_stream():
+        return client.chat.completions.create(
             model=model,
             messages=[{"role": "user", "content": prompt}],
             temperature=LLM_TEMPERATURE,
             max_tokens=LLM_NUM_PREDICT,
             stream=True,
         )
-    except Exception as e:
-        raise RuntimeError(f"Lỗi gọi {model}: {e}")
 
-    for chunk in stream:
+    def extract_text(chunk):
         try:
-            piece = chunk.choices[0].delta.content
+            return chunk.choices[0].delta.content
         except (IndexError, AttributeError):
-            piece = None
-        if piece:
-            yield piece
+            return None
+
+    yield from _stream_with_retry(make_stream, extract_text, f"Lỗi gọi {model}")
 
 
 # ============================================================
@@ -136,23 +146,22 @@ def _stream_gemini_new(prompt: str, model: str, api_key: str):
         max_output_tokens=LLM_NUM_PREDICT,
     )
 
-    try:
-        stream = _call_with_retry(
-            client.models.generate_content_stream,
+    def make_stream():
+        return client.models.generate_content_stream(
             model=model,
             contents=prompt,
             config=config,
         )
-    except Exception as e:
-        raise RuntimeError(f"Lỗi gọi Gemini ({model}): {e}")
 
-    for chunk in stream:
+    def extract_text(chunk):
         try:
-            text = chunk.text
+            return chunk.text
         except Exception:
-            text = None
-        if text:
-            yield text
+            return None
+
+    yield from _stream_with_retry(
+        make_stream, extract_text, f"Lỗi gọi Gemini ({model})"
+    )
 
 
 def _stream_gemini_legacy(prompt: str, model: str, api_key: str):
@@ -168,9 +177,8 @@ def _stream_gemini_legacy(prompt: str, model: str, api_key: str):
     genai.configure(api_key=api_key)
     gm = genai.GenerativeModel(model)
 
-    try:
-        response = _call_with_retry(
-            gm.generate_content,
+    def make_stream():
+        return gm.generate_content(
             prompt,
             generation_config={
                 "temperature": LLM_TEMPERATURE,
@@ -178,16 +186,16 @@ def _stream_gemini_legacy(prompt: str, model: str, api_key: str):
             },
             stream=True,
         )
-    except Exception as e:
-        raise RuntimeError(f"Lỗi gọi Gemini ({model}): {e}")
 
-    for chunk in response:
+    def extract_text(chunk):
         try:
-            text = chunk.text
+            return chunk.text
         except Exception:
-            text = None
-        if text:
-            yield text
+            return None
+
+    yield from _stream_with_retry(
+        make_stream, extract_text, f"Lỗi gọi Gemini ({model})"
+    )
 
 
 # ============================================================
