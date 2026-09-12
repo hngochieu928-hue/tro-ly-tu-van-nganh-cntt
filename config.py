@@ -103,9 +103,9 @@ PROVIDER_MODELS = {
                  "gemini-flash-latest",       # mạnh hơn nhưng free tier chỉ ~20 request/ngày
                  "gemini-3.5-flash-lite",
                  "gemini-pro-latest"],
-    "claude":   ["claude-3-5-sonnet-latest",
-                 "claude-3-5-haiku-latest",
-                 "claude-3-opus-latest"],
+    "claude":   ["claude-sonnet-5",
+                 "claude-opus-5",
+                 "claude-haiku-4-5-20251001"],
     "deepseek": ["deepseek-chat", "deepseek-reasoner"],
     "groq":     ["llama-3.3-70b-versatile",
                  "llama-3.1-8b-instant",
