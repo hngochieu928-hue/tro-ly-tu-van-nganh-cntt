@@ -99,9 +99,9 @@ DEFAULT_PROVIDER = "gemini"
 PROVIDER_MODELS = {
     "ollama":   ["qwen2.5:3b", "qwen2.5:7b", "llama3.2:3b"],
     "openai":   ["gpt-4o-mini", "gpt-4o", "gpt-4-turbo"],
-    "gemini":   ["gemini-flash-latest",     # alias, luôn trỏ bản flash ổn định mới nhất
-                 "gemini-2.5-flash",
-                 "gemini-3.5-flash",
+    "gemini":   ["gemini-flash-lite-latest",  # mặc định: quota free tier rộng rãi nhất
+                 "gemini-flash-latest",       # mạnh hơn nhưng free tier chỉ ~20 request/ngày
+                 "gemini-3.5-flash-lite",
                  "gemini-pro-latest"],
     "claude":   ["claude-3-5-sonnet-latest",
                  "claude-3-5-haiku-latest",

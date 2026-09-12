@@ -141,16 +141,24 @@ def _stream_gemini_new(prompt: str, model: str, api_key: str):
 
     client = genai.Client(api_key=api_key)
 
+    config_kwargs = {
+        "temperature": LLM_TEMPERATURE,
+        "max_output_tokens": LLM_NUM_PREDICT,
+    }
+
     # ⚡ Tắt "thinking" (chain-of-thought ẩn): các model Gemini 2.5+/3.x mặc
     # định dành phần lớn max_output_tokens cho suy nghĩ nội bộ không hiển thị,
     # khiến câu trả lời thật bị cắt cụt gần như ngay khi vừa bắt đầu (đã xác
     # minh: thoughts_token_count chiếm ~860/900 token ngân sách). Tắt hẳn để
     # toàn bộ ngân sách token dành cho câu trả lời hiển thị.
-    config = types.GenerateContentConfig(
-        temperature=LLM_TEMPERATURE,
-        max_output_tokens=LLM_NUM_PREDICT,
-        thinking_config=types.ThinkingConfig(thinking_budget=0),
-    )
+    # Riêng model "lite" không hỗ trợ tham số này (trả lỗi 400 INVALID_ARGUMENT)
+    # nên bỏ qua với các model có "lite" trong tên.
+    if "lite" not in model:
+        config_kwargs["thinking_config"] = types.ThinkingConfig(
+            thinking_budget=0
+        )
+
+    config = types.GenerateContentConfig(**config_kwargs)
 
     def make_stream():
         return client.models.generate_content_stream(
@@ -253,7 +261,7 @@ def stream_external(
 
     default_models = {
         "openai":   "gpt-4o-mini",
-        "gemini":   "gemini-flash-latest",
+        "gemini":   "gemini-flash-lite-latest",
         "claude":   "claude-3-5-sonnet-latest",
         "deepseek": "deepseek-chat",
         "groq":     "llama-3.3-70b-versatile",
