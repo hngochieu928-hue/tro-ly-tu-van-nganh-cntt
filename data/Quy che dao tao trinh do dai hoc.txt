@@ -1,0 +1,958 @@
+BỘ CÔNG THƯƠNG
+TRƯỜNG ĐẠI HỌC ĐIỆN LỰC
+Số: 1835/QĐ-ĐHĐL
+
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+Hà Nội, ngày 22 tháng 10 năm 2024
+
+QUYẾT ĐỊNH
+Ban hành Quy chế đào tạo trình độ đại học của Trường Đại học Điện lực
+
+HIỆU TRƯỞNG TRƯỜNG ĐẠI HỌC ĐIỆN LỰC
+
+Căn cứ Nghị quyết số 03/NQ-HĐT ngày 30/5/2023 của Hội đồng trường Trường Đại học Điện lực ban hành Quy chế Tổ chức và hoạt động của Trường Đại học Điện lực;
+Căn cứ Quyết định số 18/2017/QĐ-TTg ngày 31 tháng 5 năm 2017 của Thủ tướng Chính phủ quy định về liên thông giữa trình độ trung cấp, trình độ cao đẳng với trình độ đại học;
+Căn cứ Thông tư 08/2021/TT-BGDĐT ngày 18 tháng 3 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo ban hành Quy chế đào tạo trình độ đại học;
+Căn cứ Thông tư 17/2021/TT-BGDĐT ngày 22 tháng 6 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo ban hành Quy định về chuẩn chương trình đào tạo; xây dựng, thẩm định và ban hành chương trình đào tạo các trình độ của giáo dục đại học;
+Xét đề nghị của Trưởng Phòng Quản lý Đào tạo, Giám đốc Trung tâm đào tạo thường xuyên.
+
+QUYẾT ĐỊNH:
+
+Điều 1. Ban hành kèm theo Quyết định này "Quy chế đào tạo trình độ đại học của Trường Đại học Điện lực".
+Điều 2. Quyết định này có hiệu lực kể từ ngày ký được áp dụng cho các khóa tuyển sinh đại học sau ngày 03 tháng 5 năm 2021 và thay thế cho các Quyết định số 208/QĐ-ĐHĐL ngày 08/3/2022 về việc ban hành Quy chế đào tạo trình độ đại học của Trường Đại học Điện lực và Quyết định số 754/QĐ-ĐHĐL ngày 19/5/2023 về việc sửa đổi, bổ sung một số điều của Quy chế đào tạo đại học tại trường Đại học Điện lực.
+Điều 3. Trưởng Phòng Quản lý Đào tạo, Giám đốc Trung tâm Đào tạo thường xuyên, Trưởng các đơn vị và cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này./.
+
+Nơi nhận:
+- Như Điều 3;
+- HĐT (để báo cáo);
+- Các PHT (để thực hiện);
+- Lưu: VT, QL Đào tạo, LanTTP(02).
+
+HIỆU TRƯỞNG
+Đinh Văn Châu
+
+===============================================================
+
+QUY CHẾ
+Đào tạo trình độ đại học của Trường Đại học Điện lực
+(Ban hành kèm theo Quyết định số 1835/QĐ-ĐHĐL ngày 22 tháng 10 năm 2024 của Hiệu trưởng Trường Đại học Điện lực)
+
+Chương I
+QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng
+
+1. Quy chế này quy định về việc tổ chức và quản lý đào tạo trình độ đại học của Trường Đại học Điện lực (sau đây gọi tắt là "Trường"), bao gồm: Chương trình đào tạo và thời gian học tập; hình thức và phương thức tổ chức đào tạo; lập kế hoạch và tổ chức giảng dạy; đánh giá kết quả học tập và cấp bằng tốt nghiệp; những quy định khác đối với sinh viên.
+
+2. Quy chế này áp dụng đối với các đơn vị thuộc, trực thuộc Trường, các tổ chức, các cá nhân liên quan trong quá trình đào tạo trình độ đại học theo hình thức chính quy và hình thức vừa làm vừa học của Trường. Các chương trình đào tạo do cơ sở giáo dục nước ngoài cấp bằng bao gồm cả các chương trình liên kết đào tạo được áp dụng theo Quy chế này hoặc quy định của cơ sở đào tạo cấp bằng theo thỏa thuận liên kết, hợp tác giữa các bên nhưng không trái với những quy định của Quy chế này.
+
+Điều 2. Giải thích thuật ngữ
+
+Trong Quy chế này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Khoá học là thời gian theo kế hoạch học tập chuẩn toàn khóa để sinh viên hoàn thành một chương trình đào tạo cụ thể. Căn cứ vào khối lượng kiến thức quy định cho các chương trình, Hiệu trưởng quyết định việc phân bổ số học phần cho từng năm học, từng học kỳ trong khóa học.
+
+2. Khóa - ngành là thuật ngữ dùng để chỉ một tập hợp tất cả sinh viên cùng trúng tuyển trong năm tuyển sinh, cùng nhập học và cùng học theo một chương trình đào tạo của một ngành cụ thể với cùng một hình thức đào tạo để nhận cùng một loại văn bằng. Mỗi khóa - ngành có một mã số xác định theo khoa quản lý ngành học, chuyên ngành, hình thức học và năm tuyển sinh.
+
+3. Khối lượng kiến thức tối thiểu đối với từng trình độ đào tạo là số lượng học phần, hoặc tín chỉ được quy định trong chương trình đào tạo mà sinh viên phải đạt được khi hoàn thành chương trình đào tạo thì mới đủ điều kiện được xét công nhận tốt nghiệp.
+
+4. Chương trình đào tạo chuẩn là chương trình đào tạo của một ngành/chuyên ngành thiết kế để triển khai thực hiện trong một thời gian chuẩn.
+
+5. Kế hoạch đào tạo chuẩn là thời gian dự kiến để thực hiện chương trình đào tạo chuẩn của một ngành/chuyên ngành.
+
+6. Mục tiêu chương trình đào tạo là kỳ vọng về năng lực và phát triển nghề nghiệp của người tốt nghiệp chương trình đào tạo. Mục tiêu chương trình đào tạo thể hiện được định hướng đào tạo (định hướng nghiên cứu, định hướng ứng dụng hoặc định hướng nghề nghiệp); đáp ứng nhu cầu của giới tuyển dụng và các bên liên quan. Mục tiêu phải phù hợp và gắn kết với sứ mạng, tầm nhìn, chiến lược phát triển của Trường, nhu cầu của xã hội; phù hợp với mục tiêu của giáo dục đại học theo quy định tại Luật Giáo dục đại học; luật sửa đổi bổ sung một số điều của luật giáo dục đại học và mô tả trình độ theo Khung trình độ quốc gia Việt Nam.
+
+7. Chuẩn đầu ra là yêu cầu tối thiểu về kiến thức, kỹ năng, mức độ tự chủ và trách nhiệm cá nhân mà sinh viên đạt được tại thời điểm tốt nghiệp chương trình đào tạo, được cơ sở đào tạo cam kết với sinh viên, xã hội và công bố công khai cùng với các điều kiện đảm bảo thực hiện. Chuẩn đầu ra của một chương trình đào tạo được tham chiếu theo Khung trình độ quốc gia Việt Nam, các quy định hiện hành của Bộ Giáo dục và Đào tạo và đảm bảo yếu tố hội nhập khu vực, thế giới.
+
+Điều 3. Chương trình đào tạo và thời gian học tập
+
+1. Chương trình đào tạo trình độ đại học của Trường (sau đây gọi chung là "chương trình đào tạo") được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần hoặc môn học (sau đây gọi chung là học phần), trong đó phải có đủ khối lượng các học phần bắt buộc và đáp ứng chuẩn chương trình đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Từng học phần phải được mã hóa bằng ký hiệu riêng do Trường quy định, học phần lý thuyết hoặc học phần hỗn hợp (có cả lý thuyết và thực hành, thí nghiệm) có khối lượng tối thiểu là 02 tín chỉ, tối đa là 05 tín chỉ; các học phần thực hành, thực tập, đồ án có khối lượng tối thiểu 02 tín chỉ, tối đa là 05 tín chỉ; đề cương chi tiết của từng học phần phải thể hiện rõ tên học phần, loại học phần, mục tiêu, thời lượng, điều kiện tiên quyết (nếu có), nội dung lý thuyết và thực hành, phương pháp dạy - học, phương pháp kiểm tra đánh giá học phần, giáo trình, tài liệu tham khảo và điều kiện thí nghiệm, thực hành, thực tập phục vụ học phần và các nội dung khác theo quy định của Trường.
+
+2. Nội dung, chuẩn đầu ra của chương trình đào tạo trình độ đại học áp dụng chung đối với các hình thức, phương thức tổ chức đào tạo và đối tượng sinh viên khác nhau của Trường. Đối với hệ đào tạo liên thông khối lượng học tập thực tế được xác định trên cơ sở công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy và miễn trừ học phần trong chương trình đào tạo trước đó.
+
+3. Chương trình đào tạo phải được công khai đối với sinh viên trước khi tuyển sinh và khi bắt đầu khóa học; chương trình đào tạo phải thường xuyên được rà soát, đánh giá, cập nhật; kết quả rà soát, đánh giá phải được Trường áp dụng để cải tiến, nâng cao chất lượng đào tạo. Những thay đổi, điều chỉnh liên quan đến chương trình đào tạo được thực hiện theo quy định hiện hành và công bố trước khi áp dụng, không gây tác động bất lợi cho sinh viên.
+
+4. Đối với mỗi hình thức đào tạo, chương trình đào tạo của Trường cung cấp kế hoạch học tập chuẩn toàn khoá để định hướng cho sinh viên.
+
+a) Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo chính quy phải phù hợp với thời gian quy định trong Khung trình độ quốc gia Việt Nam, đồng thời đảm bảo đa số sinh viên hoàn thành chương trình đào tạo, cụ thể:
+
+- Đào tạo trình độ đại học cấp bằng cử nhân được thực hiện trong 04 năm; 8 học kỳ chính.
+- Đào tạo trình độ đại học cấp bằng kĩ sư được thực hiện trong 4,5 năm; 9 học kỳ chính.
+- Một năm học có hai học kỳ chính, mỗi học kỳ chính có ít nhất 15 tuần thực học và 3 tuần thi. Ngoài hai học kỳ chính, Trường có thể tổ chức thêm học kỳ hè để sinh viên có điều kiện được học lại, học cải thiện hoặc học vượt. Mỗi học kỳ hè có ít nhất 5 tuần thực học và 1 tuần thi.
+
+b) Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo vừa làm vừa học dài hơn tối thiểu 20% so với hình thức đào tạo chính quy của cùng chương trình đào tạo, cụ thể:
+
+- Đào tạo trình độ đại học cấp bằng cử nhân được thực hiện trong 5,0 năm; 10 học kỳ chính.
+- Đào tạo trình độ đại học cấp bằng kĩ sư được thực hiện trong 5,5 năm; 11 học kỳ chính.
+
+5. Thời gian đào tạo để sinh viên đại học chính quy hoàn thành khoá học bằng thời gian theo kế hoạch học tập chuẩn toàn khóa (quy định tại khoản 4 của Điều này) cộng thêm 2,5 năm. Sinh viên hệ vừa làm vừa học, sinh viên thuộc đối tượng được hưởng chính sách ưu tiên theo quy định tại Quy chế tuyển sinh đại học chính quy hiện hành, thời gian tối đa để sinh viên hoàn thành khoá học bằng 02 lần thời gian theo kế hoạch học tập chuẩn toàn khóa. Đối với sinh viên học liên thông đã được miễn trừ khối lượng tín chỉ tích lũy, thời gian tối đa để sinh viên hoàn thành khóa học bằng 02 lần thời gian theo kế hoạch học tập chuẩn toàn khoá giảm tương ứng với khối lượng được miễn trừ.
+
+Căn cứ vào điều kiện thực tế nếu hết thời gian đào tạo 6,5 năm đối với hệ đại học chính quy cấp bằng cử nhân; 7,0 năm đối với hệ đại học chính quy cấp bằng kĩ sư, Hiệu trưởng xem xét quyết định gia hạn đào tạo cho từng trường hợp sinh viên cụ thể, nhưng thời gian tối đa để sinh viên hoàn thành khoá học không được vượt quá 02 lần so với thời gian thiết kế cho chương trình đào tạo mà sinh viên theo học.
+
+Hồ sơ gia hạn đào tạo gồm đơn xin gia hạn đào tạo của sinh viên, bảng kết quả học tập tính đến thời điểm xin gia hạn đào tạo. Sinh viên chỉ được gia hạn đào tạo 01 lần trong thời gian đào tạo. Phòng Quản lý Đào tạo, Trung tâm đào tạo thường xuyên (sau đây gọi là đơn vị quản lý đào tạo) tập hợp hồ sơ xin gia hạn đào tạo trình Hiệu trưởng ký các quyết định gia hạn đào tạo cho sinh viên.
+
+Hết thời gian đào tạo sinh viên chưa tốt nghiệp không làm hồ sơ xin gia hạn đào tạo; sinh viên hết thời gian gia hạn đào tạo nhưng chưa hoàn thành chương trình đào tạo sẽ bị buộc thôi học và xóa tên khỏi danh sách sinh viên chính quy của Trường.
+
+Các đối tượng được hưởng chính sách ưu tiên theo quy định tại Quy chế tuyển sinh đại học chính quy không bị hạn chế về thời gian tối đa để hoàn thành chương trình.
+
+Điều 4. Học phí
+
+1. Học phí tính theo tín chỉ là một đơn vị dùng để lượng hóa chi phí theo từng học phần của hoạt động giảng dạy, học tập và các hoạt động khác liên quan. Tùy đặc điểm của từng học phần, Trường sẽ quy định số tín chỉ học phí tương ứng.
+
+Mức học phí của 01 tín chỉ do Hiệu trưởng quy định cho từng bậc đào tạo, từng hình thức đào tạo của khóa, ngành tương ứng, được công bố vào đầu năm học.
+
+Đối với một số chương trình đặc biệt ngoài chương trình đào tạo, Hiệu trưởng quyết định việc "thu học phí toàn khóa" với số tiền (hoặc số tín chỉ học phí) cố định cho mỗi học kỳ mà không phụ thuộc vào số học phần sinh viên đăng ký trong học kỳ đó, dạng học phí này chỉ dành cho học kỳ chính khóa.
+
+2. Cách tính học phí:
+
+a) Học phí tính theo mỗi học kỳ mà sinh viên theo học của Trường tính riêng và nộp riêng cho học kỳ chính khóa (bắt buộc) theo thông báo của Trường và nộp riêng cho các phần học thêm (học lại, cải thiện, dự thính, ...) theo các thông báo mở lớp và hướng dẫn của đơn vị quản lý đào tạo.
+
+b) Học phí học kỳ được xác định căn cứ vào số học phần sinh viên đăng ký trong thời khóa biểu học kỳ, được tính như sau:
+
+Học phí học kỳ = Tổng (i=1 đến n) TCHPi * MHPi
+
+n là số học phần đăng ký trong học kỳ đó của sinh viên.
+TCHPi: số tín chỉ học phí của học phần thứ i trong học kỳ đó.
+MHPi: mức học phí một tín chỉ của học phần thứ i (có thể được điều chỉnh theo lộ trình tăng học phí của Trường).
+
+c) Học phí của các học phần sinh viên đã đăng ký được thể hiện trên cổng thông tin điện tử sinhvien.epu.edu.vn khi sinh viên đăng nhập bằng tài khoản cá nhân. Sinh viên có trách nhiệm đóng học phí đầy đủ và đúng thời hạn quy định của Trường, tuân thủ các thời hạn quy định cho mỗi học kỳ.
+
+d) Trường sẽ chi trả kinh phí miễn, giảm học phí theo hình thức hoàn trả cho sinh viên thuộc diện miễn giảm học phí (từng học kỳ, năm học) theo quy định hiện hành. Sinh viên thuộc đối tượng miễn giảm học phí nộp hồ sơ xin miễn, giảm theo quy định. Phòng Công tác sinh viên chủ trì việc hướng dẫn, phổ biến quy định, tập hợp hồ sơ cung cấp tài liệu, minh chứng cho Tổ rà soát hồ sơ miễn, giảm học phí và trình Hiệu trưởng phê duyệt quyết định danh sách sinh viên được hưởng chế độ miễn giảm học phí. Phòng Kế hoạch tài chính căn cứ Quyết định và hồ sơ do phòng Công tác sinh viên cung cấp hoàn thiện các thủ tục tiếp theo để có kinh phí chi trả cho sinh viên.
+
+đ) Trường hợp sinh viên có khó khăn đột xuất (do ốm đau, tai nạn, thiên tai dịch họa…), không có khả năng đóng học phí khi đăng ký học phần, sinh viên phải làm đơn xin gia hạn đóng học phí kèm theo cam kết thời gian nộp học phí, (có xác nhận của chính quyền địa phương) xin xác nhận của cố vấn học tập, nộp tại phòng Công tác sinh viên để tập hợp trình Hiệu trưởng xem xét giải quyết. Trường hợp sinh viên được Trường cho phép gia hạn đóng học phí sẽ được hỗ trợ đăng ký học phần, sinh viên có trách nhiệm nộp học phí theo đúng thời hạn đã cam kết, Trường sẽ hủy đăng ký học phần và các nội dung liên quan tới học phần mà sinh viên vi phạm cam kết đóng học phí. Trường không giải quyết gia hạn đóng học phí cho sinh viên trong 02 học kỳ liên tiếp; không gia hạn hay miễn, giảm học phí đối với tất cả các học phần không bắt buộc thuộc học kỳ phụ (kỳ hè), học phần học lại, học cải thiện.
+
+Điều 5. Tổ chức lớp học
+
+1. Lớp danh nghĩa: là lớp học bao gồm những sinh viên trúng tuyển nhập học cùng khóa, cùng ngành hoặc cùng chuyên ngành; lớp danh nghĩa chỉ được thành lập một lần ngay sau khi sinh viên được công nhận trúng tuyển nhập học nhằm mục đích tạo điều kiện cho sinh viên sinh hoạt đoàn thể; cố vấn học tập do đơn vị quản lý đào tạo tham mưu trình Hiệu trưởng ra quyết định phân công trên cơ sở đề xuất của các khoa quản lý chương trình đào tạo; được mã hóa theo quy định của Trường; sĩ số lớp danh nghĩa chỉ biến động trong trường hợp có tiếp nhận sinh viên chuyển trường, chuyển ngành/chuyên ngành, sinh viên trong lớp danh nghĩa bao gồm các trạng thái đang học, thôi học, bảo lưu, đã tốt nghiệp…; Hiệu trưởng quy định cụ thể các trạng thái khác của sinh viên (nếu có).
+
+2. Lớp học phần: là lớp học được tổ chức theo từng học phần dựa vào khối lượng đăng ký học tập của sinh viên ở từng học kỳ. Hiệu trưởng quy định số lượng sinh viên cho mỗi lớp học tùy theo từng loại học phần được giảng dạy trong trường, cụ thể:
+
+a) Học phần thuộc khối kiến thức giáo dục đại cương có tối thiểu là 60 sinh viên/lớp học phần và không quá 79 sinh viên/lớp học phần. Riêng học phần ngoại ngữ tối thiểu là 40 sinh viên/lớp học phần và không quá 50 sinh viên/lớp học phần.
+
+b) Học phần lý thuyết, học phần hỗn hợp thuộc khối kiến thức giáo dục chuyên nghiệp có số sinh viên tối thiểu là 40 và không quá 60 sinh viên/lớp học phần.
+
+c) Học phần thực tập, các bài thực hành, thí nghiệm của Trường có tối thiểu là 20 sinh viên/nhóm và không quá 39 sinh viên/nhóm.
+
+d) Học phần thực tập ngoài trường: sĩ số sinh viên lớp học phần tương ứng với sĩ số lớp danh nghĩa.
+
+đ) Các học phần chỉ có ở một ngành/chuyên ngành thì sĩ số lớp học phần theo thực tế sinh viên đăng ký học, những học phần này chỉ được mở một lớp học phần/học kỳ theo kế hoạch học tập chuẩn toàn khóa theo chương trình đào tạo được phê duyệt.
+
+e) Các lớp học phần học lại (bao gồm cả học phần không còn trong chương trình đào tạo sau khi cập nhật, điều chỉnh), khi số lượng sinh viên đăng ký ít hơn 20 sinh viên, nếu sinh viên có nhu cầu mở lớp thì phải đóng mức học phí mở lớp đặc biệt theo quy định của Trường. Sinh viên nộp đơn xin mở lớp học phần tại khoa/bộ môn quản lý học phần, trong đó có nội dung cam kết đóng học phí tự nguyện; khoa/bộ môn tổng hợp và đề xuất với đơn vị quản lý đào tạo để xem xét việc mở lớp học phần.
+
+3. Các trường hợp khác đơn vị quản lý đào tạo trình Hiệu trưởng quyết định việc mở lớp học phần.
+
+Điều 6. Dạy học trực tuyến
+
+1. Các học phần được tổ chức giảng dạy bằng phương thức trực tuyến khi đáp ứng các quy định hiện hành về ứng dụng công nghệ thông tin trong quản lý và tổ chức đào tạo qua mạng; có các giải pháp bảo đảm chất lượng và minh chứng về chất lượng tổ chức lớp học phương thức trực tuyến không thấp hơn chất lượng lớp học phương thức trực tiếp; chi tiết phải quy định trong đề cương chi tiết học phần của chương trình đào tạo được Hiệu trưởng phê duyệt.
+
+2. Đối với các chương trình đào tạo của Trường các học phần thực hiện bằng lớp học trực tuyến chiếm tối đa 30% tổng khối lượng, được quy định cụ thể trong chương trình đào tạo được Hiệu trưởng phê duyệt. Trong trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác, Trường thực hiện theo hướng dẫn của Bộ Giáo dục và Đào tạo.
+
+3. Tổ chức quản lý và giảng dạy trực tuyến:
+
+Cấu trúc của học phần trực tuyến gồm có: đối tượng học, định hướng học phần; thời gian, bài giảng điện tử, giáo trình; bài giảng dạng video/audio; giảng dạy trực tuyến; bài tập trắc nghiệm khách quan; bài tập lớn/tiểu luận; phiếu khảo sát ý kiến phản hồi của sinh viên về học phần…
+
+Học liệu điện tử phải có nội dung bám sát mục tiêu đào tạo, có tính sư phạm cao, dễ sử dụng, đáp ứng được nhu cầu tự học, tự nghiên cứu của sinh viên.
+
+Bài tập trắc nghiệm khách quan, bài tập tự luận online giảng viên cho sinh viên thực hiện theo đề cương chi tiết học phần được Hiệu trưởng phê duyệt.
+
+Nội dung học tập đưa lên mạng phải tuân thủ các quy định hiện hành về việc quản lý, cung cấp, sử dụng dịch vụ mạng và thông tin trên mạng.
+
+4. Kế hoạch giảng dạy học phần trực tuyến:
+
+Kế hoạch giảng dạy cần được cung cấp cho sinh viên trước khi học (trước khi học phần bắt đầu), bao gồm: định hướng đầu học phần; tài liệu học tập; công cụ, phương thức tương tác; nhiệm vụ của sinh viên; hình thức đánh giá; thời hạn hoàn thành các nội dung học tập. Các lớp học theo hình thức trực tuyến thực hiện theo thời khóa biểu do Trường xếp lịch.
+
+5. Giảng dạy và quản lý lớp học:
+
+Giảng viên tăng cường giảng dạy tương tác với sinh viên qua mô hình "lớp học đảo ngược" (Sinh viên sẽ phải tự làm việc với bài giảng trước thông qua hiểu mục tiêu học phần và mục tiêu từng bài học, đọc tài liệu, tóm tắt tài liệu, nghe giảng thông qua các phương tiện hỗ trợ như băng hình, trình chiếu PowerPoint và khai thác tài liệu trên mạng. Bài giảng trở thành bài tập ở nhà mà sinh viên phải chuẩn bị trước khi lên lớp. Toàn bộ thời gian trên lớp sẽ dành cho các hoạt động giải bài tập, ứng dụng lý thuyết bài giảng vào giải quyết vấn đề, thảo luận nhóm để xây dựng hiểu biết dưới sự hướng dẫn của giảng viên; thay vì thuyết giảng, trong lớp học giảng viên đóng vai trò là người điều tiết hỗ trợ, có thể giúp sinh viên giải quyết những điểm khó hiểu trong bài học mới; nếu sử dụng phương pháp thuyết giảng thì giảng viên tăng cường trao đổi thông qua hệ thống các câu hỏi để tương tác với sinh viên; sử dụng thành thạo các chức năng của phần mềm giảng dạy trực tuyến và các phần mềm hỗ trợ khác để hỗ trợ cho quá trình giảng dạy trực tuyến.
+
+Sử dụng các kỹ thuật công nghệ để quản lý sinh viên, đồng thời tạo các bài giảng thu hút và giám sát tốt quá trình tham gia học tập trực tuyến của sinh viên.
+
+6. Đánh giá kết quả học tập học phần trực tuyến: thực hiện theo Điều 20 của Quy chế này.
+
+Trường xây dựng Quy chế quy định chi tiết việc tổ chức giảng dạy và đào tạo trực tuyến.
+
+Điều 7. Hình thức đào tạo
+
+1. Đào tạo chính quy:
+
+a) Hoạt động giảng dạy các học phần trong chương trình đào tạo được thực hiện tại Trường. Một số học phần thực hành, thực tập, hoạt động trải nghiệm thực tế và giảng dạy trực tuyến có thể thực hiện ngoài Trường nhưng phải được quy định trong chương trình đào tạo được Hiệu trưởng phê duyệt. Trong trường hợp đặc biệt thực hiện theo hướng dẫn của Bộ Giáo dục và Đào tạo.
+
+b) Thời gian tổ chức hoạt động giảng dạy trong khoảng từ 7h00 giờ đến 21h05 các ngày trong tuần từ thứ 2 đến thứ 7 với thời lượng 01 tiết là 50 phút, cụ thể như sau:
+
+BUỔI SÁNG
+TT | Tiết học | Giờ bắt đầu | Giờ kết thúc | Thời gian học | Thời gian nghỉ | STT tiết ghi trong TKB
+1 | Tiết 1 | 7:00 | 7:50 | 50 phút | 05 phút | 1
+2 | Tiết 2 | 7:55 | 8:45 | 50 phút | 05 phút | 2
+3 | Tiết 3 | 8:50 | 9:40 | 50 phút | 10 phút | 3
+4 | Tiết 4 | 9:50 | 10:40 | 50 phút | 05 phút | 4
+5 | Tiết 5 | 10:45 | 11:35 | 50 phút | | 5
+
+BUỔI CHIỀU
+6 | Tiết 6 | 12:30 | 13:20 | 50 phút | 05 phút | 6
+7 | Tiết 7 | 13:25 | 14:15 | 50 phút | 05 phút | 7
+8 | Tiết 8 | 14:20 | 15:10 | 50 phút | 10 phút | 8
+9 | Tiết 9 | 15:20 | 16:10 | 50 phút | 05 phút | 9
+10 | Tiết 10 | 16:15 | 17:05 | 50 phút | | 10
+
+BUỔI TỐI
+11 | Tiết 11 | 17:30 | 18:20 | 50 phút | 05 phút | 1
+12 | Tiết 12 | 18:25 | 19:15 | 50 phút | 05 phút | 2
+13 | Tiết 13 | 19:20 | 20:10 | 50 phút | 05 phút | 3
+14 | Tiết 14 | 20:15 | 21:05 | 50 phút | | 4
+
+c) Thời gian tổ chức những hoạt động đặc thù của chương trình đào tạo được thực hiện theo quy định cụ thể của Trường hoặc do đơn vị quản lý chương trình đào tạo và đơn vị quản lý đào tạo đề xuất được Hiệu trưởng chấp thuận.
+
+2. Đào tạo vừa làm vừa học:
+
+a) Các hoạt động giảng dạy được thực hiện tại Trường hoặc tại cơ sở phối hợp đào tạo theo quy định liên kết đào tạo tại Điều 11 của Quy chế này, riêng những hoạt động thực hành, thực tập, trải nghiệm thực tế và giảng dạy trực tuyến có thể thực hiện ngoài Trường, cơ sở phối hợp đào tạo;
+
+b) Thời gian tổ chức hoạt động giảng dạy linh hoạt trong ngày và trong tuần.
+
+Điều 8. Các diện sinh viên
+
+1. Sinh viên đại học chính quy:
+
+Hàng năm, Trường tuyển sinh trình độ đại học hệ chính quy qua kỳ tuyển sinh theo quy định của Bộ Giáo dục và Đào tạo. Thí sinh trúng tuyển phải làm các thủ tục nhập học theo hướng dẫn và thời hạn ghi trong Thông báo trúng tuyển nhập học của Trường. Sau khi đã hoàn tất thủ tục nhập học, thí sinh trở thành sinh viên chính thức hệ chính quy thuộc một khóa - ngành đào tạo của Trường. Nhà trường chỉ xét cấp học bổng khuyến khích học tập, học bổng từ các nguồn tài trợ, xét miễn giảm học phí theo quy định hiện hành cho sinh viên đại học chính quy.
+
+Một số trường hợp được xem xét tiếp nhận vào hệ chính quy trên cơ sở các quy định của Bộ Giáo dục và Đào tạo và của Trường gồm:
+
+a) Sinh viên đang du học ở nước ngoài có nguyện vọng và được giới thiệu về nước học tiếp, xem xét riêng từng trường hợp cụ thể;
+
+b) Sinh viên hệ chính quy các trường khác ở trong nước có nguyện vọng chuyển trường nếu đáp ứng đủ điều kiện quy định chuyển trường tại Điều 19 của Quy chế này;
+
+c) Các trường hợp khác do Hiệu trưởng quyết định.
+
+2. Sinh viên đại học vừa làm vừa học:
+
+Là người vừa đi làm vừa đi học để hoàn thiện kiến thức chuyên môn hoặc muốn học thêm một ngành khác với ngành mình đang làm. Đào tạo vừa làm vừa học là loại hình đào tạo dành cho đại đa số người vừa đi làm vừa đi học. Hàng năm, Trường tổ chức tuyển sinh vừa làm vừa học đáp ứng theo nhu cầu học tập rộng rãi của sinh viên, các diện thí sinh đã có bằng tốt nghiệp trung học phổ thông, trung cấp, cao đẳng và đại học.
+
+Hình thức đào tạo vừa làm vừa học có thể tổ chức đào tạo liên tục tại Trường hay theo nhiều hình thức khác nhau tại các cơ sở liên kết đào tạo theo quy định tại Điều 11. Sinh viên hệ vừa làm vừa học học cùng chương trình đào tạo, cùng điều kiện công nhận tốt nghiệp với sinh viên chính quy. Trong trường hợp đặc biệt Hiệu trưởng quyết định việc có hay không học những học phần không tích lũy điểm đối với sinh viên hệ vừa làm vừa học. Sinh viên hệ vừa làm vừa học được hưởng các dịch vụ chung của Trường.
+
+3. Sinh viên đại học liên thông:
+
+Hàng năm, Trường tổ chức tuyển sinh liên thông đại học dành cho sinh viên đã có văn bằng đại học hoặc có bằng tốt nghiệp cao đẳng, trung cấp. Chỉ tiêu tuyển sinh liên thông được xác định theo quy định hiện hành của Bộ giáo dục và Đào tạo. Hội đồng tuyển sinh căn cứ vào tình hình thực tế ban hành các thông báo tuyển sinh và hướng dẫn cần thiết cho mỗi đợt tuyển sinh.
+
+Sinh viên liên thông sau khi trúng tuyển, nhập học theo loại hình đào tạo nào sẽ được chọn hình thức theo học cùng lớp văn bằng thứ nhất hoặc theo lớp riêng khi có đủ điều kiện sĩ số để mở lớp của hình thức đào tạo đó. Sinh viên liên thông thực hiện chương trình đào tạo và đăng ký học tập theo kế hoạch chung như các sinh viên khác cùng hình thức đào tạo. Trường tổ chức đào tạo liên thông theo quy định hiện hành, việc xét miễn học, xét các môn thay thế, công nhận tương đương sẽ do Hội đồng chuyên môn được thành lập theo Quyết định của Hiệu trưởng xem xét; kết quả xét duyệt sẽ được trình Hiệu trưởng quyết định. Sinh viên liên thông được hưởng các dịch vụ chung của Trường.
+
+4. Sinh viên dự thính:
+
+a) Đối tượng học dự thính:
+
+- Học sinh tốt nghiệp trung học phổ thông hoặc tương đương;
+- Sinh viên tốt nghiệp trung cấp, cao đẳng, đại học hoặc tương đương;
+- Sinh viên bậc cao đẳng, đại học ở các trường đại học, cao đẳng khác;
+- Cán bộ, công nhân viên được cơ quan cử đi học để bổ túc kiến thức phục vụ cho công việc hoặc cá nhân có nhu cầu học để nâng cao trình độ và kiến thức.
+
+b) Điều kiện học dự thính:
+
+- Có bằng tốt nghiệp trung học phổ thông hoặc tương đương trở lên;
+- Đơn xin học dự thính (theo mẫu của Trường).
+
+c) Nghĩa vụ, trách nhiệm và quyền lợi của sinh viên dự thính:
+
+- Sinh viên dự thính phải chấp hành đầy đủ nội quy, quy định của Trường, phải thực hiện nghĩa vụ đóng học phí được quy định theo mức riêng;
+- Sinh viên dự thính được cấp mã số sinh viên riêng biệt so với mã số sinh viên chính quy để tiện theo dõi và quản lý;
+- Sinh viên dự thính được cấp bảng điểm cho các học phần đã hoàn tất, nếu hoàn thành chương trình đào tạo của ngành học được Trường cấp giấy xác nhận kèm theo bảng điểm toàn khóa;
+- Sinh viên dự thính được công nhận các học phần đã hoàn tất khi trở thành sinh viên chính thức của Trường theo quy định;
+- Sinh viên dự thính không được công nhận là sinh viên chính thức của Trường, vì vậy không được hưởng các chế độ và quyền lợi xã hội như sinh viên đại học chính quy;
+- Sinh viên dự thính không được chuyển sang hệ chính quy, không được tham gia bảo vệ khóa luận hoặc làm đồ án tốt nghiệp và không được xét tốt nghiệp.
+
+Điều 9. Trách nhiệm của sinh viên
+
+1. Tìm hiểu, nghiên cứu để nắm vững chương trình đào tạo của khóa - ngành đào tạo, kế hoạch học tập mỗi học kỳ và những quy định, chế độ liên quan của Trường. Khi cần thiết, sinh viên liên lạc với cố vấn học tập, khoa, các phòng ban chức năng hoặc giảng viên giảng dạy học phần để được hướng dẫn và hỗ trợ.
+
+2. Căn cứ vào chương trình đào tạo của ngành/chuyên ngành Trường công khai trong tài khoản sinh viên; xây dựng kế hoạch học tập chi tiết cho từng kỳ của khóa học, phù hợp với mục tiêu của bản thân (kết thúc khóa học sớm, đúng tiến độ hay kết thúc muộn…). Kế hoạch học tập là cơ sở để sinh viên đăng ký học phần trong mỗi học kỳ, kế hoạch học tập có thể thay đổi trong quá trình học.
+
+3. Thường xuyên theo dõi các thông báo, đọc kỹ các tài liệu hướng dẫn mỗi học kỳ để thực hiện các công việc học vụ theo đúng trình tự và đúng thời hạn; thực hiện việc đăng ký học phần trong mỗi học kỳ theo đúng quy định, quy trình.
+
+4. Đóng học phí và các khoản phí đúng thời hạn quy định.
+
+5. Thực hiện đầy đủ và nghiêm túc các quy định của học phần đã đăng ký học, tham dự các kỳ kiểm tra thường kỳ, thi kết thúc học phần.
+
+6. Tham gia các hoạt động học tập, kiểm tra và thi đúng lớp học phần đã được Trường xắp sếp.
+
+7. Bảo mật các thông tin cá nhân, tài khoản cá nhân được Trường cung cấp.
+
+8. Tham gia đầy đủ các hoạt động trải nghiệm rèn luyện kỹ năng, hoạt động xã hội… theo quy định của Trường.
+
+9. Phải tuân thủ theo đúng nội quy, quy định chung của Trường.
+
+Điều 10. Các học phần, học kỳ đặc biệt
+
+1. Các loại học phần trong chương trình đào tạo của Trường:
+
+a) Học phần bắt buộc: là học phần chứa đựng những nội dung kiến thức chính yếu của mỗi chương trình theo ngành đào tạo và bắt buộc sinh viên phải tích lũy.
+
+b) Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, nhưng sinh viên được tự chọn theo hướng dẫn của Trường nhằm đa dạng hoá hướng chuyên môn hoặc được tự chọn tuỳ ý để tích lũy đủ số học phần quy định cho mỗi chuyên ngành đào tạo.
+
+c) Học phần thay thế: là học phần được sử dụng thay thế cho một học phần có trong chương trình đào tạo khoá trước nhưng khoá sau không còn tổ chức giảng dạy nữa. Học phần thay thế còn áp dụng cho những trường hợp cùng một học phần nhưng số tín chỉ của học phần khoá sau khác với khoá trước.
+
+d) Học phần tương đương: là một hay một nhóm học phần thuộc chương trình đào tạo của một khóa, ngành khác đang tổ chức đào tạo của Trường hoặc trường khác, được phép tích lũy để thay cho một hay một nhóm học phần trong chương trình đào tạo của ngành đào tạo.
+
+đ) Học phần tiên quyết: Học phần A được gọi là tiên quyết của học phần B khi muốn đăng ký học phần B thì trước đó phải học xong học phần A.
+
+e) Học phần song hành: Học phần A được gọi là song hành với học phần B khi muốn học phần B có thể đăng ký học đồng thời với học phần A hoặc đăng ký học sau khi đã học xong học phần A.
+
+g) Học phần mở rộng, nâng cao: Đây là học phần chứa đựng nội dung kiến thức cần thiết, sinh viên được tự do chọn theo sở thích của mình nhằm mở rộng kiến thức và kỹ năng ngoài chương trình quy định của ngành được đào tạo (kết quả của học phần được ghi trong bảng điểm và không tính vào điểm tích lũy, điểm của các học phần này không tham gia xếp hạng học tập học kỳ/toàn khóa). Tuy nhiên, nếu sinh viên tham gia học chương trình thứ hai thì những học phần mở rộng, nâng cao nằm trong chương trình thứ hai sẽ được bảo lưu và tính vào điểm tích lũy.
+
+h) Trong chương trình đào tạo của Trường, các học phần Giáo dục thể chất, Giáo dục quốc phòng - an ninh chỉ yêu cầu đạt, không tính vào điểm trung bình học tập. Trường sẽ cấp chứng chỉ Giáo dục quốc phòng - an ninh cho sinh viên hoàn thành chương trình học tập theo quy định.
+
+2. Học kỳ doanh nghiệp:
+
+a) Là học kỳ mà Nhà trường hợp tác với các doanh nghiệp để đào tạo cho sinh viên một số học phần của chương trình đào tạo hoặc các đơn vị đào tạo thực hiện đào tạo theo mô hình doanh nghiệp. Học kỳ doanh nghiệp có thể là các học phần: thực hành, chuyên đề, đồ án, kiến tập, thực tập, kỹ năng quản lý, khóa luận tốt nghiệp được bố trí thành một học kỳ trong chương trình đào tạo.
+
+b) Học kỳ doanh nghiệp là toàn bộ thời gian sinh viên được học tập và làm việc thực tế tại các vị trí khác nhau ở doanh nghiệp, hạn chế tối đa việc sử dụng nguồn lực của Trường. Các khoa quản lý chương trình đào tạo chịu trách nhiệm quản lý toàn diện và là đơn vị đầu mối mở các nhóm trao đổi học thuật trực tuyến (Microsoft Teams, Zoom,…) để thuận tiện trong việc quản lý, trao đổi và học tập mọi lúc, mọi nơi giữa sinh viên, giảng viên, khoa và doanh nghiệp. Việc đánh giá kết quả học tập của các học phần doanh nghiệp phải thể hiện rõ trong đề cương chi tiết học phần. Đặc biệt, doanh nghiệp được quyền tham gia đánh giá kết quả tại doanh nghiệp, chiếm tỷ trọng 50% điểm học phần.
+
+c) Các học phần ở học kỳ doanh nghiệp là các học phần giúp sinh viên nắm bắt tình hình hoạt động thực tế tại các cơ sở sản xuất, các đơn vị, doanh nghiệp; vận dụng các kiến thức và kỹ năng được học của Trường để so sánh, đối chiếu và áp dụng vào thực tế; rèn luyện và phát triển các kỹ năng, năng lực nghề nghiệp; được bố trí linh động và khoa học, do Khoa quản lý chương trình đào tạo đề xuất đảm bảo phù hợp với thời gian và điều kiện của doanh nghiệp.
+
+d) Học kỳ doanh nghiệp có thể thực hiện tại các doanh nghiệp trong nước, doanh nghiệp ngoài nước, có thể được tiến hành trên cơ sở hợp đồng giữa cơ sở thực tập với Trường. Học phần doanh nghiệp (nếu có) phải được đưa vào chương trình đào tạo như một học phần tự chọn, tuân thủ các điều kiện tiên quyết trong chương trình đào tạo, có đề cương chi tiết học phần được khoa quản lý chương trình đề xuất và Hiệu trưởng phê duyệt.
+
+3. Học phần thực hành, thực tập tại các tổ chức, cơ quan, doanh nghiệp nhằm đảm bảo cho sinh viên có đủ thời gian để vận dụng lý thuyết vào thực tiễn, được rèn luyện và phát triển kỹ năng trong môi trường thực tế. Nhà trường quy định triển khai thực hiện các học phần thực hành, thực tập tại các tổ chức, cơ quan, doanh nghiệp như sau:
+
+a) Khoa phân công giảng viên phụ trách lớp học phần theo lớp danh nghĩa. Giảng viên quản lý lớp học phần (hay giảng viên hướng dẫn) căn cứ đề cương chi tiết học phần liên hệ đơn vị thực tập phù hợp với nội dung học phần, đảm bảo đơn vị cử sinh viên đến thực hành, thực tập có hoạt động, sản xuất kinh doanh và trình độ chuyên môn của người hướng dẫn phù hợp với nội dung học phần, phù với ngành/chuyên ngành đào tạo; trường hợp đặc biệt do Trưởng Khoa quản lý học phần đề xuất trình Hiệu trưởng quyết định.
+
+b) Sinh viên đăng ký học phần theo kế hoạch mở lớp của Nhà trường;
+
+c) Căn cứ kết quả đăng ký học phần Khoa gửi đề nghị Trường ra quyết định cử giảng viên hướng dẫn sinh viên đi thực hành, thực tập theo lớp học phần tại địa điểm giảng viên hướng dẫn đã liên hệ thông qua đơn vị quản lý đào tạo;
+
+d) Điểm đánh giá học phần thực hành, thực tập được tính theo thang điểm 10, làm tròn đến 1 chữ số thập phân. Trong đó 50% điểm đánh giá là do giảng viên hướng dẫn và giảng viên cùng chuyên môn đánh giá; 50% điểm do người hướng dẫn trong doanh nghiệp, đơn vị sản xuất đánh giá. Giảng viên hướng dẫn có trách nhiệm nhập điểm vào hệ thống quản lý đào tạo.
+
+4. Học phần đồ án/đề án môn học nhằm đảm bảo cho sinh viên có cơ hội vận dụng các kiến thức đã học ở một số học phần trong chương trình đào tạo để áp dụng vào các bài toán thực tế theo chuyên môn được đào tạo. Nhà trường quy định triển khai thực hiện các học phần đồ án/đề án môn học như sau:
+
+a) Căn cứ vào số lượng sinh viên dự kiến phải đăng ký học các học phần đồ án/đề án môn học do Khoa quản lý trong học kỳ, Khoa đề xuất số lượng lớp học phần cần mở cho mỗi học phần đồ án/đề án môn học và phân công giảng viên phụ trách lớp học phần (hay giảng viên hướng dẫn) tương ứng;
+
+b) Đơn vị quản lý đào tạo mở lớp học phần theo đề xuất của khoa quản lý học phần;
+
+c) Sinh viên đăng ký học phần theo kế hoạch mở lớp của Nhà trường;
+
+d) Căn cứ kết quả đăng ký học phần Khoa gửi đề nghị Trường ra quyết định cử giảng viên hướng dẫn đồ án/đề án môn học theo lớp học phần thông qua đơn vị quản lý đào tạo;
+
+đ) Kết thúc thời gian giảng dạy lớp học phần, khoa/bộ môn phân công giảng viên thực hiện công tác tổ chức kiểm tra đánh giá học phần theo quy định của Trường.
+
+Điều 11. Liên kết đào tạo
+
+1. Liên kết đào tạo chỉ thực hiện đối với hình thức vừa làm vừa học theo quy định tại khoản 22 Điều 1 Luật sửa đổi, bổ sung một số điều của Luật Giáo dục đại học và theo quy định tại khoản 2, khoản 3 Điều này.
+
+2. Các yêu cầu tối thiểu đối với Trường chủ trì đào tạo:
+
+a) Đã được công nhận đạt tiêu chuẩn chất lượng cơ sở giáo dục đại học bởi tổ chức kiểm định chất lượng giáo dục hợp pháp và còn hiệu lực theo quy định;
+
+b) Chương trình đào tạo dự kiến liên kết đào tạo đã được tổ chức thực hiện tối thiểu 03 khóa liên tục theo hình thức chính quy; từ khóa tuyển sinh năm 2024 yêu cầu chương trình đào tạo đã được công nhận đạt chuẩn chất lượng theo quy định hiện hành;
+
+c) Bảo đảm đội ngũ giảng viên cơ hữu giảng dạy tối thiểu 70% nội dung, khối lượng chương trình đào tạo;
+
+d) Đã ban hành quy định về liên kết và đã được thẩm định các điều kiện bảo đảm chất lượng của cơ sở phối hợp đào tạo.
+
+3. Các yêu cầu tối thiểu của cơ sở phối hợp đào tạo:
+
+a) Đáp ứng các yêu cầu về môi trường sư phạm, cơ sở vật chất, thiết bị, thư viện và cán bộ quản lý theo yêu cầu của chương trình đào tạo;
+
+b) Đã có báo cáo tự đánh giá chất lượng cơ sở giáo dục gửi về Bộ Giáo dục và Đào tạo theo quy định; từ khóa tuyển sinh năm 2024 yêu cầu đã được công nhận đạt tiêu chuẩn chất lượng cơ sở giáo dục theo quy định hiện hành, trừ các cơ sở đào tạo, bồi dưỡng thuộc Bộ Quốc phòng, Bộ Công an.
+
+4. Trách nhiệm của các bên tham gia liên kết đào tạo:
+
+a) Trường và cơ sở phối hợp đào tạo chịu trách nhiệm ký kết hợp đồng liên kết đào tạo, thỏa thuận cụ thể về quyền và trách nhiệm của các bên trong việc phối hợp tổ chức thực hiện, quản lý quá trình dạy học bảo đảm chất lượng đào tạo và thực hiện nội dung đã thỏa thuận phù hợp với các quy định của Quy chế này và các quy định pháp luật khác có liên quan;
+
+b) Trường chịu trách nhiệm quản lý chất lượng đào tạo; báo cáo hoạt động liên kết đào tạo với Ủy ban nhân dân cấp tỉnh nơi liên kết đào tạo trước khi tổ chức tuyển sinh; nếu cơ sở phối hợp đào tạo không đáp ứng được các yêu cầu về bảo đảm chất lượng theo quy định của học phần hoặc của chương trình đào tạo thì phải chuyển sinh viên về Trường để tiếp tục đào tạo theo quy định và bảo đảm quyền lợi cho sinh viên;
+
+c) Cơ sở phối hợp đào tạo có trách nhiệm cùng Trường bảo đảm đủ điều kiện cơ sở vật chất thực hiện đào tạo; tham gia quản lý, giảng dạy, theo thỏa thuận giữa hai bên;
+
+d) Trường, cơ sở phối hợp đào chịu trách nhiệm trước pháp luật về việc thực hiện hợp đồng liên kết đào tạo; thực hiện các quy chế về tuyển sinh, đào tạo; bảo đảm quyền lợi chính đáng cho giảng viên, sinh viên trong suốt quá trình thực hiện hoạt động đào tạo.
+
+5. Quy định về điều kiện, quy trình thực hiện liên kết đào tạo của Trường:
+
+a) Trường chỉ chủ trì liên kết đào tạo theo hình thức vừa làm vừa học với cơ sở giáo dục đáp ứng yêu cầu tối thiểu ở khoản 3 Điều này;
+
+b) Chỉ tiêu tuyển sinh dành cho các chương trình liên kết đào tạo nằm trong tổng chỉ tiêu tuyển sinh vừa làm vừa học hàng năm của Trường;
+
+c) Trung tâm Đào tạo thường xuyên trình Hiệu trưởng hồ sơ đăng ký thực hiện liên kết đào tạo gồm có: Đề xuất thực hiện liên kết đào tạo; hồ sơ minh chứng việc đáp ứng yêu cầu tối thiểu ở khoản 2, khoản 3 Điều này; danh sách giảng viên cơ hữu tham gia giảng dạy (nếu có); danh mục cơ sở vật chất tại cơ sở phối hợp đào tạo, để xem xét thẩm định các điều kiện đảm bảo chất lượng đào tạo;
+
+d) Hiệu trưởng quyết định cho phép thực hiện liên kết đào tạo khi đủ các điều kiện quy định tại các điểm a, b, c khoản 5 Điều này.
+
+Chương II
+LẬP KẾ HOẠCH VÀ TỔ CHỨC GIẢNG DẠY
+
+Điều 12. Kế hoạch giảng dạy và học tập
+
+1. Kế hoạch giảng dạy và học tập là việc chi tiết hóa việc tổ chức thực hiện các chương trình đào tạo theo năm học, học kỳ, phù hợp với hình thức đào tạo và phương thức tổ chức đào tạo của Trường.
+
+2. Kế hoạch học kỳ bao gồm kế hoạch mở lớp học phần, hình thức dạy và học (trực tiếp hoặc trực tuyến), lịch học, lịch thi của các học phần được tổ chức trong học kỳ cho các khoá học, chương trình đào tạo và hình thức đào tạo. Kế hoạch học kỳ phải được xây dựng và công bố kịp thời với đầy đủ thông tin cần thiết, bảo đảm thuận tiện cho sinh viên xây dựng kế hoạch học tập và đăng ký học tập.
+
+3. Thời khoá biểu thể hiện thời gian, địa điểm, tên giảng viên, danh sách sinh viên của từng lớp học phần thuộc các khoá học, hình thức và chương trình đào tạo. Thời khóa biểu của các lớp học phần bình thường được bố trí đều trong các tuần của học kỳ, theo thời gian tổ chức hoạt động giảng dạy quy định tại điểm b, khoản 1, Điều 7 của Quy chế này. Trong trường hợp cần thiết phải xếp lịch học tập trung thời gian, số giờ giảng đối với một học phần bất kỳ không vượt quá 15 giờ/tuần và 4 giờ/ngày và phải được Hiệu trưởng phê duyệt.
+
+4. Quy định về xây dựng tiến độ đào tạo, kế hoạch đào tạo chi tiết cho từng học kỳ:
+
+a) Tiến độ đào tạo của năm học thể hiện những mốc thời gian chính của các hoạt động đào tạo trong năm học cho tất cả hình thức, chương trình đào tạo, được công bố kịp thời tới các bên liên quan trước khi bắt đầu năm học. Một năm học có hai học kỳ chính, mỗi học kỳ chính có ít nhất 15 tuần thực học và 3 tuần thi. Ngoài hai học kỳ chính, Trường có thể tổ chức thêm học kỳ phụ (kỳ hè) để sinh viên có điều kiện được học lại, học cải thiện hoặc học vượt. Mỗi học kỳ phụ có ít nhất 5 tuần thực học và 1 tuần thi; đảm bảo nguyên tắc sinh viên học lại, học cải thiện cùng khóa sau, học vượt học cùng khóa trước. Phòng Quản lý Đào tạo chủ trì việc xây dựng tiến độ đào tạo cho hệ chính quy, Trung tâm đào tạo thường xuyên chủ trì việc xây dựng tiến độ đào tạo cho hệ vừa làm vừa học;
+
+b) Kế hoạch đào tạo chi tiết cho từng học kỳ: có tính chất bắt buộc thực hiện trong toàn trường mà các đơn vị, cá nhân có liên quan phải tuân theo để triển khai kế hoạch giảng dạy và học tập của năm học kế tiếp. Đơn vị quản lý đào tạo tổng hợp các dữ liệu liên quan đến công tác giảng dạy và học tập theo lĩnh vực quản lý (kế hoạch mở lớp học phần, phân công giảng viên, ….), trình Hiệu trưởng phê duyệt phân công giảng dạy chậm nhất 01 tháng trước khi sinh viên đăng ký học phần;
+
+c) Đơn vị quản lý đào tạo chịu trách nhiệm theo dõi việc thực hiện và điều chỉnh thời khóa biểu đối với các trường hợp cụ thể theo Quyết định của Hiệu trưởng (giảng viên nghỉ điều trị theo bệnh án, tiếp nhận giảng viên, điều chuyển công tác, ...). Trưởng đơn vị quản lý giảng viên chỉ đề xuất với đơn vị quản lý đào tạo để xem xét điều chỉnh thời khóa biểu trong các trường hợp nêu trên. Hạn chế tối đa việc điều chỉnh thời khóa biểu sau khi sinh viên đã đăng ký học phần;
+
+d) Giám sát việc thực hiện thời khóa biểu là trách nhiệm của Bộ phận trực giảng, thực hiện chức năng, nhiệm vụ theo quy định của Trường;
+
+đ) Trong trường hợp cần thiết phải điều chỉnh, sửa đổi tiến độ đào tạo, kế hoạch giảng dạy và học tập theo sự thay đổi quy định của Nhà nước hoặc do thiên tai, dịch bệnh, các bộ phận chủ trì căn cứ đề xuất từ các đơn vị trình Hiệu trưởng quyết định. Cần lưu ý mọi thay đổi không làm thay đổi mục tiêu và nội dung chính của chương trình đào tạo.
+
+Điều 13. Tổ chức đăng ký khối lượng học tập
+
+1. Đầu mỗi khóa học Trường thông báo chương trình đào tạo chuẩn gồm: danh sách các học phần bắt buộc và tự chọn dự kiến sẽ giảng dạy, nội dung học phần, hình thức thi, phương pháp dạy – học, phương pháp kiểm tra đánh giá học phần, giáo trình, tài liệu tham khảo, điều kiện tiên quyết để được đăng ký học cho từng học phần, điều kiện thí nghiệm, thực hành, thực tập phục vụ học phần và các nội dung khác theo quy định của Trường.
+
+2. Kỳ đầu tiên của khóa học, Trường sẽ căn cứ chương trình đào tạo chuẩn, kế hoạch học tập chuẩn để đăng ký học phần tự động cho sinh viên; ở các học kỳ tiếp theo, sinh viên căn cứ quy định tại khoản 2 Điều 9 lập kế hoạch học tập chi tiết dự kiến của cá nhân theo chuyên ngành trong chương trình đào tạo đã trúng tuyển; kết quả học tập của các học phần đã học; lịch đăng ký học phần được công bố trên cổng thông tin điện tử (https://www.epu.edu.vn) và cổng thông tin sinh viên (https://www.sinhvien.epu.edu.vn) của Trường để đăng ký các học phần sẽ học trong học kỳ tiếp theo. Sinh viên chỉ được đăng ký học phần hoặc hỗ trợ đăng ký học phần trong trường hợp không nợ học phí tính đến ngày mở đăng ký học phần. Học phần đăng ký thành công là học phần đã được thanh toán học phí, trong tài khoản sinh viên có lịch học và tên sinh viên trong lớp học phần.
+
+3. Khối lượng học tập tối thiểu sinh viên cần đăng ký trong học kỳ chính không ít hơn 2/3 số lượng tín chỉ trong học kỳ tương ứng theo kế hoạch học tập chuẩn; Trường quy định khối lượng học tập trong mỗi học kỳ là số lượng tín chỉ của học kỳ trong chương trình đào tạo theo kế hoạch học tập chuẩn toàn khóa được phê duyệt trong chương trình đào tạo.
+
+4. Khối lượng học tập tối đa sinh viên được đăng ký trong học kỳ chính không vượt quá 3/2 số lượng tín chỉ trong học kỳ tương ứng theo kế hoạch học tập chuẩn; Trường quy định sinh viên không thuộc diện bị cảnh báo học tập, số học phần tối đa những sinh viên này được đăng ký bằng số học phần trong chương trình đào tạo chuẩn cộng 4; số tín chỉ tối đa bằng số tín chỉ trong chương trình đào tạo chuẩn cộng 8. Đối với những sinh viên thuộc diện bị cảnh báo kết quả học tập, số học phần tối đa, số tín chỉ tối đa được đăng ký không lớn hơn số học phần tối thiểu, số tín chỉ tối thiểu quy định trong học kỳ tương ứng. Khối lượng học tập tối đa trong học kỳ mà sinh chưa tốt nghiệp được đăng ký học lại, học cải thiện không vượt quá 3/2 số lượng tín chỉ của học kỳ có số tín chỉ nhiều nhất theo kế hoạch học tập chuẩn. Việc đăng ký các học phần trong từng học kỳ phải bảo đảm điều kiện tiên quyết được quy định trong chương trình đào tạo.
+
+(Ghi chú: Quy định về số tín chỉ đăng ký tối đa "cộng 8" so với chương trình chuẩn nêu trên chính là cơ sở cho phép sinh viên "học vượt" tiến độ.)
+
+5. Sinh viên có điểm học phần là điểm F, phải đăng ký học lại học phần đó ở các học kỳ tiếp theo cho đến khi điểm học phần đạt điểm D trở lên. Trong trường hợp sinh viên bị điểm F của học phần có trong chương trình đào tạo khoá trước nhưng khoá sau không còn tổ chức giảng dạy nữa thì sinh viên được sử dụng học phần thay thế để đăng ký học.
+
+6. Ngoài các trường hợp tại khoản 5 Điều này, sinh viên được quyền đăng ký học cải thiện để nâng cao điểm trung bình tích lũy; nhưng vẫn phải tuân thủ quy định về số học phần, số tín chỉ tối đa được đăng ký học trong học kỳ. Kết quả cao nhất trong các lần học sẽ được chọn để tính vào điểm trung bình tích lũy.
+
+7. Việc rút bớt học phần trong khối lượng học tập đã đăng ký được thực hiện sau 02 tuần kể từ đầu học kỳ chính, sau 01 tuần kể từ đầu học kỳ phụ (nếu có). Ngoài thời hạn quy định, học phần vẫn được giữ nguyên trạng thái trong nhật ký đăng ký học phần; nếu sinh viên không đi học học phần này sẽ được xem như tự ý bỏ học và phải nhận điểm F và bị tính 100% học phí của học phần bỏ học. Trong trường hợp đặc biệt, sinh viên bị ốm, tai nạn không thể theo học nộp đơn, kèm minh chứng (giấy ra viện, bệnh án..) tại đơn vị quản lý đào tạo để được xem xét hủy đăng ký học phần và hoàn học phí theo quy định tại khoản 2, Điều 15 của Quy chế này.
+
+8. Khối lượng đăng ký học tập toàn khóa học của sinh viên theo từng học kỳ phải được lưu giữ trên hệ thống cơ sở dữ liệu đào tạo của Trường.
+
+Điều 14. Tổ chức giảng dạy và học tập
+
+1. Yêu cầu về tổ chức giảng dạy và học tập:
+
+a) Phát huy năng lực chuyên môn và trách nhiệm nghề nghiệp của đội ngũ giảng viên, phù hợp với quy định về chế độ làm việc của giảng viên: Căn cứ vào năng lực chuyên môn và trách nhiệm nghề nghiệp của đội ngũ giảng viên, Hiệu trưởng quyết định biên chế khoa chuyên môn thành các bộ môn làm căn cứ phân công nhiệm vụ giảng dạy cho phù hợp với quy định về nhiệm vụ của giảng viên và chế độ làm việc của giảng viên theo quy định hiện hành.
+
+b) Với phương thức đào tạo theo học chế tín chỉ, Trường không chấp nhận các trường hợp cá nhân hoặc đơn vị tự ý đổi thời khóa biểu sau khi đã có danh sách lớp học phần. Để không ảnh hưởng đến lịch học cá nhân của sinh viên, trong trường hợp bất khả kháng khoa, trung tâm có thể bố trí giảng viên cùng chuyên môn dạy thay buổi học đó hoặc giảng viên phải báo hủy lịch dạy, xin dạy bù vào thời gian thích hợp. Trường chỉ chấp nhận Phiếu báo bận của giảng viên kèm theo bản copy Quyết định của Hiệu trưởng cử giảng viên đi công tác, học tập… trong thời gian xin hủy lịch dạy. Ngoài ra, mọi thay đổi về thời khóa biểu thực hiện theo điểm c khoản 4 Điều 12 của Quy chế này.
+
+c) Trường có Ban thanh tra đào tạo để thanh tra, giám sát nội bộ việc thực hiện quy chế đào tạo của giảng viên và sinh viên; có hệ thống cải tiến chất lượng dựa trên thu thập, đánh giá ý kiến phản hồi của sinh viên về các điều kiện bảo đảm chất lượng, hiệu quả học tập đối với tất cả các lớp học phần, kết quả khảo sát được xử lý theo quy định của Trường.
+
+2. Trường quy định:
+
+a) Căn cứ vào chương trình đào tạo, tiến độ đào tạo trong năm học, kế hoạch mở lớp học phần, quyết định phân công chuyên môn và trên cơ sở năng lực chuyên môn, khả năng đảm nhận nhiệm vụ của từng giảng viên, Trưởng đơn vị trực tiếp phụ trách các học phần có trách nhiệm phân công giảng viên giảng dạy cho các lớp học phần và thực hiện các hoạt động hỗ trợ giảng dạy (ra đề thi, coi thi, chấm thi …). Việc phân công giờ giảng cho các giảng viên trong đơn vị phải theo nguyên tắc khoa học, hợp lý, công bằng, hài hòa giữa các giảng viên; đảm bảo tỷ lệ giờ vượt định mức của cá nhân phải tương đương với tỷ lệ giờ vượt định mức trung bình chung của khoa/bộ môn hoặc chênh lệch thời gian giảng dạy của mỗi giảng viên không vượt quá 50% thời gian giảng dạy trung bình của giảng viên trong bộ môn. Ngoài ra các khoa/bộ môn cũng phải dành một khối lượng giờ dạy để phân công cho các giảng viên kiêm nhiệm có chuyên môn phù hợp đang làm việc tại các đơn vị khác trong Trường đảm bảo cho các giảng viên thực hiện định mức giờ làm việc theo quy định hiện hành;
+
+b) Việc lấy ý kiến phản hồi của sinh viên về các điều kiện bảo đảm chất lượng, hiệu quả học tập đối với tất cả các lớp học phần của Trường, Hiệu trưởng giao phòng Khảo thí và Đảm bảo chất lượng chủ trì lập kế hoạch và triển khai thực hiện; việc công khai ý kiến phản hồi của sinh viên, bao gồm nội dung, mức độ, hình thức công khai theo quy định hiện hành;
+
+3. Trách nhiệm và quyền hạn của giảng viên được phân công giảng dạy hoặc hướng dẫn cho sinh viên các nội dung thí nghiệm, thực hành, các học phần đồ án, thực tập …
+
+a) Thực hiện nhiệm vụ của công chức, viên chức theo quy định của Luật Giáo dục, Luật cán bộ, công chức và pháp luật có liên quan; giữ gìn phẩm chất, uy tín, danh dự của nhà giáo; tôn trọng nhân cách của sinh viên, đối xử công bằng với sinh viên, bảo vệ các quyền, lợi ích chính đáng của sinh viên; tham gia quản lý đơn vị, tham gia công tác Đảng, đoàn thể khi được tín nhiệm và các công tác khác được Trường, Khoa, Bộ môn giao; thực hiện nghiêm túc, đầy đủ các quy chế, quy định của Trường;
+
+b) Giảng dạy, kiểm tra, đánh giá học phần một cách khách quan, chính xác theo đúng đề cương chi tiết học phần và kế hoạch giảng dạy đã được ban hành;
+
+c) Vận dụng linh hoạt và thường xuyên cải tiến phương pháp giảng dạy, kiểm tra đánh giá để đảm bảo truyền thụ cho sinh viên phương pháp luận, phát triển năng lực nhận thức, năng lực sáng tạo, kỹ năng nghề nghiệp và kỹ năng mềm; rèn luyện cho sinh viên phương pháp tự học, tự nghiên cứu, tư duy sáng tạo và đạo đức nghề nghiệp;
+
+d) Tham gia quản lý giờ học của sinh viên trên lớp, phòng thí nghiệm, nhà xưởng hoặc trên thực địa và hướng dẫn sinh viên thực tập học phần ngoài trường, tự học, tự nghiên cứu, bao gồm: xác định và giao các vấn đề, nội dung, yêu cầu để sinh viên hoặc nhóm sinh viên chuẩn bị cho nghe giảng và thảo luận trên lớp, thực hành, thí nghiệm; xác định và giao các nhiệm vụ tự học, tự nghiên cứu cho sinh viên hoặc nhóm sinh viên;
+
+đ) Được hưởng các quyền lợi chung và ưu đãi theo quy định hiện hành, các chế độ bồi dưỡng, thù lao theo Quy định về chế độ làm việc của giảng viên và Quy chế chi tiêu nội bộ của Trường;
+
+4. Trách nhiệm của các đơn vị chuyên môn và các đơn vị quản lý, hỗ trợ liên quan đến sinh viên:
+
+a) Đơn vị quản lý đào tạo: lập tiến độ đào tạo trong năm học, lên kế hoạch mở lớp học phần cho từng học kỳ, tiếp nhận phân công giảng dạy cho giảng viên từ các khoa, trung tâm; xếp thời khoá biểu từng học kỳ; tổ chức cho sinh viên đăng ký học phần; chủ trì xét cảnh báo học tập; quản lý các bảng điểm gốc, kết quả học tập của sinh viên, bảng tổng hợp kết quả học tập của sinh viên theo Quyết định công nhận và cấp bằng tốt nghiệp; tổ chức in ấn, cấp phát văn bằng, chứng chỉ.
+
+b) Phòng Khảo thí và Đảm bảo chất lượng: tổ chức xây dựng và quản lý ngân hàng đề thi kết thúc học phần; xây dựng kế hoạch và tổ chức thi kết thúc học phần; khảo sát, lấy ý kiến đánh giá của sinh viên về học phần và giảng viên giảng dạy;
+
+c) Phòng Công tác sinh viên: thực hiện giải quyết các chế độ chính sách cho sinh viên; đề xuất và thực hiện các chính sách chế độ ưu đãi, kiến nghị về khen thưởng, kỷ luật đối với sinh viên theo quy chế hiện hành. Phối hợp với khoa và các đơn vị liên quan trong việc quản lý sinh viên theo quy định;
+
+d) Phòng Kế hoạch tài chính: khai báo các khoản thu của sinh viên theo quy định vào phần mềm quản trị nhà trường; kiểm soát nguồn thu học phí, có trách nhiệm hỗ trợ sinh viên giải quyết những vấn đề liên quan đến học phí theo quy định;
+
+đ) Các đơn vị khác trong Trường: hỗ trợ sinh viên theo chức năng, nhiệm vụ.
+
+5. Trách nhiệm và quyền hạn của sinh viên khi tham dự các lớp học, tham gia thí nghiệm, thực hành hoặc khi được giao thực tập, đồ án, khoá luận và các hoạt động học tập khác:
+
+a) Nghiên cứu kỹ chương trình đào tạo để đăng ký học phần chính xác; đáp ứng các điều kiện để được đăng ký học phần thành công;
+
+b) Tham dự đầy đủ các giờ lên lớp, thực hiện đầy đủ các nhiệm vụ của sinh viên khi giảng viên yêu cầu;
+
+c) Tham dự đầy đủ các bài kiểm tra thường xuyên, bài thi kết thúc học phần và hoàn thành báo cáo thực tập, thực hành, thí nghiệm theo quy định;
+
+d) Thực hiện các quyền lợi và nghĩa vụ khác của sinh viên theo Quy chế Công tác sinh viên hiện hành.
+
+Điều 15. Nghỉ học tạm thời và tiếp nhận trở lại học
+
+1. Sinh viên được xin nghỉ học tạm thời và bảo lưu kết quả đã học trong các trường hợp sau:
+
+a) Được điều động vào lực lượng vũ trang;
+
+b) Được cơ quan có thẩm quyền điều động, đại diện quốc gia tham dự các kỳ thi, giải đấu quốc tế;
+
+c) Bị ốm, thai sản hoặc tai nạn phải điều trị thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế;
+
+d) Vì lý do cá nhân khác nhưng đã phải học tối thiểu 01 học kỳ của Trường và không thuộc các trường hợp bị xem xét buộc thôi học hoặc xem xét kỷ luật.
+
+2. Thời gian nghỉ học tạm thời theo điểm a,b,c khoản 1 Điều này không được tính vào thời gian học chính thức quy định tại khoản 5, Điều 3 của Quy chế này và được hoàn trả lại 100% học phí của học kỳ làm thủ tục nghỉ học tạm thời (nếu đã đóng học phí); Thời gian xin nghỉ học tạm thời vì nhu cầu cá nhân tối đa 02 học kỳ, được tính vào thời gian học chính thức quy định tại khoản 5, Điều 3 của Quy chế này và phải đóng một phần học phí những học phần đã đăng ký trong học kỳ làm thủ tục xin nghỉ học tạm thời. Tỷ lệ hoàn trả học phí được quy định như sau:
+
+Thời gian nộp đơn | Tỷ lệ hoàn trả học phí
+02 tuần đầu của học kỳ | 100%
+Từ tuần thứ 3 đến hết tuần thứ 4 của học kỳ | 80%
+Từ tuần thứ 5 đến hết tuần thứ 6 của học kỳ | 50%
+Từ tuần thứ 7 của học kỳ | 0%
+
+3. Thủ tục xin nghỉ học tạm thời, xin thôi học, tiếp nhận trở lại học
+
+a) Sinh viên xin nghỉ học tạm thời: sinh viên làm đơn đề nghị được nghỉ học tạm thời, đối với trường hợp nghỉ học tạm thời theo điểm a, b, c khoản 1 Điều này kèm theo minh chứng (Lệnh điều động, quyết định, bệnh án ...) có liên quan nộp tại Phòng Công tác sinh viên; Phòng Công tác sinh viên chủ trì việc hướng dẫn thủ tục tiếp nhận hồ sơ xin nghỉ học tạm thời của sinh viên, trình Hiệu trưởng ký Quyết định nghỉ học tạm thời, lưu ý trong Quyết định có đầy đủ thông tin để tính học phí và xác định thời gian sinh viên phải trở lại học tập. Trường không chịu trách nhiệm quản lý sinh viên trong thời gian sinh viên thực hiện Quyết định nghỉ học tạm thời và sinh viên không được tham gia bất cứ hoạt động nào của Trường trong thời gian đó.
+
+b) Sinh viên xin thôi học vì nguyện vọng cá nhân thực hiện theo Quy trình Thôi học của phòng Công tác sinh viên. Thời gian ghi tại quyết định chấp thuận cho sinh viên thôi học là căn cứ để tính học phí và chế độ chính sách khác cho sinh viên. Sinh viên có nguyện được học tập tại Trường phải đăng ký dự tuyển đầu vào theo quy định. Việc công nhận kết quả các học phần đã đạt thực hiện theo quy định tại điểm d khoản 8 Điều 20 của Quy chế này.
+
+c) Tiếp nhận trở lại học: sinh viên thuộc diện xin nghỉ học tạm thời phải hoàn tất các thủ tục xin tiếp nhận trở lại học lại theo đúng thời hạn ghi trong quyết định nghỉ học tạm thời ít nhất 01 tháng trước khi bắt đầu học kỳ mới. Hồ sơ xin tiếp nhận trở lại học gồm: đơn xin quay trở lại học tập, quyết định nghỉ học tạm thời, Phòng Công tác sinh viên chủ trì việc hướng dẫn quy trình, tiếp nhận hồ sơ xin trở lại học tiếp của sinh viên, trình Hiệu trưởng quyết định cho sinh viên được trở lại học tập. Quá thời gian quy định sinh viên không làm hồ sơ xin tiếp nhận trở lại học coi như sinh viên đã tự ý bỏ học và Trường sẽ rà soát buộc thôi học sinh viên theo quy định. Trường hợp đặc biệt, Hiệu trưởng quyết định việc cho sinh viên được trở lại học tiếp.
+
+Điều 16. Chuyển ngành, chuyển chuyên ngành, chuyển hình thức đào tạo trong Trường
+
+Trường xem xét việc chuyển ngành, chuyển chuyên ngành, chuyển hình thức học của sinh viên mỗi năm học một lần, thời điểm tiếp nhận hồ sơ và xử lý đơn trong thời gian 20 ngày làm việc, trước khi năm học mới bắt đầu.
+
+1. Chuyển ngành: sinh viên được xem xét chuyển sang học một chương trình, một ngành đào tạo khác của Trường khi có đủ các điều kiện sau:
+
+a) Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại khoản 4, Điều 3 của Quy chế này;
+
+b) Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh;
+
+c) Sinh viên xin chuyển ngành phải làm đơn theo quy định của Trường. Hồ sơ gồm: đơn xin chuyển ngành gửi Hiệu trưởng, Trưởng đơn vị quản lý đào tạo, bảng kết quả học tập; xác nhận học phí tại thời điểm xin chuyển ngành. Đơn vị quản lý đào tạo: kiểm tra các điều kiện chuyển ngành của sinh viên, tập hợp hồ sơ xin chuyển ngành của sinh viên; chuyển trưởng khoa quản lý ngành đào tạo để xem xét việc tiếp nhận sinh viên chuyển ngành; trình Hiệu trưởng ký quyết định cho phép sinh viên chuyển ngành.
+
+2. Chuyển chuyên ngành: sinh viên được chuyển chuyên ngành đào tạo trong ngành đào tạo một lần trong cả khóa học, thời điểm chuyển chuyên ngành (nếu có) được thực hiện sau khi kết thúc năm học thứ nhất. Thủ tục thực hiện như sau: sinh viên làm đơn đề nghị chuyển chuyên ngành đào tạo nộp về đơn vị quản lý đào tạo; đơn vị quản lý đào tạo trình Hiệu trưởng hoặc Phó hiệu trưởng được Hiệu trưởng ủy quyền phê duyệt ra quyết định chuyển chuyên ngành cho sinh viên trước khi năm học mới bắt đầu.
+
+3. Chuyển hình thức học: Sinh viên được xem xét chuyển từ hình thức chính quy sang hình thức vừa làm vừa học nếu còn đủ thời gian học tập theo quy định của hình thức vừa làm vừa học và không thuộc diện bị kỷ luật hoặc xem xét kỷ luật.
+
+Điều 17. Trao đổi sinh viên và hợp tác trong đào tạo
+
+1. Trường xây dựng và ban hành quy định về việc công nhận lẫn nhau về quy trình đào tạo, nội dung đào tạo và giá trị của tín chỉ làm căn cứ cho phép sinh viên của Trường được học một số học phần tại cơ sở đào tạo khác (cơ sở đào tạo trao đổi) và ngược lại (sau đây gọi là trao đổi sinh viên). Điều kiện trao đổi sinh viên, hợp tác đào tạo, việc công nhận kết quả học tập và chuyển đổi tín chỉ cho sinh viên khi thực hiện chương trình đào tạo được quy định rõ trong các quy định cụ thể hoặc biên bản làm việc, hợp đồng hợp tác đào tạo giữa Trường và trường đối tác phù hợp với các quy định hiện hành. Việc công nhận kết quả học tập và chuyển đổi tín chỉ cho sinh viên trao đổi phải được công khai trên trang thông tin điện tử của Trường.
+
+2. Trên cơ sở đánh giá và công nhận lẫn nhau, sinh viên của Trường có thể đăng ký thực hiện học một số học phần tại cơ sở đào tạo trao đổi và ngược lại, nếu được hai Hiệu trưởng đồng ý với số lượng tín chỉ mà sinh viên tích lũy tại cơ sở đào tạo trao đổi (nếu có) không vượt quá 25% tổng khối lượng của chương trình đào tạo.
+
+Điều 18. Học cùng lúc hai chương trình
+
+1. Sinh viên có thể đăng ký học thêm các học phần của một chương trình đào tạo của ngành khác khi điều kiện của Trường cho phép, nhưng chỉ được hưởng các quyền lợi chính thức và được xem xét công nhận tốt nghiệp chương trình thứ hai khi đã đăng ký thành công học chương trình thứ hai theo quy định của khoản 2 Điều này.
+
+2. Sinh viên được đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất. Tại thời điểm đăng ký, sinh viên phải đáp ứng 01 trong 02 điều kiện a hoặc b và các điều kiện còn lại:
+
+a) Học lực tính theo điểm trung bình tích lũy xếp loại khá trở lên và đáp ứng ngưỡng bảo đảm chất lượng của chương trình thứ hai trong năm tuyển sinh;
+
+b) Học lực tính theo điểm trung bình tích lũy xếp loại trung bình và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh;
+
+c) Có điểm rèn luyện xếp loại khá trở lên;
+
+d) Được khoa quản lý chương trình thứ hai chấp nhận;
+
+đ) Sinh viên có nguyện vọng học chương trình thứ hai làm đơn nộp tại đơn vị quản lý đào tạo để tập hợp trình Hiệu trưởng xem xét quyết định khi đáp ứng các yêu cầu bảo đảm chất lượng về chỉ tiêu tuyển sinh, về năng lực đào tạo.
+
+3. Trong quá trình sinh viên học cùng lúc hai chương trình, nếu điểm trung bình tích lũy của chương trình thứ nhất đạt dưới điểm trung bình hoặc thuộc diện cảnh báo kết quả học tập thì phải dừng học chương trình thứ hai ở học kỳ tiếp theo; sinh viên sẽ bị loại khỏi danh sách đã đăng ký học chương trình thứ hai.
+
+4. Thời gian tối đa được phép học đối với sinh viên học cùng lúc hai chương trình là thời gian tối đa quy định cho chương trình thứ nhất, quy định tại khoản 4 Điều 3 của Quy chế này. Khi học chương trình thứ hai, sinh viên được công nhận kết quả của những học phần có nội dung và khối lượng kiến thức tương đương có trong chương trình thứ nhất.
+
+5. Sinh viên chỉ được xét tốt nghiệp chương trình thứ hai nếu được công nhận tốt nghiệp và cấp bằng ở chương trình thứ nhất.
+
+Điều 19. Chuyển trường
+
+1. Đối tượng chuyển trường:
+
+Sinh viên đại học chính quy, vừa làm vừa học; sinh viên đại học liên thông chính quy và vừa làm vừa học.
+
+2. Điều kiện được chuyển trường:
+
+a) Xin chuyển đến trường có cùng ngành hoặc thuộc cùng nhóm ngành với ngành đào tạo và có cùng hình thức đào tạo mà sinh viên đang học; chưa vượt quá năng lực đào tạo (còn chỉ tiêu) đối với chương trình, ngành đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo;
+
+b) Được sự đồng ý của Hiệu trưởng trường xin chuyển đi và trường xin chuyển đến;
+
+c) Không thuộc một trong các trường hợp không được phép chuyển trường quy định tại khoản 3 Điều này.
+
+3. Sinh viên không được phép chuyển trường trong các trường hợp sau:
+
+a) Sinh viên không đáp ứng điều kiện trúng tuyển của ngành học hoặc chương trình đào tạo tương ứng của trường xin chuyển đến;
+
+b) Sinh viên đang trong thời gian bị kỷ luật từ cảnh cáo trở lên;
+
+c) Không còn đủ thời gian học tập theo quy định tại khoản 5 Điều 3 của Quy chế này;
+
+d) Đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa.
+
+4. Thủ tục chuyển trường:
+
+a) Sinh viên có đơn đề nghị chuyển trường nộp tại đơn vị quản lý đào tạo, thời gian nhận đơn chậm nhất vào tuần thứ hai của mỗi học kỳ. Không nhận hồ sơ xin chuyển trường ngoài thời gian quy định và không trả lại hồ sơ nếu không được giải quyết.
+
+b) Sinh viên xin chuyển đến Trường phải làm hồ sơ xin chuyển trường theo quy định. Hồ sơ gồm: đơn xin chuyển trường gửi Hiệu trưởng trường chuyển đi và trường chuyển đến; bảng điểm trung bình tích lũy tại thời điểm xin chuyển trường. Đơn vị quản lý đào tạo tập hợp hồ sơ xin chuyển trường trình Hiệu trưởng xem xét ra quyết định tiếp nhận sinh viên; thực hiện việc công nhận kết quả học tập và chuyển đổi tín chỉ theo Điều 25 của Quy chế này; hướng dẫn sinh viên đăng ký học phần, đóng học phí, theo dõi thời khóa biểu cá nhân để thực hiện.
+
+Chương III
+ĐÁNH GIÁ KẾT QUẢ HỌC TẬP
+
+Điều 20. Đánh giá kết quả học tập học phần
+
+1. Đối với các học phần lý thuyết hoặc học phần hỗn hợp, điểm đánh giá một học phần (gọi là điểm học phần, ký hiệu là a) bao gồm điểm đánh giá bộ phận và điểm thi kết thúc học phần.
+
+a) Điểm đánh giá bộ phận là trung bình cộng có trọng số (được quy định trong đề cương chi tiết học phần) của các điểm trong quá trình học tập của sinh viên, bao gồm các bài kiểm tra định kỳ; điểm làm tiểu luận; điểm bài tập dài; điểm các bài thực hành, bài thí nghiệm.. chấm theo thang điểm 10, làm tròn đến phần nguyên. Điểm đánh giá bộ phận (ký hiệu là a1), được làm tròn đến 1 chữ số thập phân; giảng viên phụ trách lớp học phần trực tiếp ra đề kiểm tra và cho điểm đánh giá bộ phận. Điểm thi kết thúc học phần là điểm thi bài thi kết thúc học phần, điểm chấm tiểu luận hoặc báo cáo chuyên đề (ký hiệu là a2), chấm theo thang điểm 10 lẻ đến 0,5. Kỳ thi kết thúc học phần do phòng Khảo thí và Đảm bảo chất lượng là đầu mối lập kế hoạch và triển khai thực hiện.
+
+b) Công thức tính điểm:
+- Đối với học phần học và thi trực tiếp: a = (a1*3 + a2*7)/10
+- Đối với học phần học và thi trực tuyến: a = (a1*5 + a2*5)/10
+
+c) Việc lựa chọn số lượng điểm đánh giá bộ phận, các hình thức đánh giá điểm bộ phận; hình thức thi kết thúc học phần, thời gian làm bài thi kết thúc học phần phải được quy định trong đề cương chi tiết của học phần được Hiệu trưởng phê duyệt và phải công bố cho sinh viên ngay khi học phần bắt đầu.
+
+2. Đối với các học phần thực hành: Sinh viên phải tham dự đầy đủ các bài thực hành. Điểm trung bình cộng của điểm các bài thực hành trong học phần được làm tròn đến một chữ số thập phân là điểm của học phần thực hành. Số lượng các bài thực hành phải được quy định trong đề cương chi tiết học phần được Hiệu trưởng phê duyệt.
+
+3. Các học phần thực tập, đồ án học phần: điểm thi kết thúc học phần là điểm báo cáo thực tập, báo cáo đồ án học phần chấm theo thang điểm 10 lẻ đến 0,5.
+
+4. Việc đánh giá đồ án/khóa luận tốt nghiệp thực hiện theo quy định của Trường về việc tổ chức và hướng dẫn thực tập tốt nghiệp, đồ án/khóa luận tốt nghiệp đối với sinh viên trình độ đại học.
+
+5. Điểm học phần làm tròn đến một chữ số thập phân, sau đó được chuyển thành điểm chữ như sau:
+
+a) Loại đạt có phân mức, áp dụng cho các học phần được tính vào điểm trung bình học tập, quy tắc quy đổi giữa các thang điểm như sau:
+
+Xếp loại | Thang điểm 10 | Thang điểm chữ | Thang điểm 4
+Giỏi | 8.5 – 10 | A | 4.0
+Khá | 8.0 – 8.4 | B+ | 3.5
+Khá | 7.0 – 7.9 | B | 3.0
+Trung bình | 6.5 – 6.9 | C+ | 2.5
+Trung bình | 5.5 – 6.4 | C | 2.0
+Trung bình yếu | 5.0 – 5.4 | D+ | 1.5
+Trung bình yếu | 4.0 – 4.9 | D | 1.0
+Không đạt (Kém) | Dưới 4 | F | 0
+
+b) Loại đạt không phân mức, áp dụng cho các học phần chỉ yêu cầu đạt, không tính vào điểm trung bình học tập: P: từ 5,0 trở lên, F: dưới 5,0.
+
+6. Một số trường hợp đặc biệt có thể sử dụng các điểm chữ xếp loại, không tính vào điểm trung bình học tập:
+
+a) Điểm I: điểm chưa hoàn thiện do được phép hoãn thi;
+
+b) Điểm X: Điểm chưa hoàn thiện do chưa đủ dữ liệu;
+
+c) Điểm R: Điểm học phần được miễn học và công nhận tín chỉ.
+
+7. Hình thức đánh giá trực tuyến được áp dụng đối với các học phần dạy trực tuyến được quy định trong chương trình đào tạo. Trong trường hợp đặc biệt, Hiệu trưởng quyết định việc đánh giá trực tuyến đảm bảo tính trung thực, công bằng và khách quan như đánh giá trực tiếp.
+
+8. Một số trường hợp cụ thể:
+
+a) Hoãn thi: Sinh viên được công nhận hoãn thi được áp dụng trong trường hợp sinh viên đủ điều kiện dự thi nhưng vì các lý do:
+
+- Sinh viên được Trường cử đi thi Olympic, tham dự các chuyên đề, tham gia các hoạt động đoàn thể xã hội và các hoạt động khác trùng với lịch thi. Sinh viên phải gửi đơn có xác nhận của cố vấn học tập và lãnh đạo khoa kèm theo minh chứng về Phòng Khảo thí và Đảm bảo chất lượng để được công nhận hoãn thi.
+
+- Sinh viên đột xuất bị ốm, tai nạn, cách ly do dịch bệnh...thì phải nộp đơn hoặc nhờ người nộp đơn kèm theo minh chứng là xác nhận của cơ quan y tế có thẩm quyền hoặc chính quyền địa phương cho Phòng Khảo thí và Đảm bảo chất lượng chậm nhất 10 ngày làm việc tính từ ngày thi. Sau thời gian này nếu sinh viên không nộp đơn và minh chứng sẽ bị coi là bỏ thi và nhận điểm F cho học phần đó.
+
+- Căn cứ vào hồ sơ xin hoãn thi của sinh viên, Phòng Khảo thí và Đảm bảo chất lượng sẽ tổ chức thêm kỳ thi phụ dành cho những sinh viên chưa dự kỳ thi chính vì lý do chính đáng theo quy định tại khoản 1 Điều này.
+
+- Trong thời hạn 01 năm học kế tiếp, sinh viên có các học phần điểm I phải theo dõi lịch thi (tất cả các học kỳ kể cả học kỳ phụ) để đăng ký thi xóa điểm I khi trường có tổ chức thi kết thúc học phần tương ứng. Sau thời hạn 01 năm này, nếu sinh viên chưa có điểm để đánh giá học phần, điểm I sẽ được chuyển thành điểm F.
+
+b) Cấm thi: là hình thức xử lý sinh viên vì một trong các lý do sau:
+
+- Vắng mặt (có lý do hoặc không có lý do) quá 30% số giờ lên lớp của học phần được quy định trong đề cương chi tiết học phần;
+
+- Vi phạm nghiêm trọng kỷ luật học tập, nội quy học đường, không trung thực trong học tập đã bị xử lý theo quy định hiện hành. Đối với trường hợp này giảng viên dạy lớp học phần có sinh viên vi phạm kỷ luật, gửi đề xuất về phòng Khảo thí và Đảm bảo chất lượng kèm minh chứng (Quyết định kỷ luật hoặc Biên bản xét kỷ luật) để xét trạng thái dự thi của sinh viên.
+
+- Phần mềm quản trị Trường sẽ loại sinh viên bị cấm thi ra khỏi danh sách dự thi. Điểm học phần bị cấm thi của sinh viên sẽ là điểm F.
+
+c) Miễn thi, quy đổi điểm tương đương là một hình thức thưởng điểm cho sinh viên:
+
+- Đạt giải cá nhân hoặc tập thể trong kỳ thi cấp quốc gia, quốc tế. Căn cứ vào giải thưởng quy đổi thành điểm học phần theo thang điểm 10, cụ thể: Giải đặc biệt, giải nhất 10 điểm; giải nhì, giải ba: 09 điểm; giải khuyến khích: 08 điểm.
+
+- Có đề tài nghiên cứu khoa học cấp trường, cấp quốc gia được nghiệm thu và xếp loại, căn cứ vào xếp loại đề tài quy đổi thành điểm học phần theo thang điểm 10, cụ thể: loại xuất sắc 10 điểm, loại tốt, giỏi: 9 điểm, loại khá 8 điểm, loại trung bình 7 điểm.
+
+- Điểm chính thức (hệ 10) do Khoa quản lý học phần xem xét và đề nghị Trường công nhận điểm cho một học phần cụ thể có nội dung gần nhất so với lĩnh vực sinh viên được giải hoặc tham gia nghiên cứu. Điểm qui đổi này là điểm học phần (hoặc điểm cải thiện trong trường hợp học phần đã có điểm trước đó).
+
+d) Sinh viên đã thôi học theo nguyện vọng cá nhân hoặc bị buộc thôi học do vi phạm Quy chế của Nhà trường nếu tham dự tuyển sinh và trúng tuyển vào hệ đại học thì sẽ được công nhận kết quả các học phần đã đạt trước thời điểm quyết định thôi học, buộc thôi học có hiệu lực. Trường hợp đặc biệt, Hiệu trưởng quyết định việc công nhận kết quả các học phần đã đạt cho sinh viên.
+
+đ) Hủy kết quả học phần:
+
+Sinh viên được hủy kết quả học phần trong các trường hợp học phần đó không phải là học phần bắt buộc cho ngành và sinh viên phải hoàn tất các nghĩa vụ học phí với Trường. Trong trường hợp này sinh viên phải làm đơn xin hủy điểm, nộp về đơn vị quản lý đào tạo để xét hủy kết quả học phần. Học phần này sẽ được xóa hoàn toàn khỏi dữ liệu lưu trữ của sinh viên.
+
+Điều 21. Tổ chức kiểm tra, thi kết thúc học phần, phúc khảo và khiếu nại điểm
+
+1. Cuối mỗi học kỳ Trường tổ chức một kỳ thi chính và thêm 1 kỳ thi phụ (nếu có). Đối với mỗi học phần sinh viên hệ chính quy chỉ được dự thi 1 lần; sinh viên hệ vừa làm vừa học được dự thi thêm 01 lần đối với những học phần chưa đạt sau lần thi thứ nhất. Kỳ thi phụ dành cho những sinh viên chưa dự kỳ thi chính vì lý do chính đáng. Sinh viên vắng mặt trong buổi thi, kiểm tra không có lý do chính đáng phải nhận điểm 0 cho bài thi kết thúc học phần, sinh viên vắng mặt có lý do chính đáng được dự thi, đánh giá ở kỳ thi phụ. Hồ sơ xác nhận sinh viên vắng mặt chính đáng do phòng Khảo thí và Đảm bảo chất lượng quy định.
+
+2. Ngay sau khi có kết quả đăng ký học phần, Phòng Khảo thí và Đảm bảo chất lượng chuyển dữ liệu điểm chữ của sinh viên sang điểm X, sau khi kết thúc học phần thì điểm X sẽ được chuyển thành các điểm chữ theo quy định tại điểm a khoản 5 Điều 20 hoặc điểm I đối với trường hợp sinh viên được công nhận hoãn thi.
+
+3. Công tác tổ chức kiểm tra, thi kết thúc học phần, phúc khảo và khiếu nại được thực hiện theo "Quy định về Tổ chức đánh giá kết quả học tập các học phần của Trường Đại học Điện lực" do Trường ban hành.
+
+Điều 22. Miễn giảm học phần
+
+1. Các hình thức miễn giảm học phần là:
+
+a) Miễn học, miễn thi và được chuyển điểm;
+
+b) Miễn học, miễn thi và không chuyển điểm.
+
+2. Đối tượng được miễn giảm học phần:
+
+Sinh viên được xem xét cho miễn giảm học phần đã học và có kết quả đạt trong những trường hợp quy định tại khoản 1, Điều 25 của Quy định này.
+
+3. Điều kiện được miễn giảm học phần:
+
+a) Sinh viên được xem xét miễn giảm học phần khi có bảng kết quả học tập hoặc tương đương của cơ sở giáo dục khác cấp có hiển thị rõ số tín chỉ hoặc đơn vị học trình.
+
+b) Thời lượng học phần tương đồng nhau (học phần được miễn giảm có thời lượng nhỏ hơn hoặc bằng, nguyên tắc quy đổi từ niên chế sang tín chỉ là: 01 đơn vị học trình = 2/3 tín chỉ).
+
+4. Các trường hợp được xét miễn học phần:
+
+4.1. Miễn học, miễn thi và được chuyển điểm
+
+a) Học phần đạt điểm D trở lên có nội dung khác biệt dưới 20% so với nội dung học phần trong chương trình đào tạo thì sinh viên được miễn học, miễn thi và được công nhận điểm;
+
+b) Sinh viên có chứng chỉ ngoại ngữ quốc tế, các chứng chỉ Ngoại ngữ, Tin học của các cơ sở giáo dục được Bộ Giáo dục và Đào tạo cấp phép theo quy định trong đề cương chi tiết học phần của chương trình đào tạo được Trường phê duyệt.
+
+4.2. Miễn học, miễn thi và không chuyển điểm
+
+a) Đối với học phần khoa học chính trị, pháp luật thuộc khối kiến thức giáo dục đại cương trong trường hợp sinh viên đã có văn bằng tốt nghiệp chương trình trung cấp, cao cấp lý luận chính trị hoặc tương đương theo quy định của Đảng;
+
+b) Đối với học phần Giáo dục quốc phòng - an ninh:
+
+- Chứng chỉ Giáo dục quốc phòng - an ninh của các cơ sở giáo dục đại học cấp cho trình độ đại học theo quy định hiện hành;
+
+- Có giấy chứng nhận sĩ quan dự bị hoặc bằng tốt nghiệp do các trường quân đội, công an cấp; sinh viên là người nước ngoài;
+
+- Sinh viên được miễn học các nội dung thực hành kỹ năng quân sự: là người khuyết tật, có giấy xác nhận khuyết tật theo quy định của pháp luật về người khuyết tật; không đủ sức khoẻ về thể lực hoặc mắc những bệnh lý thuộc diện miễn làm nghĩa vụ quân sự theo quy định hiện hành; đã hoàn thành nghĩa vụ quân sự, công an nhân dân.
+
+c) Đối với học phần Giáo dục thể chất:
+
+- Sinh viên trong thời gian học của Trường đạt giải nhất, nhì, ba hoặc đạt huy chương trong các đợt thi đấu thể thao cấp ngành hoặc từ cấp tỉnh trở lên;
+
+- Sinh viên bị khuyết tật theo quy định của Luật Người khuyết tật được lựa chọn nội dung học tập để phù hợp với khả năng của bản thân.
+
+d) Các trường hợp khác do Hiệu trưởng quyết định.
+
+5. Thủ tục xin miễn giảm học phần
+
+a) Trước ngày bắt đầu đăng ký học phần của mỗi học kỳ 02 tuần, sinh viên làm đơn xin miễn giảm học phần và kèm bảng điểm có học phần hoặc chứng chỉ học phần đã học;
+
+b) Nếu bảng điểm không phải của Trường Đại học Điện lực cấp, sinh viên phải gửi thêm một trong các tài liệu sau:
+
+- Đề cương chi tiết học phần đã học có xác nhận của trường cũ;
+
+- Địa chỉ công bố nội dung học phần tại website của trường đã theo học.
+
+c) Sinh viên gửi hồ sơ xin miễn học phần tại đơn vị quản lý đào tạo; hồ sơ chuyển cho Khoa chuyên môn xem xét sau đó hồ sơ được gửi về đơn vị quản lý đào tạo để trả lời cho sinh viên; nếu được duyệt đơn vị quản lý đào tạo trình Hiệu trưởng ký Quyết định. Trong 14 ngày kể từ ngày nộp đơn, đơn vị quản lý đào tạo thông báo kết quả cho sinh viên.
+
+Điều 23. Đánh giá kết quả học tập theo học kỳ, năm học
+
+1. Kết quả học tập của sinh viên được đánh giá sau từng học kỳ hoặc sau từng năm học, dựa trên kết quả các học phần nằm trong yêu cầu của chương trình đào tạo mà sinh viên đã học và có điểm theo các tiêu chí sau đây:
+
+a) Tổng số tín chỉ của những học phần mà sinh viên không đạt trong một học kỳ, trong một năm học, hoặc nợ đọng từ đầu khoá học;
+
+b) Tổng số tín chỉ của những học phần mà sinh viên đã đạt từ đầu khóa học (số tín chỉ tích lũy), tính cả các học phần được miễn học, được công nhận tín chỉ;
+
+c) Điểm trung bình của những học phần mà sinh viên đã học trong một học kỳ (điểm trung bình học kỳ), trong một năm học (điểm trung bình năm học) hoặc tính từ đầu khóa học (điểm trung bình tích lũy), tính theo điểm chính thức của học phần và trọng số là số tín chỉ của học phần đó.
+
+2. Để tính điểm trung bình học kỳ, trung bình học tập và điểm trung bình tích lũy, mức điểm chữ của mỗi học phần được quy đổi qua điểm số như sau:
+
+A tương ứng với 4,0     C tương ứng với 2,0
+B+ tương ứng với 3,5    D+ tương ứng với 1,5
+B tương ứng với 3,0     D tương ứng với 1,0
+C+ tương ứng với 2,5    F tương ứng với 0,0
+
+3. Điểm trung bình học kỳ, trung bình học tập và điểm trung bình tích lũy của mỗi học kỳ hay của năm học, khóa học được làm tròn đến 2 số thập phân. Công thức tính như sau:
+
+A = [Tổng (i=1 đến N) (ai . ni)] / [Tổng (i=1 đến N) ni]
+
+Trong đó:
+- A là điểm trung bình
+- ai là điểm học phần của học phần thứ i
+- ni là số tín chỉ của học phần thứ i
+- N là tổng số học phần
+
+4. Điểm trung bình học kỳ là điểm trung bình có trọng số của các học phần mà sinh viên đăng ký học trong học kỳ đó, gồm cả học phần học lần đầu và học phần học lại, học cải thiện. Điểm trung bình học kỳ dùng để xét học bổng khuyến khích học tập, khen thưởng, xét cảnh báo học tập, xét thôi học, xếp hạng học lực sinh viên được tính theo điểm học phần cao nhất trong các lần học.
+
+5. Điểm trung bình học tập: là điểm trung bình có trọng số của các học phần tích lũy tín chỉ mà sinh viên đăng ký học từ đầu khóa học cho tới thời điểm được xét bao gồm cả học phần điểm F.
+
+6. Điểm trung bình tích lũy: là điểm trung bình của các học phần tích lũy tín chỉ mà sinh viên đã tích lũy được (có điểm chữ là A, B+, B, C+, C, D+ hoặc D), tính từ đầu khóa học cho tới thời điểm được xem xét. Điểm trung bình tích lũy dùng để xét điều kiện làm đồ án/khóa luận tốt nghiệp và xét công nhận tốt nghiệp được tính theo điểm học phần cao nhất trong các lần học.
+
+7. Trọng số của các học phần tích lũy tín chỉ là số tín chỉ tương ứng của các học phần đó theo chương trình đào tạo. Những điểm chữ không được quy định tại khoản 2 Điều này không được tính vào các điểm trung bình học kỳ, trung bình năm học hoặc trung bình tích lũy. Những học phần không nằm trong yêu cầu của chương trình đào tạo không được tính vào các tiêu chí đánh giá kết quả học tập của sinh viên.
+
+8. Sinh viên được xếp loại học lực theo điểm trung bình học kỳ, điểm trung bình năm học hoặc điểm trung bình tích lũy theo thang điểm 4 như sau:
+
+Mức điểm | Xếp loại | Ghi chú
+Từ 3,60 đến 4,0 | Xuất sắc |
+Từ 3,20 đến 3,59 | Giỏi |
+Từ 2,50 đến 3,19 | Khá |
+Từ 2,00 đến 2,49 | Trung bình |
+Từ 1,50 đến 1,99 | Trung bình yếu |
+Từ 0,80 đến 1.49 | Yếu | Đối với học kỳ 1
+Từ 1.00 đến 1.49 | Yếu | Đối với các học kỳ sau
+Dưới 0.80 | Kém | Đối với học kỳ 1
+Dưới 1.00 | Kém | Đối với các học kỳ sau
+
+9. Xếp hạng năm đào tạo:
+
+Sinh viên được xếp trình độ năm học căn cứ số tín chỉ tích lũy được từ đầu khóa học (gọi tắt là N) và số tín chỉ trung bình một năm học theo kế hoạch học tập chuẩn (gọi tắt là M), cụ thể như sau:
+
+Trình độ | Số tín chỉ tích lũy | Chi tiết - Kĩ sư | Chi tiết - Cử nhân
+Năm thứ nhất | N < M | Dưới 32 | Dưới 32
+Năm thứ hai | M ≤ N < 2M | 32 đến 64 | 32 đến 64
+Năm thứ ba | 2M ≤ N < 3M | 64 đến 96 | 64 đến 96
+Năm thứ tư | 3M ≤ N < 4M | 96 đến 128 | Từ 96 trở lên
+Năm thứ năm | 4M ≤ N < 5M | Từ 128 trở lên |
+
+Điều 24. Xử lý kết quả học tập theo tín chỉ
+
+Kết thúc mỗi học kỳ chính, Trường căn cứ điểm trung bình học kỳ của sinh viên để xét cảnh báo học tập. Đơn vị quản lý đào tạo chủ trì việc xét cảnh báo học tập của sinh viên.
+1. Cảnh báo học tập:
+
+a) Sinh viên có điểm trung bình học kỳ dưới 0,80 ở học kỳ đầu tiên của khóa học.
+
+b) Đối với học kỳ tiếp theo sinh viên có điểm trung bình học kỳ dưới 1,00.
+
+2. Sinh viên bị xử lý buộc thôi học nếu thuộc một trong các trường hợp sau:
+
+a) Có 02 học kỳ liên tiếp bị cảnh báo học tập;
+
+b) Có 03 học kỳ bị cảnh báo học tập;
+
+c) Không làm thủ tục để được tiếp nhận trở lại học sau khi hết thời gian được nghỉ học tạm thời.
+
+d) Không được gia hạn đào tạo, sau khi hết thời gian đào tạo theo quy định tại khoản 5 Điều 3 của Quy chế này mà chưa đủ điều kiện để được công nhận tốt nghiệp và nhận bằng.
+
+đ) Vi phạm pháp luật và quy định của nhà trường đến mức phải xem xét kỷ luật ở mức buộc thôi học.
+
+3. Quy trình, thủ tục cảnh báo học tập, buộc thôi học gồm các bước chính: (1) Đơn vị quản lý đào tạo rà soát, đánh giá và tổng hợp dữ liệu điểm trung bình học kỳ của sinh viên theo khóa học, phối hợp với Phòng Khảo thí và Đảm bảo chất lượng, thực hiện sau khi kết thúc thi học kỳ 05 ngày làm việc; (2) Đơn vị quản lý đào tạo lấy ý kiến sinh viên về dữ liệu xét cảnh báo học tập, phối hợp với các Khoa quản lý chương trình đào tạo, trong 10 ngày làm việc; (3) Đơn vị quản lý đào tạo chuẩn bị dữ liệu cho việc xét cảnh báo học tập, phối hợp với các Khoa quản lý chương trình đào tạo, trong 02 ngày; (4) Trưởng/phó đơn vị quản lý đào tạo tổ chức họp thống nhất phương án xử lý học tập theo tín chỉ, phối hợp với các Khoa QLCTĐT và Phòng CTSV, trong 01 buổi; (5) Đơn vị quản lý đào tạo xử lý kết quả học tập, trình Hiệu trưởng ký các Quyết định liên quan (hạn chế đăng ký học phần; hủy đăng ký học phần của sinh viên theo kết luận họp), trong 05 ngày làm việc; (6) Phòng Công tác sinh viên xử lý buộc thôi học sinh viên, ra Quyết định buộc thôi học sinh viên, phối hợp với các Khoa quản lý chương trình đào tạo và Phòng Quản lý Đào tạo, trong 05 ngày làm việc; (7) Phòng Công tác sinh viên thông báo cho sinh viên về kết quả xử lý học tập theo tín chỉ, phối hợp với các Khoa quản lý chương trình đào tạo, căn cứ Quyết định buộc thôi học sinh viên, qua Cố vấn học tập và Nhà trường thông báo cho sinh viên, trong 05 ngày.
+
+4. Một số lưu ý khi xử lý kết quả học tập theo tín chỉ:
+
+a) Kết quả của việc xét cảnh báo học tập phải được ghi nhận trong Biên bản họp xét của Trường; thông báo cho sinh viên trong danh sách sinh viên thuộc diện cảnh báo học tập về số lần cảnh báo, lý do cảnh báo; danh sách sinh viên bị buộc thôi học, lý do bị buộc thôi học; kết luận của người chủ trì về việc xử lý đối với sinh viên diện cảnh báo học tập, diện cảnh báo thôi học.
+
+b) Cố vấn học tập có trách nhiệm tư vấn cho sinh viên thuộc diện cảnh cáo học tập về kế hoạch học tập của cá nhân, đăng ký học lại, học cải thiện để nâng cao kết quả học tập ở học kỳ tiếp theo, phấn đấu không thuộc diện cảnh báo học tập.
+
+c) Đơn vị quản lý đào tạo, Phòng Công tác sinh viên căn cứ kết luận trong Biên bản họp xử lý buộc thôi học sinh viên theo quy định của Trường. Sau khi quyết định buộc thôi học sinh viên có hiệu lực, Trường phải chuyển đổi trạng thái sinh viên trên tài khoản cá nhân và thông báo cho sinh viên bằng tin nhắn Vnpay theo số điện thoại sinh viên đăng ký trong thông tin cá nhân hoặc gửi đến email của sinh viên do Trường cung cấp.
+
+d) Sinh viên chính quy bị buộc thôi học theo các lý do quy định tại khoản 2 Điều này được bảo lưu kết quả học tập ở chương trình đại học chính quy khi chuyển hình thức học theo quy định tại khoản 3 Điều 15 của quy chế này đối với những học phần có nội dung và khối lượng kiến thức tương đương. Hiệu trưởng xem xét quyết định cho công nhận kết quả học tập đối với từng trường hợp cụ thể theo quy định của Trường.
+
+Điều 25. Công nhận kết quả học tập và chuyển đổi tín chỉ
+
+1. Kết quả học tập của sinh viên đã tích lũy từ một trình độ đào tạo khác, một ngành đào tạo hoặc một chương trình đào tạo khác, một khóa học khác hoặc từ một cơ sở đào tạo khác được Trường xem xét công nhận, chuyển đổi sang tín chỉ của những học phần trong chương trình đào tạo theo học. Sinh viên có nguyện vọng công nhận điểm, chuyển đổi tín chỉ làm đơn và kèm theo bảng điểm có xác nhận của cơ sở đào tạo khác (trường khác) gửi về đơn vị quản lý đào tạo để tổng hợp, rà soát và gửi về khoa quản lý chương trình đào tạo xem xét công nhận điểm, chuyển đổi tín chỉ cho sinh viên.
+
+2. Hội đồng chuyên môn của Khoa (do Trưởng Khoa đề xuất thành lập) xem xét công nhận, chuyển đổi tín chỉ theo đề nghị của sinh viên trên cơ sở đối sánh chuẩn đầu ra, nội dung và khối lượng học tập, cách thức đánh giá học phần và các điều kiện bảo đảm chất lượng thực hiện chương trình theo các cấp độ sau:
+
+a) Công nhận, chuyển đổi theo từng học phần;
+
+b) Công nhận, chuyển đổi theo từng nhóm học phần;
+
+c) Công nhận, chuyển đổi theo cả chương trình đào tạo.
+
+3. Việc công nhận kết quả học tập và chuyển đổi tín chỉ được thực hiện theo quy định của Trường và được công khai trên web Trường. Khối lượng tối đa được công nhận kết quả học tập và chuyển đổi tín chỉ không vượt quá 50% khối lượng học tập của chương trình đào tạo chuẩn;
+
+Chương IV
+XÉT VÀ CẤP BẰNG TỐT NGHIỆP
+
+Điều 26. Đồ án/khóa luận tốt nghiệp
+
+1. Trường quy định về đồ án/ khóa luận tốt nghiệp của sinh viên đại học:
+
+a) Điều kiện được làm đồ án/ khóa luận tốt nghiệp: sinh viên hệ đại học cấp bằng cử nhân được duyệt làm khóa luận tốt nghiệp, sinh viên hệ đại học cấp bằng kỹ sư được duyệt làm đồ án tốt nghiệp khi có điểm trung bình tích lũy không nhỏ hơn 1,60 sau khi sinh viên đã đăng ký và học các học phần trong chương trình đào tạo (trừ học phần thực tập tốt nghiệp). Đơn vị quản lý đào tạo căn cứ điểm trung bình tích lũy, kết quả đăng ký học phần đồ án/khóa luận tốt nghiệp của sinh viên để trình Hiệu trưởng ký quyết định giao nhiệm vụ hướng dẫn sinh viên làm đồ án/khóa luận tốt nghiệp cho từng Khoa. Trong trường hợp đặc biệt, Hiệu trưởng sẽ quyết định việc làm đồ án/khóa luận tốt nghiệp của khóa/ngành/chuyên ngành cụ thể.
+
+b) Thời gian làm đồ án/khóa luận tốt nghiệp là 14 tuần; đối với ngành/chuyên ngành đào tạo đòi hỏi phải dành nhiều thời gian cho thí nghiệm hoặc khảo sát để sinh viên hoàn thành đồ án/khoá luận tốt nghiệp, Trưởng khoa có thể đề nghị bố trí thời gian làm đồ án/khoá luận tốt nghiệp kết hợp với thời gian thực tập cuối khoá. Hình thức làm đồ án/khóa luận tốt nghiệp do trưởng khoa đề xuất, đơn vị quản lý đào tạo trình Hiệu trưởng quyết định.
+
+c) Nhiệm vụ của giảng viên hướng dẫn; trách nhiệm của khoa/bộ môn đối với sinh viên trong thời gian làm đồ án/khoá luận tốt nghiệp phải được cụ thể bằng quyết định giao nhiệm vụ của Hiệu trưởng.
+
+d) Hình thức chấm đồ án/khoá luận tốt nghiệp: Hiệu trưởng quyết định thành lập Hội đồng chấm đồ án/khoá luận tốt nghiệp theo đề nghị của trưởng khoa và trưởng đơn vị quản lý đào tạo; đảm bảo việc chấm đồ án/khoá luận tốt nghiệp của 01 sinh viên phải do ít nhất 02 thành viên đủ tiêu chuẩn hướng dẫn đồ án/khóa luận tốt nghiệp đảm nhận, mỗi thành viên chấm theo thang điểm 10 lấy lẻ đến 0,5 điểm. Điểm của hội đồng là trung bình cộng điểm chấm của các thành viên, lấy lẻ đến 0,5.
+
+2. Việc tổ chức bảo vệ và đánh giá đồ án được thực hiện trực tuyến khi đáp ứng thêm các điều kiện sau đây:
+
+- Việc đánh giá được thực hiện thông qua một hội đồng chuyên môn gồm ít nhất 03 thành viên;
+
+- Hình thức bảo vệ và đánh giá trực tuyến được sự đồng thuận của các thành viên hội đồng và sinh viên;
+
+- Diễn biến của buổi bảo vệ trực tuyến được ghi hình, ghi âm đầy đủ và lưu trữ.
+
+3. Điểm đồ án/khóa luận tốt nghiệp được tính vào điểm trung bình tích lũy toàn khóa học và được chấm theo thang điểm 10, được quy đổi theo quy định tại điểm a khoản 5 Điều 21 của Quy chế này. Điểm đồ án/khóa luận tốt nghiệp (ký hiệu b) gồm điểm chấm của giảng viên hướng dẫn (ký hiệu b1) và điểm của hội đồng (ký hiệu b2).
+
+- Công thức tính điểm đồ án/khóa luận tốt nghiệp b = (b1*3 + b2*7)/10.
+
+4. Sinh viên có đồ án/khóa luận tốt nghiệp nhận điểm F hoặc không đủ điều kiện để đánh giá, phải đăng ký làm lại đồ án/khóa luận tốt nghiệp.
+
+5. Khoa quản lý chương trình đào tạo tổ chức đánh giá đồ án/ khoá luận tốt nghiệp cho sinh viên theo quy định.
+
+6. Trường hợp đặc biệt Trưởng khoa quản lý chương trình đào tạo trình Hiệu trưởng quyết định (qua đơn vị quản lý đào tạo).
+
+Điều 27. Công nhận tốt nghiệp
+
+1. Sinh viên được xét và công nhận tốt nghiệp khi có đủ các điều kiện sau:
+
+a) Tích lũy đủ học phần, số tín chỉ và hoàn thành các nội dung bắt buộc khác theo yêu cầu của chương trình đào tạo, đạt chuẩn đầu ra của chương trình đào tạo;
+
+b) Điểm trung bình tích lũy của toàn khóa học đạt từ trung bình trở lên;
+
+c) Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập;
+
+d) Hoàn thành các nghĩa vụ tài chính theo quy định của Trường.
+
+2. Những sinh viên đủ điều kiện tốt nghiệp được Hiệu trưởng ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 tháng tính từ thời điểm sinh viên đáp ứng đầy đủ điều kiện tốt nghiệp và hoàn thành nghĩa vụ với Trường.
+
+3. Sinh viên đã hết thời gian học tập tối đa theo quy định nhưng chưa đủ điều kiện tốt nghiệp do chưa hoàn thành những học phần Giáo dục quốc phòng - an ninh hoặc Giáo dục thể chất hoặc chưa đạt chuẩn đầu ra của chương trình đào tạo, trong thời hạn 03 năm tính từ khi hoàn thành các tín chỉ tích lũy trong chương trình đào tạo, được hoàn thiện các điều kiện còn thiếu và đề nghị xét công nhận tốt nghiệp.
+
+4. Sinh viên không tốt nghiệp được cấp chứng nhận về các học phần đã tích lũy trong chương trình đào tạo của Trường.
+
+5. Thời điểm xét tốt nghiệp do đơn vị quản lý căn cứ tình hình thực tế đề xuất, ít nhất mỗi học kỳ chính xét 01 lần. Đơn vị quản lý đào tạo căn cứ các điều kiện công nhận tốt nghiệp quy định tại khoản 1 Điều này để lập danh sách những sinh viên đủ điều kiện tốt nghiệp trình Hội đồng xét tốt nghiệp Trường được thành lập theo Quyết định của Hiệu trưởng (Hội đồng này do Hiệu trưởng hoặc Phó Hiệu trưởng được Hiệu trưởng uỷ quyền làm Chủ tịch, Trưởng đơn vị quản lý đào tạo làm Thư ký, thành viên là các Trưởng khoa chuyên môn, trưởng Phòng Công tác sinh viên, Kế hoạch tài chính, Khảo thí và Đảm bảo chất lượng và một số các thành viên khác). Kết quả họp xét tốt nghiệp của Hội đồng phải được cụ thể bằng Biên bản, trong kết luận nên rõ tiêu chí xét kèm theo danh sách sinh viên được công nhận tốt nghiệp.
+
+6. Sinh viên không tốt nghiệp được cấp giấy chứng nhận kèm theo bảng điểm về các học phần đã học trong chương trình của Trường. Sinh viên chính quy nếu có nguyện vọng, được quyền làm đơn xin chuyển sang chương trình đào tạo hệ vừa làm vừa học của Trường nếu còn trong thời gian học tập theo quy định đối với hình thức đào tạo chuyển đến.
+
+Điều 28. Cách tính điểm và xếp loại tốt nghiệp
+
+1. Xếp hạng tốt nghiệp được xác định theo điểm trung bình tích lũy của toàn khóa học như sau:
+
+a) Loại xuất sắc đạt điểm trung bình tích lũy ≥ 3,60;
+
+b) Loại giỏi đạt điểm trung bình tích lũy từ 3,20 đến 3,59;
+
+c) Loại khá đạt điểm trung bình tích lũy từ 2,50 đến 3,19;
+
+d) Loại trung bình đạt điểm trung bình tích lũy từ 2,00 đến 2,49.
+
+2. Sinh viên có kết quả học tập toàn khóa loại xuất sắc và giỏi sẽ bị giảm đi một mức nếu rơi vào một trong các trường hợp sau:
+
+a) Có số tín chỉ của các học phần phải học lại vượt quá 5% tổng số tín chỉ toàn khóa;
+
+b) Bị kỷ luật ở cấp trường trong thời gian học từ mức cảnh cáo trở lên.
+
+Điều 29. Cấp giấy chứng nhận học xong chương trình, bảng kết quả học tập, phụ lục văn bằng, bằng tốt nghiệp
+
+1. Cấp giấy chứng nhận học xong chương trình, bảng kết quả học tập:
+
+a) Sinh viên hoàn thành các học phần trong chương trình đào tạo chuẩn, đã đủ điều kiện được công nhận tốt nghiệp nhưng chưa tới đợt xét tốt nghiệp được Trường cấp giấy chứng nhận học xong chương trình.
+
+b) Sinh viên khi có nhu cầu chuyển trường, chuyển ngành học và theo nhu cầu cá nhân được Trường cấp bảng kết quả học tập.
+
+c) Sinh viên được công nhận tốt nghiệp được Trường cấp phụ lục văn bằng theo quy định hiện hành. Nội dung chính ghi trên phụ lục văn bằng: 1. Thông tin về người được cấp văn bằng: họ, chữ đệm, tên, ngày tháng năm sinh, nơi sinh; 2. Thông tin về văn bằng: tên cơ sở giáo dục đại học cấp bằng, chuyên ngành đào tạo, ngày nhập học, ngôn ngữ đào tạo, thời gian đào tạo, trình độ đào tạo theo Khung trình độ quốc gia Việt Nam, hình thức đào tạo; 3. Thông tin về nội dung, kết quả học tập (nếu có): tên học phần hoặc môn học, số tín chỉ của từng học phần hoặc môn học, điểm học phần hoặc môn học, tổng số tín chỉ tích lũy, điểm trung bình tích lũy, xếp hạng tốt nghiệp; 4. Thông tin kết nối với văn bằng: mã số sinh viên, số hiệu văn bằng. Ngoài ra trong phụ lục văn bằng của Trường còn có logo của Trường; kết quả các học phần cấp chứng chỉ; điểm rèn luyện toàn khóa của sinh viên; khen thưởng và kỷ luật; lý do hạ mức xếp loại tốt nghiệp (nếu có).
+
+2. Cấp bằng tốt nghiệp:
+
+a) Sinh viên được công nhận tốt nghiệp sẽ được Hiệu trưởng cấp bằng tốt nghiệp, tổ chức lễ tốt nghiệp và trao bằng tốt nghiệp cho sinh viên theo quy định của Trường;
+
+b) Việc quản lý phôi bằng: cấp, chỉnh sửa, thu hồi, hủy bằng tốt nghiệp; cấp bản sao bằng tốt nghiệp từ sổ gốc được thực hiện theo Quy chế văn bằng, chứng chỉ của hệ thống giáo dục quốc dân hiện hành do Bộ giáo dục và Đào tạo ban hành;
+
+c) Trường hợp đặc biệt, đơn vị quản lý đào tạo trình Hiệu trưởng xem xét, quyết định.
+
+Chương V
+XỬ LÝ VI PHẠM VÀ TỔ CHỨC THỰC HIỆN
+
+Điều 30. Chế độ báo cáo, lưu trữ, công khai thông tin
+
+1. Trước ngày 31 tháng 12 hàng năm đơn vị quản lý đào tạo chủ trì lập báo cáo trình Hiệu trưởng phê duyệt để gửi Bộ Giáo dục và Đào tạo và cơ quan quản lý trực tiếp về số liệu sinh viên tuyển mới, tốt nghiệp, thôi học và đang học trong năm, dự kiến tốt nghiệp trong năm sau, sinh viên tốt nghiệp đã có việc làm trong thời gian 12 tháng; phân loại theo đối tượng đầu vào, ngành đào tạo, khóa đào tạo và hình thức đào tạo.
+
+2. Đơn vị quản lý đào tạo có trách nhiệm lưu trữ, bảo quản an toàn các tài liệu liên quan tới công tác đào tạo theo các quy định do Bộ Giáo dục và Đào tạo ban hành, gồm:
+
+a) Quyết định trúng tuyển, bảng điểm gốc, quyết định công nhận tốt nghiệp, sổ gốc cấp phát bằng tốt nghiệp cho sinh viên là những tài liệu lưu trữ được bảo quản vĩnh viễn của Trường;
+
+b) Tài liệu khác liên quan đến tuyển sinh, đào tạo được lưu trữ, bảo quản trong suốt quá trình đào tạo;
+
+c) Việc tiêu hủy tài liệu liên quan tuyển sinh, đào tạo hết thời gian lưu trữ được thực hiện theo quy định hiện hành của Nhà nước.
+
+3. Trường công khai trên trang thông tin điện tử của Trường trước khi tổ chức đào tạo:
+
+d) Quy chế đào tạo của Trường và các quy định quản lý đào tạo có liên quan;
+
+đ) Quyết định mở ngành đối với chương trình sẽ tổ chức đào tạo;
+
+e) Các điều kiện bảo đảm chất lượng theo quy định hiện hành của Bộ Giáo dục và Đào tạo;
+
+g) Thông báo tuyển sinh theo Quy chế tuyển sinh hiện hành.
+
+Điều 31. Thanh tra, kiểm tra
+
+Trường sẽ kiểm tra công tác đào tạo tại các đơn vị đào tạo theo quy định hiện hành. Quy trình, trình tự thủ tục, kế hoạch kiểm tra sẽ do đơn vị thanh tra Trường phụ trách thực hiện theo đúng quy định.
+
+Điều 32. Khen thưởng
+
+Những cá nhân, tập thể và sinh viên tham gia vào quá trình đào tạo có những đóng góp tích cực, đạt thành tích tốt trong công tác dạy và học, tùy theo thành tích cụ thể sẽ được đề nghị khen thưởng theo quy định hiện hành.
+
+Điều 33. Xử lý vi phạm
+
+1. Sinh viên sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp sẽ bị buộc thôi học; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, hủy bỏ.
+
+2. Những cá nhân, tập thể và sinh viên tham gia vào quá trình đào tạo có hành vi vi phạm quy chế, tùy theo mức độ vi phạm sẽ bị xử lý kỷ luật theo quy định của Trường và quy định pháp luật hiện hành.
+
+Điều 34. Điều khoản thi hành
+
+Quy định này có hiệu lực kể từ ngày ký, áp dụng với các khóa tuyển sinh đại học sau ngày 03 tháng 5 năm 2021 và thay thế cho Quyết định số 208/QĐ-ĐHĐL ngày 08/3/2022 về việc ban hành Quy chế đào tạo trình độ đại học của Trường Đại học Điện lực và Quyết định số 754/QĐ-ĐHĐL ngày 19/5/2023 về việc sửa đổi, bổ sung một số điều của Quy chế đào tạo đại học tại trường Đại học Điện lực.
+
+Trong quá trình thực hiện nếu có vướng mắc hoặc phát sinh những vấn đề mới cần điều chỉnh, bổ sung, các đơn vị, cá nhân phản ánh bằng văn bản nộp tại đơn vị quản lý đào tạo để tổng hợp báo cáo Hiệu trưởng xem xét, quyết định.
+
+HIỆU TRƯỞNG
+PGS. TS. Đinh Văn Châu
