@@ -5,6 +5,7 @@
 # ============================================================
 
 import os
+import re
 import hashlib
 
 import chromadb
@@ -12,11 +13,59 @@ import chromadb
 from config import (
     DATA_DIR,
     DB_DIR,
+    KG_DIR,
     EMBEDDING_MODEL,
     COLLECTION_NAME,
     CHUNK_SIZE,
     CHUNK_OVERLAP,
 )
+
+
+# ============================================================
+# PHÂN LOẠI VĂN BẢN (metadata cho auto-filter khi tìm kiếm)
+# ============================================================
+
+FILE_TAGS = [
+    (r"^Diem_chuan_nam_", {"doc_type": "diem_chuan"}),
+    (r"^Thong tin tuyen sinh nam ", {"doc_type": "tuyen_sinh"}),
+    (r"^Quy che dao tao", {"doc_type": "quy_che"}),
+    (r"^Quy dinh muc thu tien KTX", {"doc_type": "quy_dinh", "category": "ktx"}),
+    (r"^Muc thu tien KTX", {"doc_type": "quy_dinh", "category": "ktx"}),
+    (r"^Muc thu hoc phi", {"doc_type": "quy_dinh", "category": "hoc_phi"}),
+    (r"^Chinh sach mien giam hoc phi", {"doc_type": "quy_dinh", "category": "mien_giam_hoc_phi"}),
+    (r"^Quy dinh xet cap hoc bong", {"doc_type": "quy_dinh", "category": "hoc_bong"}),
+    (r"^Quy trinh ky luat", {"doc_type": "quy_dinh", "category": "ky_luat"}),
+    (r"^Quy dinh dong phuc", {"doc_type": "quy_dinh", "category": "dong_phuc"}),
+    (r"^Tieu chi danh gia ket qua ren luyen", {"doc_type": "quy_dinh", "category": "ren_luyen"}),
+    (r"^Quy_dinh_quy_doi_diem_hoc_ba", {"doc_type": "quy_dinh", "category": "quy_doi_diem"}),
+    (r"^chuong_trinh_khung", {"doc_type": "chuong_trinh"}),
+    (r"^gioi_thieu_nganh", {"doc_type": "gioi_thieu"}),
+]
+
+KG_FILE_TO_NODE = {
+    "kg_university.txt":          "University",
+    "kg_major.txt":               "Major",
+    "kg_university_major.txt":    "UniversityMajor",
+    "kg_admission_criteria.txt":  "AdmissionCriteria",
+    "kg_subject_combination.txt": "SubjectCombination",
+    "kg_admission_method.txt":    "AdmissionMethod",
+    "kg_major_statistic.txt":     "MajorStatistic",
+    "kg_program_type.txt":        "ProgramType",
+}
+
+
+def classify_doc(filename):
+    meta = {"doc_type": "khac"}
+    for pattern, tags in FILE_TAGS:
+        if re.match(pattern, filename):
+            meta.update(tags)
+            break
+
+    year_match = re.search(r"20\d{2}", filename)
+    if year_match:
+        meta["year"] = year_match.group()
+
+    return meta
 
 
 # ============================================================
@@ -155,6 +204,21 @@ def get_text_files():
 # ĐỌC DỮ LIỆU
 # ============================================================
 
+def get_kg_files():
+    if not os.path.exists(KG_DIR):
+        return []
+
+    files = []
+    for filename in os.listdir(KG_DIR):
+        if filename.lower().endswith(".txt"):
+            filepath = os.path.join(KG_DIR, filename)
+            if os.path.isfile(filepath):
+                files.append(filename)
+
+    files.sort()
+    return files
+
+
 def load_documents():
     documents = []
     metadatas = []
@@ -163,13 +227,14 @@ def load_documents():
     chunk_count = 0
 
     files = get_text_files()
+    kg_files = get_kg_files()
 
-    if not files:
+    if not files and not kg_files:
         print(f"❌ Không tìm thấy file TXT trong:")
         print(DATA_DIR)
         return (documents, metadatas, ids, file_count, chunk_count)
 
-    print(f"📁 Tìm thấy {len(files)} file TXT.")
+    print(f"📁 Tìm thấy {len(files)} file TXT + {len(kg_files)} file KG.")
     print()
 
     for filename in files:
@@ -191,14 +256,47 @@ def load_documents():
             continue
 
         file_count += 1
+        tags = classify_doc(filename)
 
         for index, chunk in enumerate(chunks):
             documents.append(chunk)
-            metadatas.append({"source": filename, "chunk": index})
+            metadatas.append({"source": filename, "chunk": index, **tags})
             ids.append(create_document_id(filename, index))
             chunk_count += 1
 
         print(f"   → {len(chunks)} chunk")
+
+    for filename in kg_files:
+        filepath = os.path.join(KG_DIR, filename)
+        print(f"📄 [KG] {filename}")
+
+        text = read_file_auto_encoding(filepath)
+        if text is None:
+            print("   ⚠️ Không đọc được.")
+            continue
+
+        # Mỗi đoạn (ngăn cách bởi dòng trống) là một sự thật nguyên tử đã
+        # được sinh sẵn từ đồ thị tri thức — không cắt lại theo ký tự.
+        facts = [p.strip() for p in text.split("\n\n") if p.strip()]
+        if not facts:
+            print("   ⚠️ File rỗng.")
+            continue
+
+        file_count += 1
+        kg_node_type = KG_FILE_TO_NODE.get(filename, "Unknown")
+
+        for index, fact in enumerate(facts):
+            documents.append(fact)
+            metadatas.append({
+                "source": filename,
+                "chunk": index,
+                "doc_type": "knowledge_graph",
+                "kg_node_type": kg_node_type,
+            })
+            ids.append(create_document_id(filename, index))
+            chunk_count += 1
+
+        print(f"   → {len(facts)} chunk")
 
     return (documents, metadatas, ids, file_count, chunk_count)
 

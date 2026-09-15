@@ -1,0 +1,11 @@
+Loại chương trình đào tạo Cử nhân: Chương trình đào tạo trình độ đại học cấp bằng cử nhân. Đặc điểm: Thời gian 4 năm, 8 học kỳ chính.
+
+Loại chương trình đào tạo Kỹ sư: Chương trình đào tạo trình độ đại học cấp bằng kỹ sư. Đặc điểm: Thời gian 4,5 năm, 9 học kỳ chính.
+
+Loại chương trình đào tạo Chương trình chuẩn: Chương trình đào tạo theo chuẩn của Bộ GD&ĐT. Đặc điểm: Đảm bảo chuẩn đầu ra theo Khung trình độ quốc gia VN.
+
+Loại chương trình đào tạo Chương trình chất lượng cao: Chương trình đào tạo nâng cao, tăng cường tiếng Anh. Đặc điểm: Yêu cầu đầu vào cao hơn chương trình chuẩn.
+
+Loại chương trình đào tạo Chương trình vừa làm vừa học: Chương trình đào tạo dành cho người đã đi làm. Đặc điểm: Thời gian đào tạo dài hơn tối thiểu 20% so với chính quy.
+
+Loại chương trình đào tạo Chương trình liên thông: Chương trình đào tạo liên thông từ TC/CĐ lên đại học. Đặc điểm: Công nhận kết quả học tập đã tích lũy theo quy định.

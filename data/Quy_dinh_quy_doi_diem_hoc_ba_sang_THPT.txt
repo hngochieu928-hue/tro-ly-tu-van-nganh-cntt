@@ -1,0 +1,63 @@
+================================================================================
+QUY ĐỊNH QUY ĐỔI ĐIỂM GIỮA PHƯƠNG THỨC HỌC BẠ VÀ PHƯƠNG THỨC THI THPT
+Trường Đại học Điện lực — Năm tuyển sinh 2026
+================================================================================
+
+I. CĂN CỨ PHÁP LÝ
+
+Theo thông báo chính thức từ Hội đồng tuyển sinh Trường Đại học Điện lực,
+điểm xét tuyển theo phương thức xét kết quả học tập THPT (học bạ) được quy
+đổi về điểm phương thức gốc (phương thức xét kết quả thi tốt nghiệp THPT)
+theo công thức nội suy tuyến tính.
+
+II. CÔNG THỨC QUY ĐỔI
+
+    y = a + (x - m) / (n - m) × (b - a)
+
+Trong đó:
+
+    y: Điểm trúng tuyển tương đương theo phương thức thi tốt nghiệp THPT.
+    x: Tổng điểm tổ hợp học bạ thực tế của thí sinh.
+    [m, n]: Khoảng điểm của phương thức học bạ được quy định theo từng mốc
+            phân vị.
+    [a, b]: Khoảng điểm tương ứng của phương thức gốc THPT.
+
+Điều kiện áp dụng: m ≤ x ≤ n và a ≤ y ≤ b.
+
+III. NGUYÊN TẮC QUY ĐỔI
+
+1. Điểm xét tuyển các phương thức được quy đổi về thang điểm 30.
+2. Khi có kết quả và phổ điểm thi tốt nghiệp THPT năm 2026, Nhà trường sẽ
+   công bố công thức quy đổi chi tiết và các mốc phân vị [m, n] và [a, b].
+3. Điểm xét tuyển được làm tròn đến hai chữ số thập phân.
+4. Thí sinh được hưởng chính sách ưu tiên khu vực theo quy định trong năm
+   tốt nghiệp THPT và một năm kế tiếp.
+5. Điểm ưu tiên đối với thí sinh đạt tổng điểm từ 22,5 trở lên (khi quy đổi
+   về thang điểm 10 và tổng điểm 3 môn tối đa là 30) được xác định theo
+   công thức:
+       Điểm ưu tiên = [(30 - Tổng điểm đạt được) / 7,5] × Mức điểm ưu tiên
+
+IV. VÍ DỤ MINH HỌA
+
+Giả sử Nhà trường công bố các mốc phân vị cho năm 2026 như sau:
+
+    Học bạ: [m, n] = [18,00 ; 30,00]
+    THPT  : [a, b] = [15,00 ; 30,00]
+
+Thí sinh có tổng điểm học bạ x = 24,00 điểm. Điểm quy đổi THPT tương đương:
+
+    y = 15 + (24 - 18) / (30 - 18) × (30 - 15)
+      = 15 + 6 / 12 × 15
+      = 15 + 7,5
+      = 22,50 điểm
+
+Vậy thí sinh có 24,00 điểm học bạ tương đương 22,50 điểm thi THPT.
+
+V. GHI CHÚ KỸ THUẬT
+
+- Công thức trên là phép nội suy tuyến tính, đảm bảo ánh xạ đơn điệu tăng
+  từ đoạn [m, n] sang đoạn [a, b].
+- Các mốc phân vị [m, n] và [a, b] được xác định dựa trên phổ điểm thực tế
+  của từng năm tuyển sinh.
+- Nhà trường sẽ công bố công thức quy đổi cụ thể sau khi có kết quả thi
+  tốt nghiệp THPT năm 2026.

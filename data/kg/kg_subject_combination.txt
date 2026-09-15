@@ -1,0 +1,35 @@
+Tổ hợp xét tuyển A00 gồm 3 môn: Toán, Vật lý, Hóa học.
+
+Tổ hợp xét tuyển A01 gồm 3 môn: Toán, Vật lý, Tiếng Anh.
+
+Tổ hợp xét tuyển A02 gồm 3 môn: Toán, Vật lý, Sinh học.
+
+Tổ hợp xét tuyển B00 gồm 3 môn: Toán, Hóa học, Sinh học.
+
+Tổ hợp xét tuyển C00 gồm 3 môn: Ngữ văn, Lịch sử, Địa lý.
+
+Tổ hợp xét tuyển C01 gồm 3 môn: Toán, Ngữ văn, Vật lý.
+
+Tổ hợp xét tuyển D01 gồm 3 môn: Toán, Ngữ văn, Tiếng Anh.
+
+Tổ hợp xét tuyển D07 gồm 3 môn: Toán, Hóa học, Tiếng Anh.
+
+Tổ hợp xét tuyển D09 gồm 3 môn: Toán, Tiếng Anh, Lịch sử.
+
+Tổ hợp xét tuyển D10 gồm 3 môn: Toán, Tiếng Anh, Địa lý.
+
+Tổ hợp xét tuyển D14 gồm 3 môn: Ngữ văn, Lịch sử, Tiếng Anh.
+
+Tổ hợp xét tuyển D66 gồm 3 môn: Ngữ văn, Tiếng Anh, Giáo dục công dân.
+
+Tổ hợp xét tuyển D84 gồm 3 môn: Toán, Tiếng Anh, Giáo dục công dân.
+
+Tổ hợp xét tuyển X02 gồm 3 môn: Toán, Ngữ văn, Tin học.
+
+Tổ hợp xét tuyển X06 gồm 3 môn: Toán, Vật lý, Tin học.
+
+Tổ hợp xét tuyển X25 gồm 3 môn: Toán, Tiếng Anh, Giáo dục Kinh tế và pháp luật.
+
+Tổ hợp xét tuyển X56 gồm 3 môn: Toán, Tin học, Công nghệ công nghiệp.
+
+Tổ hợp xét tuyển X78 gồm 3 môn: Ngữ văn, Tiếng Anh, Giáo dục Kinh tế và pháp luật.

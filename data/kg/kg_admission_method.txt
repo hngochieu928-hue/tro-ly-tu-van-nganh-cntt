@@ -1,0 +1,7 @@
+Phương thức xét tuyển: Phương thức 1 — Xét tuyển dựa trên học bạ THPT. Sử dụng kết quả học tập cả năm lớp 10, 11, 12 của 3 môn theo tổ hợp xét tuyển và điểm ưu tiên (nếu có). Điểm xét tuyển được quy đổi về phương thức gốc THPT theo công thức nội suy tuyến tính: y = a + (x - m) / (n - m) × (b - a), trong đó x là tổng điểm học bạ thực tế, [m, n] là khoảng điểm học bạ theo mốc phân vị, [a, b] là khoảng điểm tương ứng của phương thức THPT. Công thức tính điểm: ĐXT = (ĐTB Môn 1 + ĐTB Môn 2 + ĐTB Môn 3) + ĐUT. Quy đổi sang phương thức gốc THPT: y = a + (x - m) / (n - m) × (b - a).
+
+Phương thức xét tuyển: Phương thức 2 — Xét tuyển kết hợp chứng chỉ TAQT với học bạ. Sử dụng chứng chỉ IELTS hoặc TOEFL iBT kết hợp với kết quả học tập 02 môn còn lại trong tổ hợp. Điểm cũng được quy đổi về phương thức gốc THPT theo cùng công thức nội suy. Công thức tính điểm: ĐXT = (Điểm CCTA quy đổi + ĐTB Môn 1 + ĐTB Môn 2) + ĐUT. Quy đổi: y = a + (x - m) / (n - m) × (b - a).
+
+Phương thức xét tuyển: Phương thức 3 — Xét tuyển dựa trên điểm thi tốt nghiệp THPT. Sử dụng kết quả điểm trong kỳ thi tốt nghiệp THPT của 3 môn theo tổ hợp xét tuyển. Đây là phương thức gốc, không cần quy đổi. Công thức tính điểm: ĐXT = Tổng điểm 3 môn TN THPT + ĐUT.
+
+Phương thức xét tuyển: Phương thức 4 — Xét tuyển thẳng. Xét tuyển thẳng theo Điều 8 Thông tư 06/2026/TT-BGDĐT. Không áp dụng công thức quy đổi. Công thức tính điểm: Theo quy định của Bộ GD&ĐT.

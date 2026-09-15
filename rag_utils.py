@@ -69,6 +69,100 @@ def normalize_question(question):
 
 
 # ============================================================
+# 2b. TỰ ĐỘNG PHÁT HIỆN BỘ LỌC METADATA (AUTO FILTER)
+# ============================================================
+
+_CATEGORY_RULES = [
+    (["ky tuc xa", "ktx"], "ktx"),
+    (["hoc bong"], "hoc_bong"),
+    (["mien giam hoc phi", "ho tro chi phi hoc tap"], "mien_giam_hoc_phi"),
+    (["ky luat"], "ky_luat"),
+    (["dong phuc", "le phuc"], "dong_phuc"),
+    (["ren luyen"], "ren_luyen"),
+    (["quy doi diem", "hoc ba sang thpt", "quy doi hoc ba"], "quy_doi_diem"),
+]
+
+
+def _to_chroma_where(where):
+    if not where:
+        return None
+    if len(where) == 1:
+        key, value = next(iter(where.items()))
+        return {key: value}
+    return {"$and": [{k: v} for k, v in where.items()]}
+
+
+def detect_doc_filter(question):
+    """Đoán bộ lọc doc_type/category/year từ câu hỏi để tìm kiếm chính xác
+    hơn khi kho dữ liệu có nhiều văn bản chồng chéo chủ đề. Trả về None
+    nếu không chắc chắn — khi đó tìm kiếm không lọc như bình thường."""
+    q = _strip_diacritics(normalize_question(question) or "")
+    if not q:
+        return None
+
+    if "diem chuan" in q:
+        where = {"doc_type": "diem_chuan"}
+        year_match = re.search(r"20(2[4-9]|3[0-9])", q)
+        if year_match:
+            where["year"] = year_match.group()
+        return where
+
+    if "ho so" in q and "nhap hoc" in q:
+        return {"doc_type": "tuyen_sinh"}
+
+    for keywords, category in _CATEGORY_RULES:
+        if any(kw in q for kw in keywords):
+            return {"category": category}
+
+    return None
+
+
+# ============================================================
+# 2c. QUY ĐỔI ĐIỂM HỌC BẠ → THPT (tính toán chính xác, không để LLM đoán)
+# ============================================================
+
+def detect_score_conversion(question):
+    q = _strip_diacritics(normalize_question(question) or "")
+    if "quy doi" not in q or "hoc ba" not in q:
+        return None
+
+    numbers = re.findall(r"\d{1,2}(?:[.,]\d{1,2})?", normalize_question(question))
+    if not numbers:
+        return None
+
+    try:
+        x = float(numbers[0].replace(",", "."))
+    except ValueError:
+        return None
+
+    try:
+        from score_converter import convert_with_priority, DEFAULT_PERCENTILE_BANDS
+    except ImportError:
+        return None
+
+    m, n = DEFAULT_PERCENTILE_BANDS["hoc_ba"]
+    a, b = DEFAULT_PERCENTILE_BANDS["thpt"]
+    if not (m <= x <= n):
+        return None
+
+    try:
+        result = convert_with_priority(x)
+    except Exception:
+        return None
+
+    return (
+        "[KẾT QUẢ TÍNH TOÁN THEO CÔNG THỨC QUY ĐỔI ĐIỂM CHÍNH THỨC CỦA TRƯỜNG]\n"
+        f"Điểm học bạ x = {result['x_hoc_ba']} → điểm THPT tương đương y = "
+        f"{result['y_thpt_tuong_duong']} (công thức y = a + (x-m)/(n-m)×(b-a), "
+        f"với mốc VÍ DỤ MINH HỌA [m,n]=[{m},{n}] và [a,b]=[{a},{b}]).\n"
+        "LƯU Ý BẮT BUỘC PHẢI NÊU RÕ: đây là mốc phân vị ví dụ minh họa trong quy "
+        "định, Nhà trường CHƯA công bố mốc phân vị chính thức năm 2026 (sẽ công "
+        "bố sau khi có kết quả và phổ điểm thi tốt nghiệp THPT năm 2026). Không "
+        "được trình bày con số này như kết quả quy đổi chính thức cuối cùng."
+    )
+
+
+# ============================================================
 # 3. TOKENIZE TIẾNG VIỆT CHO BM25
 # ============================================================
 
@@ -131,7 +225,13 @@ def _build_bm25_index(collection):
     _bm25_index = BM25Okapi(tokenized)
 
 
-def bm25_search(collection, question, top_k=CANDIDATES_K):
+def _matches_where(meta, where):
+    if not where:
+        return True
+    return all(meta.get(k) == v for k, v in where.items())
+
+
+def bm25_search(collection, question, top_k=CANDIDATES_K, where=None):
     _build_bm25_index(collection)
 
     if _bm25_index is None:
@@ -145,10 +245,17 @@ def bm25_search(collection, question, top_k=CANDIDATES_K):
 
     indexed = list(enumerate(scores))
     indexed.sort(key=lambda x: x[1], reverse=True)
-    top = indexed[:top_k]
 
-    documents = [_bm25_corpus[i] for i, _ in top]
-    metadatas = [_bm25_metadatas[i] for i, _ in top]
+    documents, metadatas = [], []
+    for i, _ in indexed:
+        meta = _bm25_metadatas[i]
+        if not _matches_where(meta, where):
+            continue
+        documents.append(_bm25_corpus[i])
+        metadatas.append(meta)
+        if len(documents) >= top_k:
+            break
+
     return documents, metadatas
 
 
@@ -254,7 +361,7 @@ def create_embedding(question):
 # 7. VECTOR SEARCH
 # ============================================================
 
-def vector_search(collection, question, top_k=CANDIDATES_K):
+def vector_search(collection, question, top_k=CANDIDATES_K, where=None):
     question = normalize_question(question)
     if not question:
         return [], [], []
@@ -265,6 +372,7 @@ def vector_search(collection, question, top_k=CANDIDATES_K):
         results = collection.query(
             query_embeddings=[query_embedding],
             n_results=top_k,
+            where=_to_chroma_where(where),
             include=["documents", "metadatas", "distances"],
         )
     except Exception as e:
@@ -317,14 +425,14 @@ def _rrf_merge(vec_docs, vec_metas, bm25_docs, bm25_metas, k=RRF_K):
     )
 
 
-def hybrid_search_documents(collection, question, top_k=FINAL_TOP_K):
+def hybrid_search_documents(collection, question, top_k=FINAL_TOP_K, where=None):
     question = normalize_question(question)
     if not question:
         return [], [], []
 
     try:
         vec_docs, vec_metas, _ = vector_search(
-            collection, question, top_k=CANDIDATES_K
+            collection, question, top_k=CANDIDATES_K, where=where
         )
     except Exception:
         vec_docs, vec_metas = [], []
@@ -333,7 +441,7 @@ def hybrid_search_documents(collection, question, top_k=FINAL_TOP_K):
     if USE_HYBRID:
         try:
             bm25_docs, bm25_metas = bm25_search(
-                collection, question, top_k=CANDIDATES_K
+                collection, question, top_k=CANDIDATES_K, where=where
             )
         except Exception:
             pass
@@ -702,14 +810,26 @@ def prepare_rag_prompt(
     if collection is None:
         collection = get_chroma_collection()
 
+    where = detect_doc_filter(question)
     documents, metadatas, _ = hybrid_search_documents(
-        collection, question, top_k
+        collection, question, top_k, where=where
     )
+
+    if not documents and where:
+        # Bộ lọc đoán sai / quá hẹp → thử lại không lọc thay vì bó tay.
+        documents, metadatas, _ = hybrid_search_documents(
+            collection, question, top_k, where=None
+        )
 
     if not documents:
         return None, []
 
     context = build_context(documents, metadatas, MAX_CONTEXT_CHARS)
+
+    score_note = detect_score_conversion(question)
+    if score_note:
+        context = score_note + "\n\n" + context
+
     history = history[-6:] if history else None
 
     prompt = build_prompt(question, context, history)

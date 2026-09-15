@@ -1,0 +1,75 @@
+Ngành Quản trị kinh doanh (mã ngành 7340101): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Thương mại điện tử (mã ngành 7340122): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Tài chính - Ngân hàng (mã ngành 7340201): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Kế toán (mã ngành 7340301): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Kiểm toán (mã ngành 7340302): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ thông tin (mã ngành 7480201): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật công trình xây dựng (mã ngành 7510102): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật cơ khí (mã ngành 7510201): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật cơ - điện tử (mã ngành 7510203): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật điện, điện tử (mã ngành 7510301): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật điện tử - viễn thông (mã ngành 7510302): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật điều khiển và tự động hóa (mã ngành 7510303): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật năng lượng (mã ngành 7510403): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật môi trường (mã ngành 7510406): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Quản lý công nghiệp (mã ngành 7510601): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Quản lý năng lượng (mã ngành 7510602): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Logistics và Quản lý chuỗi cung ứng (mã ngành 7510605): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Kỹ thuật nhiệt (mã ngành 7520115): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Quản trị dịch vụ du lịch và lữ hành (mã ngành 7810103): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Ngôn ngữ Anh (mã ngành 7220201): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Marketing (mã ngành 7340115): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ tài chính (mã ngành 7340205): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Luật kinh tế (mã ngành 7380107): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Khoa học dữ liệu (mã ngành 7460108): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Toán tin (mã ngành 7460117): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Kỹ thuật máy tính (mã ngành 7480106): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Trí tuệ nhân tạo (mã ngành 7480107): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật ô tô (mã ngành 7510205): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ vật liệu (mã ngành 7510402): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Công nghệ kỹ thuật hạt nhân (mã ngành 7510407): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Kỹ thuật Robot (mã ngành 7520107): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Quản trị khách sạn (mã ngành 7810201): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Kinh doanh quốc tế (mã ngành 7340120): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Mạng máy tính và truyền thông dữ liệu (mã ngành 7480102): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Kỹ thuật công nghiệp (mã ngành 7520117): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Kỹ thuật hệ thống công nghiệp (mã ngành 7520118): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Vật lý kỹ thuật (mã ngành 7520401): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
+
+Ngành Quản lý xây dựng (mã ngành 7580302): Chương trình đào tạo trình độ đại học chính quy. Cơ hội nghề nghiệp sau tốt nghiệp: Cơ hội nghề nghiệp đa dạng theo định hướng ngành.
