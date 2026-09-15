@@ -39,7 +39,7 @@ USE_HYBRID = True
 USE_RERANKER = False
 
 CANDIDATES_K = 30
-FINAL_TOP_K = 10
+FINAL_TOP_K = 20
 
 TOP_K = FINAL_TOP_K
 
@@ -59,7 +59,7 @@ RERANKER_MAX_LENGTH = 512
 # CONTEXT
 # ============================================================
 
-MAX_CONTEXT_CHARS = 9000
+MAX_CONTEXT_CHARS = 16000
 
 
 # ============================================================
