@@ -676,10 +676,49 @@ div[data-baseweb="popover"] li[role="option"]:hover {{
     from {{ opacity: 0; transform: translateY(8px); }}
     to   {{ opacity: 1; transform: translateY(0); }}
 }}
+
+.st-key-theme_toggle_anchor {{
+    position: fixed !important;
+    top: 14px !important;
+    right: 20px !important;
+    left: auto !important;
+    width: auto !important;
+    z-index: 9999 !important;
+}}
+.st-key-theme_toggle_anchor button {{
+    width: 40px;
+    height: 40px;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
+    background: var(--bg-elevated) !important;
+    border: 1px solid var(--border) !important;
+    box-shadow: var(--shadow-soft) !important;
+}}
+.st-key-theme_toggle_anchor button:hover {{
+    border-color: var(--accent) !important;
+}}
 </style>
 """,
     unsafe_allow_html=True,
 )
+
+
+# ============================================================
+# 3b. NÚT ĐỔI GIAO DIỆN SÁNG/TỐI (góc phải trên, 1 icon)
+# ============================================================
+
+if "theme_mode" not in st.session_state:
+    st.session_state.theme_mode = "light"
+
+with st.container(key="theme_toggle_anchor"):
+    _toggle_icon = "🌙" if st.session_state.theme_mode == "light" else "☀️"
+    if st.button(_toggle_icon, key="theme_toggle_btn", help="Đổi giao diện sáng/tối"):
+        st.session_state.theme_mode = (
+            "dark" if st.session_state.theme_mode == "light" else "light"
+        )
+        st.rerun()
 
 
 # ============================================================
@@ -985,30 +1024,6 @@ with st.sidebar:
         """,
         unsafe_allow_html=True,
     )
-
-    # ----- Chọn theme sáng / tối -----
-    if "theme_mode" not in st.session_state:
-        st.session_state.theme_mode = "light"
-
-    col_light, col_dark = st.columns(2)
-    with col_light:
-        if st.button(
-            "☀️ Sáng",
-            use_container_width=True,
-            disabled=st.session_state.theme_mode == "light",
-            key="theme_light_btn",
-        ):
-            st.session_state.theme_mode = "light"
-            st.rerun()
-    with col_dark:
-        if st.button(
-            "🌙 Tối",
-            use_container_width=True,
-            disabled=st.session_state.theme_mode == "dark",
-            key="theme_dark_btn",
-        ):
-            st.session_state.theme_mode = "dark"
-            st.rerun()
 
     # ----- Nút tạo cuộc trò chuyện mới -----
     if st.button(
