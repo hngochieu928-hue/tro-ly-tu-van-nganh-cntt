@@ -679,11 +679,11 @@ div[data-baseweb="popover"] li[role="option"]:hover {{
 
 .st-key-theme_toggle_anchor {{
     position: fixed !important;
-    top: 14px !important;
+    top: 60px !important;
     right: 20px !important;
     left: auto !important;
     width: auto !important;
-    z-index: 9999 !important;
+    z-index: 999999 !important;
 }}
 .st-key-theme_toggle_anchor button {{
     width: 40px;
