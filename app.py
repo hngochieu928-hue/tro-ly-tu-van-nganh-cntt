@@ -6,6 +6,7 @@
 
 import os
 import re
+import copy
 import html
 import time
 import json
@@ -788,6 +789,43 @@ div[data-baseweb="popover"] li[role="option"]:hover {{
     border: 1px solid var(--border);
     border-radius: 12px;
 }}
+.src-grid {{ align-items: start; }}
+details.src-card {{ padding: 0; }}
+.src-sum {{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 14px;
+    cursor: pointer;
+    list-style: none;
+}}
+.src-sum::-webkit-details-marker {{ display: none; }}
+.src-sum:hover .src-more {{ color: var(--accent); }}
+details.src-card:hover {{ border-color: var(--border-strong); }}
+details.src-card[open] {{
+    grid-column: 1 / -1;
+    border-color: var(--border-strong);
+    box-shadow: 0 6px 20px var(--shadow-card);
+}}
+details.src-card[open] .src-snip {{ display: none; }}
+.src-more {{
+    margin-left: auto;
+    font-size: 11.5px;
+    color: var(--text-faint);
+}}
+.src-more::after {{ content: "Xem chi tiết ▾"; }}
+details.src-card[open] .src-more::after {{ content: "Thu gọn ▴"; }}
+.src-full {{
+    margin: 0 14px 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    max-height: 340px;
+    overflow: auto;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text);
+    overflow-wrap: anywhere;
+}}
 .src-head {{ display: flex; align-items: center; gap: 8px; }}
 .src-no {{
     display: inline-flex;
@@ -931,14 +969,33 @@ if not st.session_state.history_loaded:
         st.session_state.history_loaded = True
 
 
+MAX_HISTORY_CHARS = 2_500_000
+
+
+def _history_payload():
+    data = {
+        "conversations": st.session_state.conversations,
+        "current_id": st.session_state.current_id,
+    }
+    payload = json.dumps(data, ensure_ascii=False)
+    if len(payload) <= MAX_HISTORY_CHARS:
+        return payload
+
+    # localStorage giới hạn ~5MB: bỏ nội dung đầy đủ của thẻ nguồn ở các
+    # cuộc trò chuyện cũ nhất trước (vẫn giữ tiêu đề + đoạn trích).
+    data = copy.deepcopy(data)
+    for conv in data["conversations"]:
+        for msg in conv["messages"]:
+            for meta in msg.get("metadatas") or []:
+                meta.pop("full", None)
+        payload = json.dumps(data, ensure_ascii=False)
+        if len(payload) <= MAX_HISTORY_CHARS:
+            break
+    return payload
+
+
 def persist_history():
-    payload = json.dumps(
-        {
-            "conversations": st.session_state.conversations,
-            "current_id": st.session_state.current_id,
-        },
-        ensure_ascii=False,
-    )
+    payload = _history_payload()
     st.iframe(
         f"<script>localStorage.setItem('{HISTORY_KEY}', {json.dumps(payload)});</script>",
         height=1,
@@ -1100,21 +1157,40 @@ def format_answer_with_citations(answer, metadatas):
     return _CITE_PATTERN.sub(replace, answer)
 
 
+def _full_html(text):
+    lines = [_esc(line.replace(" | ", " │ ")) for line in text.split("\n")]
+    return "<br>".join(lines)
+
+
 def _source_card(numbers, meta):
     info = get_source_info(meta.get("source", ""))
     badges = "".join(f'<span class="src-no">{n}</span>' for n in numbers)
-    parts = [
-        '<div class="src-card"><div class="src-head">',
+    full = meta.get("full", "")
+
+    head = [
+        '<div class="src-head">',
         badges,
-        f'<span class="src-kind">{_esc(info["kind"])}</span></div>',
-        f'<div class="src-title">{_esc(info["title"])}</div>',
+        f'<span class="src-kind">{_esc(info["kind"])}</span>',
     ]
+    if full:
+        head.append('<span class="src-more"></span>')
+    head.append("</div>")
+
+    body = [f'<div class="src-title">{_esc(info["title"])}</div>']
     if info.get("ref"):
-        parts.append(f'<div class="src-ref">{_esc(info["ref"])}</div>')
+        body.append(f'<div class="src-ref">{_esc(info["ref"])}</div>')
     if meta.get("snippet"):
-        parts.append(f'<div class="src-snip">{_esc(meta["snippet"])}</div>')
-    parts.append("</div>")
-    return "".join(parts)
+        body.append(f'<div class="src-snip">{_esc(meta["snippet"])}</div>')
+
+    if not full:
+        return '<div class="src-card">' + "".join(head + body) + "</div>"
+
+    return (
+        '<details class="src-card"><summary class="src-sum">'
+        + "".join(head + body)
+        + "</summary>"
+        + f'<div class="src-full">{_full_html(full)}</div></details>'
+    )
 
 
 def _group_by_source(items):

@@ -184,6 +184,19 @@ def _query_terms(query):
     return [w for w in words if len(w) >= 2 and w not in _STOPWORDS]
 
 
+def make_full_text(text, limit=1400):
+    """Nội dung đầy đủ của đoạn để hiển thị khi mở rộng thẻ nguồn."""
+    if not text:
+        return ""
+
+    text = re.sub(r"={3,}[^=\n]*={3,}", "", text)
+    lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+    text = "\n".join(lines)
+    if len(text) > limit:
+        text = text[:limit].rstrip() + "…"
+    return text
+
+
 def make_snippet(text, limit=240, query=None):
     """Rút gọn đoạn văn bản thành vài dòng xem trước; nếu có câu hỏi thì
     bắt đầu từ dòng khớp nhiều từ khóa nhất thay vì phần đầu đoạn."""

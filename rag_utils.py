@@ -11,7 +11,7 @@ import chromadb
 import ollama
 
 from external_llm import stream_external
-from source_info import get_source_info, make_snippet
+from source_info import get_source_info, make_snippet, make_full_text
 
 from config import (
     DB_DIR,
@@ -835,6 +835,7 @@ def prepare_rag_prompt(
         meta = dict(metadatas[idx])
         meta["cite_no"] = number
         meta["snippet"] = make_snippet(documents[idx], query=question)
+        meta["full"] = make_full_text(documents[idx])
         cited_metas.append(meta)
 
     score_note = detect_score_conversion(question)
