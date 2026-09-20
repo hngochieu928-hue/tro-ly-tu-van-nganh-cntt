@@ -11,6 +11,7 @@ import chromadb
 import ollama
 
 from external_llm import stream_external
+from source_info import get_source_info, make_snippet
 
 from config import (
     DB_DIR,
@@ -506,15 +507,14 @@ def _smart_truncate(text: str, max_len: int) -> str:
 # 10. TẠO CONTEXT — CHI TIẾT, SẮP THEO SCORE
 # ============================================================
 
-def build_context(documents, metadatas, max_chars=MAX_CONTEXT_CHARS):
+def build_context_ex(documents, metadatas, max_chars=MAX_CONTEXT_CHARS):
     """
-    ⚡ Xây context chất lượng cao:
-    - Chunk sắp theo score (quan trọng lên đầu)
-    - Header có điểm số để LLM biết độ tin cậy
-    - Cắt thông minh theo ranh giới câu
+    Xây context và trả thêm danh sách chỉ số (trong `documents`) của các
+    đoạn thực sự được đưa vào context, theo đúng thứ tự [TÀI LIỆU 1..N]
+    để giao diện đánh số nguồn khớp với số LLM trích dẫn.
     """
     if not documents:
-        return ""
+        return "", []
 
     indexed = list(enumerate(zip(documents, metadatas)))
     indexed.sort(
@@ -523,20 +523,19 @@ def build_context(documents, metadatas, max_chars=MAX_CONTEXT_CHARS):
     )
 
     context_parts = []
+    used = []
     total_chars = 0
 
     for orig_idx, (document, metadata) in indexed:
         if not document or total_chars >= max_chars:
             break
 
-        source = metadata.get("source", "Không xác định")
-        chunk = metadata.get("chunk", "?")
-        score = metadata.get("score", 0.0)
+        info = get_source_info(metadata.get("source", ""))
+        ref = f" ({info['ref']})" if info.get("ref") else ""
 
         header = (
             f"[TÀI LIỆU {len(context_parts) + 1}] "
-            f"Nguồn: {source} | Chunk: {chunk} | "
-            f"Điểm liên quan: {score:.3f}\n"
+            f"Nguồn: {info['title']}{ref}\n"
         )
 
         body = document.strip()
@@ -547,9 +546,14 @@ def build_context(documents, metadatas, max_chars=MAX_CONTEXT_CHARS):
 
         part = f"{header}{body}\n\n"
         context_parts.append(part)
+        used.append(orig_idx)
         total_chars += len(part)
 
-    return "".join(context_parts)
+    return "".join(context_parts), used
+
+
+def build_context(documents, metadatas, max_chars=MAX_CONTEXT_CHARS):
+    return build_context_ex(documents, metadatas, max_chars)[0]
 
 
 # ============================================================
@@ -578,7 +582,7 @@ Khoa có 2 NGÀNH:
 1. Chỉ trả lời dựa trên CONTEXT được cung cấp. KHÔNG tự bịa.
 2. Nếu CONTEXT không đủ → nói rõ "chưa tìm thấy thông tin phù hợp".
 3. **In đậm** thông tin quan trọng.
-4. Trích dẫn nguồn khi có số liệu cụ thể (VD: "theo tài liệu 1").
+4. Sau mỗi ý/số liệu lấy từ CONTEXT, ghi nguồn ngay cuối câu đúng dạng (theo tài liệu N) với N là số trong [TÀI LIỆU N]; nhiều nguồn thì viết (theo tài liệu 2, 5). Chỉ dùng số N có trong CONTEXT, không tự bịa số.
 
 📝 ĐỊNH DẠNG TRẢ LỜI (bắt buộc):
 - **Mở đầu**: 1-2 câu tóm tắt câu trả lời.
@@ -824,7 +828,14 @@ def prepare_rag_prompt(
     if not documents:
         return None, []
 
-    context = build_context(documents, metadatas, MAX_CONTEXT_CHARS)
+    context, used = build_context_ex(documents, metadatas, MAX_CONTEXT_CHARS)
+
+    cited_metas = []
+    for number, idx in enumerate(used, 1):
+        meta = dict(metadatas[idx])
+        meta["cite_no"] = number
+        meta["snippet"] = make_snippet(documents[idx], query=question)
+        cited_metas.append(meta)
 
     score_note = detect_score_conversion(question)
     if score_note:
@@ -833,7 +844,7 @@ def prepare_rag_prompt(
     history = history[-6:] if history else None
 
     prompt = build_prompt(question, context, history)
-    return prompt, metadatas
+    return prompt, cited_metas
 
 
 # ============================================================

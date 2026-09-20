@@ -5,6 +5,8 @@
 # ============================================================
 
 import os
+import re
+import html
 import time
 import json
 import base64
@@ -13,6 +15,8 @@ from datetime import datetime
 
 import streamlit as st
 from streamlit_javascript import st_javascript
+
+from source_info import get_source_info
 
 from config import (
     LLM_MODEL,
@@ -677,6 +681,151 @@ div[data-baseweb="popover"] li[role="option"]:hover {{
     to   {{ opacity: 1; transform: translateY(0); }}
 }}
 
+.cite {{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    margin: 0 2px;
+    border-radius: 9px;
+    background: var(--accent-soft-bg);
+    color: var(--accent);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    vertical-align: 2px;
+    cursor: help;
+    user-select: none;
+    transition: background .15s, color .15s;
+}}
+.cite:hover, .cite:focus {{
+    background: var(--accent);
+    color: #fff;
+    outline: none;
+}}
+.cite-pop {{
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 8px);
+    transform: translateX(-50%);
+    z-index: 100000;
+    width: 300px;
+    max-width: 78vw;
+    padding: 12px 14px;
+    flex-direction: column;
+    gap: 4px;
+    background: var(--bg-elevated);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 12px 32px var(--shadow-popover);
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: default;
+}}
+.cite-pop::after {{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 12px;
+}}
+.cite:hover .cite-pop, .cite:focus .cite-pop {{ display: flex; }}
+.cite-pop-kind {{
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: var(--accent);
+}}
+.cite-pop-title {{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-strong);
+}}
+.cite-pop-ref {{ font-size: 12px; color: var(--text-faint); }}
+.cite-pop-snip {{
+    margin-top: 2px;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+}}
+
+.src-heading {{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+}}
+.src-count {{
+    padding: 1px 8px;
+    border-radius: 999px;
+    background: var(--accent-soft-bg);
+    color: var(--accent);
+    font-size: 11.5px;
+}}
+.src-grid {{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}}
+.src-card {{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+    padding: 12px 14px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}}
+.src-head {{ display: flex; align-items: center; gap: 8px; }}
+.src-no {{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 9px;
+    background: var(--accent-soft-bg);
+    color: var(--accent);
+    font-size: 11px;
+    font-weight: 600;
+}}
+.src-kind {{
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+}}
+.src-title {{
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--text-strong);
+}}
+.src-ref {{ font-size: 11.5px; color: var(--text-faint); }}
+.src-snip {{
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}}
+
 .st-key-theme_toggle_anchor {{
     position: fixed !important;
     top: 60px !important;
@@ -886,33 +1035,148 @@ if "warmed_up" not in st.session_state and st.session_state.ready:
 # 7. HIỂN THỊ NGUỒN TÀI LIỆU
 # ============================================================
 
-def render_sources(metadatas):
+_CITE_PATTERN = re.compile(
+    r"[\(\[]\s*(?:theo\s+|xem\s+|nguồn:?\s*)?tài liệu\s*\d+"
+    r"(?:\s*(?:,|;|và|&)\s*(?:tài liệu\s*)?\d+)*\s*[\)\]]",
+    re.IGNORECASE,
+)
+
+
+def _esc(text):
+    # Escape HTML + các ký tự markdown/LaTeX để nội dung thẻ không bị
+    # markdown diễn giải lại khi nằm trong st.markdown.
+    text = html.escape(str(text or ""), quote=True)
+    for ch in ("*", "_", "`", "$", "[", "]", "\\", "~"):
+        text = text.replace(ch, f"&#{ord(ch)};")
+    return text
+
+
+def _meta_number(meta, fallback):
+    return meta.get("cite_no", fallback)
+
+
+def _cite_badge(number, meta):
+    info = get_source_info(meta.get("source", ""))
+    snippet = meta.get("snippet", "")
+    parts = [
+        f'<span class="cite-pop-kind">{_esc(info["kind"])}</span>',
+        f'<span class="cite-pop-title">{_esc(info["title"])}</span>',
+    ]
+    if info.get("ref"):
+        parts.append(f'<span class="cite-pop-ref">{_esc(info["ref"])}</span>')
+    if snippet:
+        parts.append(f'<span class="cite-pop-snip">{_esc(snippet)}</span>')
+
+    return (
+        f'<span class="cite" tabindex="0">{number}'
+        f'<span class="cite-pop">{"".join(parts)}</span></span>'
+    )
+
+
+def extract_cited_numbers(answer):
+    numbers = set()
+    for match in _CITE_PATTERN.finditer(answer or ""):
+        numbers.update(int(n) for n in re.findall(r"\d+", match.group()))
+    return numbers
+
+
+def format_answer_with_citations(answer, metadatas):
+    """Đổi '(theo tài liệu 3)' thành số trích dẫn có thẻ xem trước nguồn."""
+    if not answer or not metadatas:
+        return answer
+
+    by_number = {
+        _meta_number(meta, index): meta
+        for index, meta in enumerate(metadatas, 1)
+    }
+
+    def replace(match):
+        numbers = [int(n) for n in re.findall(r"\d+", match.group())]
+        badges = [
+            _cite_badge(n, by_number[n]) for n in numbers if n in by_number
+        ]
+        return "".join(badges) if badges else match.group()
+
+    return _CITE_PATTERN.sub(replace, answer)
+
+
+def _source_card(numbers, meta):
+    info = get_source_info(meta.get("source", ""))
+    badges = "".join(f'<span class="src-no">{n}</span>' for n in numbers)
+    parts = [
+        '<div class="src-card"><div class="src-head">',
+        badges,
+        f'<span class="src-kind">{_esc(info["kind"])}</span></div>',
+        f'<div class="src-title">{_esc(info["title"])}</div>',
+    ]
+    if info.get("ref"):
+        parts.append(f'<div class="src-ref">{_esc(info["ref"])}</div>')
+    if meta.get("snippet"):
+        parts.append(f'<div class="src-snip">{_esc(meta["snippet"])}</div>')
+    parts.append("</div>")
+    return "".join(parts)
+
+
+def _group_by_source(items):
+    """Gộp các đoạn cùng một văn bản thành một thẻ, giữ số thứ tự từng đoạn
+    và dùng đoạn trích của đoạn đứng đầu (liên quan nhất)."""
+    groups = {}
+    for number, meta in items:
+        source = meta.get("source", "?")
+        if source in groups:
+            groups[source][0].append(number)
+        else:
+            groups[source] = ([number], meta)
+    return list(groups.values())
+
+
+def _source_grid(groups):
+    return (
+        '<div class="src-grid">'
+        + "".join(_source_card(nums, meta) for nums, meta in groups)
+        + "</div>"
+    )
+
+
+def render_sources(metadatas, answer=""):
     if not metadatas:
         return
 
-    seen, unique = set(), []
-    for meta in metadatas:
+    seen, items = set(), []
+    for index, meta in enumerate(metadatas, 1):
         key = (meta.get("source", "?"), meta.get("chunk", "?"))
-        if key not in seen:
-            seen.add(key)
-            unique.append(meta)
+        if key in seen:
+            continue
+        seen.add(key)
+        items.append((_meta_number(meta, index), meta))
 
-    with st.expander(
-        f"📚 Nguồn tài liệu tham khảo ({len(unique)})",
-        expanded=False,
-    ):
-        for meta in unique:
-            source = meta.get("source", "Không xác định")
-            chunk = meta.get("chunk", "?")
-            score = meta.get("score")
+    cited_numbers = extract_cited_numbers(answer)
+    cited_items = [it for it in items if it[0] in cited_numbers]
+    other_items = [it for it in items if it[0] not in cited_numbers]
 
-            if score is not None:
-                st.markdown(
-                    f"- `{source}` — chunk **{chunk}** "
-                    f"(score: `{score:.4f}`)"
-                )
-            else:
-                st.markdown(f"- `{source}` — chunk **{chunk}**")
+    if not cited_items:
+        cited_items, other_items = items[:4], items[4:]
+
+    cited = _group_by_source(cited_items)
+    cited_sources = {meta.get("source", "?") for _, meta in cited}
+    others = [
+        g for g in _group_by_source(other_items)
+        if g[1].get("source", "?") not in cited_sources
+    ]
+
+    st.markdown(
+        f'<div class="src-heading">Nguồn tham khảo '
+        f'<span class="src-count">{len(cited)}</span></div>'
+        + _source_grid(cited),
+        unsafe_allow_html=True,
+    )
+
+    if others:
+        with st.expander(
+            f"Xem thêm {len(others)} tài liệu đã tra cứu",
+            expanded=False,
+        ):
+            st.markdown(_source_grid(others), unsafe_allow_html=True)
 
 
 # ============================================================
@@ -987,12 +1251,15 @@ def process_question(question: str) -> None:
                     answer += chunk
                     placeholder.markdown(answer + "▌")
                 answer = clean_answer(answer)
-                placeholder.markdown(answer)
+                placeholder.markdown(
+                    format_answer_with_citations(answer, metadatas),
+                    unsafe_allow_html=True,
+                )
             except Exception as e:
                 answer = f"Xin lỗi, hệ thống gặp lỗi.\n\n`{e}`"
                 placeholder.markdown(answer)
 
-        render_sources(metadatas)
+        render_sources(metadatas, answer)
 
         elapsed = time.perf_counter() - start
         st.caption(f"⏱️ Phản hồi trong {elapsed:.2f} giây")
@@ -1269,10 +1536,20 @@ if current_conv is not None:
 
         with st.chat_message(role, avatar=avatar):
 
-            st.markdown(message["content"])
+            if role == "assistant":
+                st.markdown(
+                    format_answer_with_citations(
+                        message["content"], message.get("metadatas", [])
+                    ),
+                    unsafe_allow_html=True,
+                )
+                render_sources(
+                    message.get("metadatas", []), message["content"]
+                )
+            else:
+                st.markdown(message["content"])
 
             if role == "assistant":
-                render_sources(message.get("metadatas", []))
 
                 if message.get("time"):
                     st.caption(
