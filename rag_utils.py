@@ -84,13 +84,20 @@ _CATEGORY_RULES = [
 ]
 
 
+def _clause(key, value):
+    # Giá trị là list (hỏi nhiều năm cùng lúc) → khớp bất kỳ giá trị nào.
+    if isinstance(value, (list, tuple)):
+        return {key: {"$in": list(value)}}
+    return {key: value}
+
+
 def _to_chroma_where(where):
     if not where:
         return None
     if len(where) == 1:
         key, value = next(iter(where.items()))
-        return {key: value}
-    return {"$and": [{k: v} for k, v in where.items()]}
+        return _clause(key, value)
+    return {"$and": [_clause(k, v) for k, v in where.items()]}
 
 
 def detect_doc_filter(question):
@@ -103,9 +110,13 @@ def detect_doc_filter(question):
 
     if "diem chuan" in q:
         where = {"doc_type": "diem_chuan"}
-        year_match = re.search(r"20(2[4-9]|3[0-9])", q)
-        if year_match:
-            where["year"] = year_match.group()
+        years = sorted(set(
+            m.group() for m in re.finditer(r"20(?:2[4-9]|3[0-9])", q)
+        ))
+        if len(years) == 1:
+            where["year"] = years[0]
+        elif years:
+            where["year"] = years
         return where
 
     if "ho so" in q and "nhap hoc" in q:
@@ -229,7 +240,13 @@ def _build_bm25_index(collection):
 def _matches_where(meta, where):
     if not where:
         return True
-    return all(meta.get(k) == v for k, v in where.items())
+    for k, v in where.items():
+        if isinstance(v, (list, tuple)):
+            if meta.get(k) not in v:
+                return False
+        elif meta.get(k) != v:
+            return False
+    return True
 
 
 def bm25_search(collection, question, top_k=CANDIDATES_K, where=None):
