@@ -758,15 +758,49 @@ div[data-baseweb="popover"] li[role="option"]:hover {{
     color: var(--text-secondary);
 }}
 
+details.src-section {{ margin: 16px 0 4px; }}
 .src-heading {{
     display: flex;
     align-items: center;
     gap: 8px;
-    margin: 16px 0 10px;
+    padding: 4px 0;
     font-size: 13px;
     font-weight: 600;
     color: var(--text-secondary);
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
 }}
+.src-heading::-webkit-details-marker {{ display: none; }}
+.src-heading::after {{
+    content: "▾";
+    font-size: 11px;
+    color: var(--text-faint);
+}}
+details.src-section[open] > .src-heading::after {{ content: "▴"; }}
+.src-heading:hover {{ color: var(--accent); }}
+.src-body {{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}}
+details.src-others {{
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-elevated);
+}}
+details.src-others:hover {{ border-color: var(--border-strong); }}
+.src-others-sum {{
+    padding: 11px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    list-style: none;
+}}
+.src-others-sum::-webkit-details-marker {{ display: none; }}
+.src-others-body {{ padding: 0 12px 12px; }}
 .src-count {{
     padding: 1px 8px;
     border-radius: 999px;
@@ -1240,19 +1274,21 @@ def render_sources(metadatas, answer=""):
         if g[1].get("source", "?") not in cited_sources
     ]
 
+    body = _source_grid(cited)
+    if others:
+        body += (
+            '<details class="src-others"><summary class="src-others-sum">'
+            f"Xem thêm {len(others)} tài liệu đã tra cứu</summary>"
+            f'<div class="src-others-body">{_source_grid(others)}</div>'
+            "</details>"
+        )
+
     st.markdown(
-        f'<div class="src-heading">Nguồn tham khảo '
-        f'<span class="src-count">{len(cited)}</span></div>'
-        + _source_grid(cited),
+        '<details class="src-section"><summary class="src-heading">'
+        f'Nguồn tham khảo <span class="src-count">{len(cited)}</span>'
+        f'</summary><div class="src-body">{body}</div></details>',
         unsafe_allow_html=True,
     )
-
-    if others:
-        with st.expander(
-            f"Xem thêm {len(others)} tài liệu đã tra cứu",
-            expanded=False,
-        ):
-            st.markdown(_source_grid(others), unsafe_allow_html=True)
 
 
 # ============================================================
