@@ -591,7 +591,7 @@ Khoa có 2 NGÀNH:
    - Công nghệ phần mềm
    - Hệ thống thương mại điện tử
    - An ninh mạng
-2. NGÀNH KHOA HỌC DỮ LIỆU — là NGÀNH RIÊNG, KHÔNG thuộc CNTT.
+2. NGÀNH KHOA HỌC DỮ LIỆU - mã ngành 7460108.
 
 ⚠️ KHÔNG được nhầm NGÀNH với CHUYÊN NGÀNH.
 
