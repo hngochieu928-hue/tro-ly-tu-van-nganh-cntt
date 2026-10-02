@@ -30,6 +30,7 @@ from config import (
     USE_RERANKER,
     CANDIDATES_K,
     FINAL_TOP_K,
+    FILTERED_TOP_K,
     RRF_K,
     RERANKER_MODEL,
     RERANKER_MAX_LENGTH,
@@ -882,8 +883,12 @@ def prepare_rag_prompt(
     search_q = contextualize_query(question, history)
 
     where = detect_doc_filter(search_q)
+    # Đã lọc theo loại văn bản/năm thì tập ứng viên nhỏ (vd. đề án tuyển sinh
+    # 2026 chỉ có 24 đoạn): lấy nhiều đoạn hơn để đoạn chứa đáp án (như bảng
+    # chỉ tiêu) không bị cắt chỉ vì xếp cuối danh sách.
+    k_eff = max(top_k, FILTERED_TOP_K) if where else top_k
     documents, metadatas, _ = hybrid_search_documents(
-        collection, search_q, top_k, where=where
+        collection, search_q, k_eff, where=where
     )
 
     if not documents and where:

@@ -41,6 +41,7 @@ USE_RERANKER = False
 
 CANDIDATES_K = 30
 FINAL_TOP_K = 20
+FILTERED_TOP_K = 30   # số đoạn lấy khi đã có bộ lọc metadata (tập ứng viên nhỏ)
 
 TOP_K = FINAL_TOP_K
 
@@ -60,7 +61,7 @@ RERANKER_MAX_LENGTH = 512
 # CONTEXT
 # ============================================================
 
-MAX_CONTEXT_CHARS = 22000
+MAX_CONTEXT_CHARS = 30000
 
 
 # ============================================================
