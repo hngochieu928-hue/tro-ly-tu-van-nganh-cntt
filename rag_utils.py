@@ -84,6 +84,21 @@ _CATEGORY_RULES = [
 ]
 
 
+_TUYEN_SINH_KEYWORDS = ["tuyen sinh", "xet tuyen", "chi tieu"]
+
+
+def _with_years(where, q):
+    """Thêm điều kiện năm (một năm hoặc danh sách nhiều năm) nếu câu hỏi có."""
+    years = sorted(set(
+        m.group() for m in re.finditer(r"20(?:2[4-9]|3[0-9])", q)
+    ))
+    if len(years) == 1:
+        where["year"] = years[0]
+    elif years:
+        where["year"] = years
+    return where
+
+
 def _clause(key, value):
     # Giá trị là list (hỏi nhiều năm cùng lúc) → khớp bất kỳ giá trị nào.
     if isinstance(value, (list, tuple)):
@@ -109,15 +124,7 @@ def detect_doc_filter(question):
         return None
 
     if "diem chuan" in q:
-        where = {"doc_type": "diem_chuan"}
-        years = sorted(set(
-            m.group() for m in re.finditer(r"20(?:2[4-9]|3[0-9])", q)
-        ))
-        if len(years) == 1:
-            where["year"] = years[0]
-        elif years:
-            where["year"] = years
-        return where
+        return _with_years({"doc_type": "diem_chuan"}, q)
 
     if "ho so" in q and "nhap hoc" in q:
         return {"doc_type": "tuyen_sinh"}
@@ -125,6 +132,14 @@ def detect_doc_filter(question):
     for keywords, category in _CATEGORY_RULES:
         if any(kw in q for kw in keywords):
             return {"category": category}
+
+    # Câu hỏi về tuyển sinh (phương thức, chỉ tiêu, đề án...) → chỉ tìm trong
+    # văn bản tuyển sinh, kèm năm nếu câu hỏi nêu năm.
+    if any(kw in q for kw in _TUYEN_SINH_KEYWORDS):
+        # Hỏi cả học phí: mức thu nằm trong văn bản quy định, không chỉ trong
+        # đề án tuyển sinh → mở rộng phạm vi lọc cho cả hai loại.
+        doc_type = ["tuyen_sinh", "quy_dinh"] if "hoc phi" in q else "tuyen_sinh"
+        return _with_years({"doc_type": doc_type}, q)
 
     return None
 
@@ -818,6 +833,37 @@ def ask_ai(
     return answer, metadatas
 
 
+_FOLLOW_UP_STARTS = ("con ", "vay ", "the ", "va ", "nhung ", "so voi ")
+_FOLLOW_UP_CONTAINS = (
+    "thi sao", "the nao nua", "nua khong", "tuong tu", "nua nhe", "nua ha",
+)
+
+
+def contextualize_query(question, history):
+    """Câu hỏi nối tiếp ngắn kiểu "Còn năm 2024 thì sao?" tự nó không nói rõ
+    chủ đề nên truy hồi sẽ hụt. Khi nhận ra dạng này, ghép thêm câu hỏi
+    trước đó của người dùng để dùng cho bước truy hồi (nội dung gửi cho mô
+    hình vẫn là câu hỏi gốc kèm lịch sử hội thoại)."""
+    if not history:
+        return question
+
+    plain = _strip_diacritics(question).lower().strip()
+    is_short = len(plain.split()) <= 8
+    is_follow_up = plain.startswith(_FOLLOW_UP_STARTS) or any(
+        kw in plain for kw in _FOLLOW_UP_CONTAINS
+    )
+    if not (is_short and is_follow_up):
+        return question
+
+    previous = next(
+        (m.get("content", "") for m in reversed(history) if m.get("role") == "user"),
+        "",
+    )
+    if not previous:
+        return question
+    return f"{previous.strip()} {question}"
+
+
 def prepare_rag_prompt(
     question,
     collection=None,
@@ -831,15 +877,17 @@ def prepare_rag_prompt(
     if collection is None:
         collection = get_chroma_collection()
 
-    where = detect_doc_filter(question)
+    search_q = contextualize_query(question, history)
+
+    where = detect_doc_filter(search_q)
     documents, metadatas, _ = hybrid_search_documents(
-        collection, question, top_k, where=where
+        collection, search_q, top_k, where=where
     )
 
     if not documents and where:
         # Bộ lọc đoán sai / quá hẹp → thử lại không lọc thay vì bó tay.
         documents, metadatas, _ = hybrid_search_documents(
-            collection, question, top_k, where=None
+            collection, search_q, top_k, where=None
         )
 
     if not documents:
@@ -851,7 +899,7 @@ def prepare_rag_prompt(
     for number, idx in enumerate(used, 1):
         meta = dict(metadatas[idx])
         meta["cite_no"] = number
-        meta["snippet"] = make_snippet(documents[idx], query=question)
+        meta["snippet"] = make_snippet(documents[idx], query=search_q)
         meta["full"] = make_full_text(documents[idx])
         cited_metas.append(meta)
 
