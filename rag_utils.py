@@ -185,7 +185,9 @@ def detect_score_conversion(question):
         "LƯU Ý BẮT BUỘC PHẢI NÊU RÕ: đây là mốc phân vị ví dụ minh họa trong quy "
         "định, Nhà trường CHƯA công bố mốc phân vị chính thức năm 2026 (sẽ công "
         "bố sau khi có kết quả và phổ điểm thi tốt nghiệp THPT năm 2026). Không "
-        "được trình bày con số này như kết quả quy đổi chính thức cuối cùng."
+        "được trình bày con số này như kết quả quy đổi chính thức cuối cùng. "
+        "Khi dẫn nguồn cho con số tính toán này, chỉ ghi (theo công thức quy đổi "
+        "của Nhà trường); KHÔNG gán số [TÀI LIỆU N] cho phần tính toán."
     )
 
 
