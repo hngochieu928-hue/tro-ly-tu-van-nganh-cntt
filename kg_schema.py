@@ -38,8 +38,8 @@ TEXT_TEMPLATES = {
         "Cơ hội nghề nghiệp sau tốt nghiệp: {career}."
     ),
     "UniversityMajor": (
-        "Trường {university_name} tuyển sinh ngành {major_name} (mã ngành "
-        "{major_code}) năm {year} với chỉ tiêu {quota}. Học phí: {tuition}. "
+        "{university_name} tuyển sinh ngành {major_name} (mã ngành "
+        "{major_code}) năm {year}. Chỉ tiêu: {quota}. Học phí: {tuition}. "
         "Thời gian đào tạo: {duration}."
     ),
     "AdmissionCriteria": (

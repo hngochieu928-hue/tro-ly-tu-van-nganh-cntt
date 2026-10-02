@@ -188,7 +188,7 @@ def extract_admission_criteria(raw_data):
                 "major_code": code,
                 "major_name": name,
                 "entranceScore": score,
-                "quota": "Theo đề án tuyển sinh",
+                "quota": "theo đề án tuyển sinh",
             })
     return criteria
 
@@ -232,15 +232,24 @@ def build_university_major(universities, majors, criteria):
 
     ums = []
     for (code, year), c in by_year_major.items():
+        # Mức 420.000–590.000 đ/tín chỉ chỉ là học phí DỰ KIẾN nêu trong Đề án
+        # tuyển sinh 2024; không được gán cho các năm khác (mức thu hiện hành
+        # nằm trong quyết định về mức thu học phí của từng năm học).
+        if year == "2024":
+            tuition = ("dự kiến theo Đề án tuyển sinh năm 2024: từ 420.000 đến "
+                       "590.000 đồng/tín chỉ")
+        else:
+            tuition = ("xem quyết định về mức thu học phí của năm học tương ứng "
+                       "(tra cứu văn bản mức thu học phí)")
         ums.append({
             "university_code": univ["code"],
             "university_name": univ["name"],
             "major_code": code,
             "major_name": major_map.get(code, c["major_name"]),
             "year": year,
-            "tuition": "Theo quy định (420.000 - 590.000 đồng/tín chỉ)",
+            "tuition": tuition,
             "duration": "4 năm (cử nhân) hoặc 4,5 năm (kỹ sư)",
-            "quota": c["quota"],
+            "quota": "theo đề án/thông báo tuyển sinh năm %s" % year,
         })
     return ums
 
