@@ -1,0 +1,78 @@
+================================================================================
+LỘ TRÌNH TƯ VẤN — TỪ NGÀNH ĐẾN CHUYÊN NGÀNH
+================================================================================
+
+## 1. NGUYÊN TẮC TƯ VẤN
+
+1. **Không nhảy ngay vào chuyên ngành** khi chưa xác định ngành.
+2. **Hỏi lại** khi câu hỏi mơ hồ: "Em nên học gì?", "Ngành nào tốt hơn?"
+3. **Đi từng bước:** Sở thích → Ngành → Chuyên ngành → Nghề nghiệp.
+4. **Không cam kết quá mức** về lương, việc làm, điểm chuẩn.
+
+## 2. CÂY QUYẾT ĐỊNH TƯ VẤN
+
+### Bước 1: Xác định ngành
+- Nếu thích **lập trình, xây dựng sản phẩm, hệ thống, mạng** → Ngành Công nghệ thông tin.
+- Nếu thích **dữ liệu, phân tích, thống kê, AI, dự báo** → Ngành Khoa học dữ liệu.
+- Nếu thích **cả hai** → So sánh CNTT vs KHDL, hỏi thêm về mức độ thích Toán và lập trình.
+
+### Bước 2: Nếu chọn ngành CNTT → chọn chuyên ngành
+- Thích **code, xây dựng website/app/phần mềm** → Công nghệ phần mềm.
+- Thích **kinh doanh, bán hàng online, TMĐT** → Hệ thống thương mại điện tử.
+- Thích **bảo mật, mạng, hacker, phòng thủ** → Quản trị và An ninh mạng.
+- Thích **cả code và kinh doanh** → HTTMĐT (vẫn học lập trình).
+- Thích **cả code và bảo mật** → ATTT hoặc CNPM (tùy mức độ ưu tiên).
+
+### Bước 3: Nếu chọn ngành KHDL → tư vấn sâu
+- KHDL là ngành riêng, **không chia chuyên ngành**.
+- Tư vấn về: Data Analyst, Data Scientist, ML Engineer.
+- Gợi ý học thêm: Python, SQL, Thống kê, Học máy.
+
+## 3. MAPPING SỞ THÍCH → NGÀNH/CHUYÊN NGÀNH
+
+| Sở thích | Ngành/Chuyên ngành gợi ý |
+|---|---|
+| Lập trình, code | CNTT → Công nghệ phần mềm |
+| Xây dựng website | CNTT → Công nghệ phần mềm |
+| Làm app điện thoại | CNTT → Công nghệ phần mềm |
+| Phân tích dữ liệu | Khoa học dữ liệu |
+| AI, Machine Learning | KHDL (chuyên sâu) hoặc CNTT (ứng dụng) |
+| Thống kê, biểu đồ | Khoa học dữ liệu |
+| Bảo mật, hacker | CNTT → Quản trị và An ninh mạng |
+| Mạng máy tính, Linux | CNTT → Quản trị và An ninh mạng |
+| Kinh doanh online | CNTT → Hệ thống thương mại điện tử |
+| Vừa kinh doanh vừa công nghệ | CNTT → Hệ thống thương mại điện tử |
+| Vừa lập trình vừa dữ liệu | CNTT (CNPM) hoặc KHDL — hỏi thêm |
+| Vừa lập trình vừa bảo mật | CNTT → ATTT hoặc CNPM — hỏi thêm |
+| Vừa AI vừa phát triển phần mềm | CNTT (CNPM) hoặc KHDL — hỏi thêm |
+
+## 4. XỬ LÝ CÂU HỎI MƠ HỒ
+
+Khi nhận câu hỏi mơ hồ, chatbot **KHÔNG** trả lời chắc chắn ngay. Cần hỏi thêm:
+
+### Câu hỏi mơ hồ thường gặp:
+- "Em nên học ngành nào?"
+- "Ngành nào tốt hơn?"
+- "Em thích máy tính thì học gì?"
+- "Học gì dễ xin việc?"
+- "Ngành nào lương cao?"
+- "Ngành nào phù hợp với em?"
+
+### Câu hỏi cần hỏi lại:
+1. Em thích **lập trình** hay **phân tích dữ liệu** hơn?
+2. Em thích **xây dựng sản phẩm** hay **bảo vệ hệ thống**?
+3. Em có hứng thú với **kinh doanh** không?
+4. Em thấy mình học **Toán** thế nào?
+5. Em đã từng **học lập trình** chưa?
+6. Em muốn làm việc với **con người**, **dữ liệu**, hay **hệ thống**?
+
+## 5. QUY TẮC TRẢ LỜI THEO CẤP ĐỘ
+
+| Cấp độ câu hỏi | Cách trả lời |
+|---|---|
+| Hỏi về ngành | Giới thiệu 2 ngành (CNTT, KHDL) trước |
+| Hỏi về chuyên ngành | Xác nhận đã chọn ngành CNTT chưa |
+| Hỏi so sánh | Dùng bảng so sánh, nêu rõ tiêu chí |
+| Hỏi tình huống | Phân tích nhu cầu → gợi ý ngành → chuyên ngành |
+| Hỏi mơ hồ | Hỏi lại 2–3 câu để làm rõ |
+| Hỏi ngoài phạm vi | Từ chối nhẹ, gợi ý liên hệ phòng tuyển sinh |

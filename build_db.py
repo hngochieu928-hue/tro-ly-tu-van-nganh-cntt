@@ -40,6 +40,11 @@ FILE_TAGS = [
     (r"^Quy_dinh_quy_doi_diem_hoc_ba", {"doc_type": "quy_dinh", "category": "quy_doi_diem"}),
     (r"^chuong_trinh_khung", {"doc_type": "chuong_trinh"}),
     (r"^gioi_thieu_nganh", {"doc_type": "gioi_thieu"}),
+    # Tài liệu tư vấn định hướng (chia đoạn theo mục, xem chunk_sections)
+    (r"^dinh_huong_nghe_nghiep", {"doc_type": "tu_van", "category": "nghe_nghiep"}),
+    (r"^ky_nang_theo_nganh", {"doc_type": "tu_van", "category": "ky_nang"}),
+    (r"^so_sanh_nganh", {"doc_type": "tu_van", "category": "so_sanh"}),
+    (r"^lo_trinh_tu_van", {"doc_type": "tu_van", "category": "lo_trinh"}),
 ]
 
 KG_FILE_TO_NODE = {
@@ -173,6 +178,111 @@ def chunk_text(text, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
 
 
 # ============================================================
+# CHIA ĐOẠN THEO MỤC (cho tài liệu tư vấn có tiêu đề ## / ###)
+# ============================================================
+# Các tệp như ky_nang_theo_nganh.txt lặp lại cùng một tiêu đề con ("Có học AI
+# không?", "Mức độ lập trình"...) cho từng chuyên ngành. Nếu chia đoạn theo ký
+# tự, một đoạn có thể mất dòng tên chuyên ngành và câu trả lời bị gán nhầm cho
+# chuyên ngành khác. Vì vậy: (1) mỗi đoạn được gắn tiêu đề tài liệu + tên mục;
+# (2) bảng markdown được chuyển thành các câu đủ ngữ nghĩa theo từng hàng.
+
+def _clean_md(line):
+    line = line.strip()
+    line = re.sub(r"^#{1,6}\s*", "", line)
+    return line.replace("**", "")
+
+
+def _is_table_line(line):
+    return line.strip().startswith("|")
+
+
+def _table_cells(line):
+    return [c.strip().replace("**", "") for c in line.strip().strip("|").split("|")]
+
+
+def linearize_tables(lines):
+    """Bảng markdown → mỗi hàng thành một câu: «Cột 1 'giá trị' — Cột 2: ...; Cột 3: ...»."""
+    out, i = [], 0
+    while i < len(lines):
+        if (_is_table_line(lines[i]) and i + 1 < len(lines)
+                and re.match(r"^\|?\s*:?-{3,}", lines[i + 1].strip().lstrip("|").strip())):
+            header = _table_cells(lines[i])
+            i += 2
+            while i < len(lines) and _is_table_line(lines[i]):
+                cells = _table_cells(lines[i])
+                head = f"{header[0]} '{cells[0]}'" if cells else ""
+                rest = "; ".join(
+                    f"{header[k]}: {cells[k]}"
+                    for k in range(1, min(len(header), len(cells)))
+                )
+                out.append(f"{head} — {rest}." if rest else f"{head}.")
+                i += 1
+            continue
+        out.append(lines[i])
+        i += 1
+    return out
+
+
+def _split_blocks(lines):
+    """Tách thành khối nhỏ (### hoặc dòng **in đậm** đứng một mình) để không cắt giữa khối."""
+    blocks, cur = [], []
+    for ln in lines:
+        s = ln.strip()
+        starts_block = s.startswith("### ") or (s.startswith("**") and s.endswith("**") and len(s) > 4)
+        if starts_block and cur:
+            blocks.append(cur)
+            cur = []
+        cur.append(ln)
+    if cur:
+        blocks.append(cur)
+    return blocks
+
+
+def chunk_sections(text, chunk_size=CHUNK_SIZE, overlap=150):
+    lines = text.split("\n")
+    title = ""
+    sections, heading, buf = [], "", []
+    for ln in lines:
+        s = ln.strip()
+        if not s or set(s) <= {"="}:
+            continue
+        if s.startswith("## "):
+            if buf:
+                sections.append((heading, buf))
+            heading, buf = _clean_md(s), []
+        elif not title and not s.startswith("#"):
+            title = _clean_md(s)
+        else:
+            buf.append(ln)
+    if buf:
+        sections.append((heading, buf))
+
+    chunks = []
+    for heading, body in sections:
+        prefix = f"[{title}] {heading}\n" if heading else f"[{title}]\n"
+        room = max(200, chunk_size - len(prefix))
+        body = linearize_tables(body)
+        current, cur_len = [], 0
+        for block in _split_blocks(body):
+            text_block = "\n".join(_clean_md(x) for x in block)
+            if len(text_block) > room:       # khối quá dài → chia theo dòng
+                if current:
+                    chunks.append(prefix + "\n".join(current))
+                    current, cur_len = [], 0
+                for piece in chunk_text(text_block, room, overlap):
+                    chunks.append(prefix + piece)
+                continue
+            if current and cur_len + len(text_block) + 1 > room:
+                chunks.append(prefix + "\n".join(current))
+                current, cur_len = [], 0
+            current.append(text_block)
+            cur_len += len(text_block) + 1
+        if current:
+            chunks.append(prefix + "\n".join(current))
+    return chunks
+
+
+# ============================================================
 # TẠO ID
 # ============================================================
 
@@ -251,12 +361,15 @@ def load_documents():
             print("   ⚠️ File rỗng.")
             continue
 
-        chunks = chunk_text(text, CHUNK_SIZE, CHUNK_OVERLAP)
+        tags = classify_doc(filename)
+        if tags.get("doc_type") == "tu_van":
+            chunks = chunk_sections(text)
+        else:
+            chunks = chunk_text(text, CHUNK_SIZE, CHUNK_OVERLAP)
         if not chunks:
             continue
 
         file_count += 1
-        tags = classify_doc(filename)
 
         for index, chunk in enumerate(chunks):
             documents.append(chunk)

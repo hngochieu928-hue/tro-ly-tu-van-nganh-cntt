@@ -13,6 +13,7 @@ KIND_DIEM_CHUAN = "Điểm chuẩn"
 KIND_CHUONG_TRINH = "Chương trình đào tạo"
 KIND_GIOI_THIEU = "Giới thiệu"
 KIND_TRI_THUC = "Cơ sở tri thức"
+KIND_TU_VAN = "Tư vấn định hướng"
 
 SOURCE_INFO = {
     "Chinh sach mien giam hoc phi ho tro chi phi hoc tap.txt": {
@@ -119,6 +120,26 @@ SOURCE_INFO = {
         "title": "Giới thiệu ngành và chuyên ngành đào tạo",
         "ref": "Khoa Công nghệ thông tin",
         "kind": KIND_GIOI_THIEU,
+    },
+    "dinh_huong_nghe_nghiep_chi_tiet.txt": {
+        "title": "Định hướng nghề nghiệp chi tiết theo ngành/chuyên ngành",
+        "ref": "Khoa Công nghệ thông tin",
+        "kind": KIND_TU_VAN,
+    },
+    "ky_nang_theo_nganh.txt": {
+        "title": "Kỹ năng và nội dung đào tạo theo ngành/chuyên ngành",
+        "ref": "Khoa Công nghệ thông tin",
+        "kind": KIND_TU_VAN,
+    },
+    "so_sanh_nganh_chuyen_nganh.txt": {
+        "title": "So sánh ngành và chuyên ngành",
+        "ref": "Khoa Công nghệ thông tin",
+        "kind": KIND_TU_VAN,
+    },
+    "lo_trinh_tu_van.txt": {
+        "title": "Lộ trình tư vấn từ ngành đến chuyên ngành",
+        "ref": "Khoa Công nghệ thông tin",
+        "kind": KIND_TU_VAN,
     },
     "kg_university.txt": {
         "title": "Thông tin chung về Trường Đại học Điện lực",

@@ -1,0 +1,53 @@
+================================================================================
+SO SÁNH NGÀNH VÀ CHUYÊN NGÀNH — KHOA CNTT
+================================================================================
+
+## 1. SO SÁNH NGÀNH CÔNG NGHỆ THÔNG TIN VÀ NGÀNH KHOA HỌC DỮ LIỆU
+
+| Tiêu chí | Công nghệ thông tin | Khoa học dữ liệu |
+|---|---|---|
+| Mục tiêu | Đào tạo kỹ sư phần mềm, hệ thống, mạng | Đào tạo chuyên gia phân tích dữ liệu, AI |
+| Kỹ năng cốt lõi | Lập trình, thiết kế hệ thống, mạng | Lập trình + Toán + Thống kê + AI |
+| Mức độ lập trình | Cao | Trung bình – cao (Python, R, SQL) |
+| Mức độ Toán | Trung bình | Cao (Xác suất, Thống kê, Đại số tuyến tính) |
+| AI/Machine Learning | Có (mức cơ bản – nâng cao tùy chuyên ngành) | Chuyên sâu (Học máy, Học sâu, Big Data) |
+| Cơ sở dữ liệu | Có | Chuyên sâu (Kho dữ liệu, Xử lý dữ liệu lớn) |
+| Vị trí việc làm | Lập trình viên, Tester, BA, Quản trị mạng | Data Analyst, Data Scientist, ML Engineer |
+| Phù hợp với | Người thích xây dựng sản phẩm, hệ thống | Người thích phân tích, tìm pattern từ dữ liệu |
+
+## 2. SO SÁNH 3 CHUYÊN NGÀNH CỦA NGÀNH CNTT
+
+| Tiêu chí | Công nghệ phần mềm | Hệ thống TMĐT | Quản trị & An ninh mạng |
+|---|---|---|---|
+| Mục tiêu | Phát triển phần mềm đa nền tảng | Xây dựng & vận hành hệ thống bán hàng online | Bảo vệ hệ thống, mạng, dữ liệu |
+| Lập trình | Rất nhiều | Nhiều | Trung bình – nhiều |
+| Kinh doanh | Ít | Nhiều | Ít |
+| Bảo mật | Cơ bản | Cơ bản | Chuyên sâu |
+| Mạng máy tính | Cơ bản | Cơ bản | Chuyên sâu |
+| AI | Có (tích hợp vào sản phẩm) | Có (phân tích hành vi) | Có (phát hiện xâm nhập) |
+| Nghề điển hình | Backend, Frontend, Mobile, Tester | BA, Dev TMĐT, Quản trị sàn | Security Engineer, Pentester, SOC Analyst |
+
+## 3. SO SÁNH CẶP ĐÔI
+
+### 3.1. Công nghệ phần mềm vs Khoa học dữ liệu
+- CNPM: tập trung vào **xây dựng sản phẩm phần mềm**; KHDL: tập trung vào **khai thác dữ liệu để ra quyết định**.
+- CNPM cần **tư duy hệ thống + logic lập trình**; KHDL cần **tư duy phân tích + toán thống kê**.
+- Nếu thích **code sản phẩm** → CNPM. Nếu thích **code để phân tích** → KHDL.
+
+### 3.2. Công nghệ phần mềm vs An ninh mạng
+- CNPM: **tạo ra** phần mềm; ATTT: **bảo vệ** phần mềm/hệ thống.
+- CNPM học nhiều về kiến trúc, framework; ATTT học nhiều về mạng, mã hóa, tấn công – phòng thủ.
+- Nếu thích **xây dựng** → CNPM. Nếu thích **bảo vệ, điều tra** → ATTT.
+
+### 3.3. Hệ thống TMĐT vs Khoa học dữ liệu
+- TMĐT: **công nghệ + kinh doanh online**; KHDL: **công nghệ + dữ liệu + AI**.
+- TMĐT cần hiểu **quy trình bán hàng, thanh toán, logistics**; KHDL cần hiểu **thống kê, mô hình dự báo**.
+- Nếu thích **kinh doanh** → TMĐT. Nếu thích **phân tích** → KHDL.
+
+### 3.4. Hệ thống TMĐT vs An ninh mạng
+- TMĐT: **xây dựng và vận hành** hệ thống bán hàng; ATTT: **bảo vệ** hệ thống khỏi tấn công.
+- TMĐT thiên về **nghiệp vụ + phát triển**; ATTT thiên về **kỹ thuật + phòng thủ**.
+
+### 3.5. An ninh mạng vs Khoa học dữ liệu
+- ATTT: **bảo mật hệ thống, mạng, dữ liệu**; KHDL: **khai thác dữ liệu để phân tích, dự báo**.
+- ATTT cần **kiến thức mạng, hệ điều hành, mã hóa**; KHDL cần **toán, thống kê, học máy**.

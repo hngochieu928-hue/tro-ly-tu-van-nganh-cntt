@@ -1,0 +1,155 @@
+================================================================================
+ĐỊNH HƯỚNG NGHỀ NGHIỆP CHI TIẾT THEO NGÀNH/CHUYÊN NGÀNH
+================================================================================
+
+## 1. CHUYÊN NGÀNH CÔNG NGHỆ PHẦN MỀM (thuộc ngành CNTT)
+
+### Vị trí công việc cụ thể:
+
+**Frontend Developer (Lập trình viên Front-End)**
+- Kỹ năng: HTML, CSS, JavaScript, React/Vue/Angular, responsive design
+- Môn học liên quan: Cơ sở lập trình Web, Lập trình Web nâng cao, Ngôn ngữ kịch bản
+- Làm việc tại: công ty phát triển web, startup, agency
+
+**Backend Developer (Lập trình viên Back-End)**
+- Kỹ năng: Java/Python/Node.js/C#, SQL, REST API, microservices
+- Môn học liên quan: Lập trình Java, Lập trình .NET, Cơ sở dữ liệu, Hệ phân tán
+- Làm việc tại: công ty phần mềm, ngân hàng, doanh nghiệp lớn
+
+**Full-stack Developer**
+- Kỹ năng: kết hợp cả Frontend + Backend
+- Môn học liên quan: toàn bộ nhóm lập trình Web
+- Làm việc tại: startup, công ty outsource, freelance
+
+**Mobile Developer (Lập trình viên Mobile)**
+- Kỹ năng: Flutter, React Native, Java/Kotlin (Android), Swift (iOS)
+- Môn học liên quan: Lập trình trên thiết bị di động
+- Làm việc tại: công ty phát triển app, game studio
+
+**Tester / QA Engineer**
+- Kỹ năng: kiểm thử thủ công, automation test, Selenium, JUnit
+- Môn học liên quan: Kiểm thử và đảm bảo chất lượng phần mềm
+- Làm việc tại: mọi công ty phần mềm
+
+**Business Analyst (BA)**
+- Kỹ năng: phân tích nghiệp vụ, viết tài liệu, SQL cơ bản, giao tiếp
+- Môn học liên quan: Phân tích thiết kế HĐT, Quản trị dự án CNTT
+- Làm việc tại: công ty phần mềm, ngân hàng, doanh nghiệp
+
+**DevOps Engineer**
+- Kỹ năng: Docker, Kubernetes, CI/CD, Cloud (AWS/Azure)
+- Môn học liên quan: Công nghệ điện toán đám mây, Hệ phân tán
+- Làm việc tại: công ty công nghệ lớn
+
+**Software Engineer (Kỹ sư phần mềm)**
+- Kỹ năng: tổng hợp tất cả kỹ năng phát triển phần mềm
+- Làm việc tại: công ty phần mềm, tập đoàn công nghệ
+
+---
+
+## 2. CHUYÊN NGÀNH HỆ THỐNG THƯƠNG MẠI ĐIỆN TỬ (thuộc ngành CNTT)
+
+### Vị trí công việc cụ thể:
+
+**Chuyên viên phát triển hệ thống TMĐT**
+- Kỹ năng: lập trình Web, hiểu nghiệp vụ bán hàng, API thanh toán
+- Môn học liên quan: Nhập môn TMĐT, Lập trình Web nâng cao, Nghiệp vụ kinh doanh online
+- Làm việc tại: Shopee, Lazada, Tiki, doanh nghiệp TMĐT
+
+**Chuyên viên quản trị sàn TMĐT**
+- Kỹ năng: vận hành sàn, quản lý sản phẩm, phân tích dữ liệu bán hàng
+- Môn học liên quan: Phân tích chiến lược TMĐT, ERP, E-Logistics
+- Làm việc tại: sàn TMĐT, doanh nghiệp bán lẻ
+
+**Business Analyst trong TMĐT**
+- Kỹ năng: phân tích nghiệp vụ, SQL, hiểu hành vi khách hàng
+- Làm việc tại: công ty TMĐT, doanh nghiệp chuyển đổi số
+
+**Chuyên viên Marketing Online / Digital Marketing**
+- Kỹ năng: SEO, SEM, chạy quảng cáo, phân tích dữ liệu marketing
+- Môn học liên quan: Truyền thông marketing tích hợp
+- Làm việc tại: agency, doanh nghiệp TMĐT
+
+**Chuyên viên thanh toán điện tử**
+- Kỹ năng: hiểu hệ thống thanh toán, bảo mật giao dịch, tích hợp cổng thanh toán
+- Làm việc tại: ngân hàng số, ví điện tử, cổng thanh toán
+
+**Chuyên viên Logistics / E-Logistics**
+- Kỹ năng: quản lý kho, vận chuyển, tối ưu chuỗi cung ứng
+- Môn học liên quan: E-Logistics, ERP
+- Làm việc tại: công ty logistics, sàn TMĐT
+
+---
+
+## 3. CHUYÊN NGÀNH QUẢN TRỊ VÀ AN NINH MẠNG (thuộc ngành CNTT)
+
+### Vị trí công việc cụ thể:
+
+**Security Engineer (Kỹ sư bảo mật)**
+- Kỹ năng: mã hóa, bảo mật hệ thống, firewall, IDS/IPS
+- Môn học liên quan: Mật mã ứng dụng, Quản trị tường lửa, An toàn hệ thống IoT và OT
+- Làm việc tại: ngân hàng, công ty bảo mật, tập đoàn lớn
+
+**Pentester (Kiểm thử xâm nhập)**
+- Kỹ năng: tấn công có kiểm soát, tìm lỗ hổng, báo cáo bảo mật
+- Môn học liên quan: Kiểm thử xâm nhập mạng, Phân tích và thiết kế an toàn mạng máy tính
+- Làm việc tại: công ty bảo mật, ngân hàng, tổ chức tài chính
+
+**SOC Analyst (Chuyên viên phân tích an ninh)**
+- Kỹ năng: giám sát log, phát hiện xâm nhập, ứng cứu sự cố
+- Môn học liên quan: Thu thập và phân tích thông tin an ninh mạng
+- Làm việc tại: trung tâm SOC, ngân hàng, doanh nghiệp lớn
+
+**Chuyên viên quản trị mạng**
+- Kỹ năng: cấu hình router/switch, quản trị hệ thống mạng
+- Môn học liên quan: Quản trị mạng, Hệ điều hành mạng, Đánh giá hiệu năng mạng
+- Làm việc tại: mọi doanh nghiệp có hệ thống CNTT
+
+**Chuyên viên an toàn thông tin**
+- Kỹ năng: xây dựng chính sách bảo mật, đánh giá rủi ro
+- Môn học liên quan: Nhập môn an toàn và bảo mật thông tin
+- Làm việc tại: ngân hàng, tổ chức tài chính, cơ quan nhà nước
+
+**Chuyên viên phân tích rủi ro và lỗ hổng**
+- Kỹ năng: đánh giá lỗ hổng, phân tích rủi ro bảo mật
+- Làm việc tại: công ty kiểm toán bảo mật, tổ chức tài chính
+
+---
+
+## 4. NGÀNH KHOA HỌC DỮ LIỆU
+
+### Vị trí công việc cụ thể:
+
+**Data Analyst (Chuyên viên phân tích dữ liệu)**
+- Kỹ năng: SQL, Excel, Python/R, trực quan hóa (Tableau/Power BI)
+- Môn học liên quan: Trực quan hóa dữ liệu, Thu thập và hiển thị dữ liệu
+- Làm việc tại: mọi doanh nghiệp có dữ liệu (TMĐT, ngân hàng, bán lẻ)
+
+**Data Scientist (Nhà khoa học dữ liệu)**
+- Kỹ năng: ML, thống kê, Python, mô hình dự báo
+- Môn học liên quan: Học máy nâng cao, Học sâu, Khai phá dữ liệu
+- Làm việc tại: công ty công nghệ, tập đoàn lớn
+
+**Machine Learning Engineer**
+- Kỹ năng: ML + kỹ thuật phần mềm, deploy model, MLOps
+- Môn học liên quan: Học máy nâng cao, Lập trình Web nâng cao
+- Làm việc tại: công ty AI, tập đoàn công nghệ
+
+**Data Engineer (Kỹ sư dữ liệu)**
+- Kỹ năng: xây dựng pipeline dữ liệu, Big Data, Spark, Kafka
+- Môn học liên quan: Xử lý dữ liệu lớn, Kho dữ liệu
+- Làm việc tại: công ty công nghệ, ngân hàng
+
+**Business Intelligence Analyst**
+- Kỹ năng: SQL, BI tools, phân tích kinh doanh
+- Làm việc tại: doanh nghiệp mọi ngành
+
+**AI Engineer**
+- Kỹ năng: Deep Learning, NLP, Computer Vision
+- Môn học liên quan: Học sâu, Khai phá dữ liệu ảnh
+- Làm việc tại: công ty AI, tập đoàn công nghệ
+
+**Chuyên viên quản trị cơ sở dữ liệu**
+- Kỹ năng: quản trị DB, tối ưu truy vấn, bảo mật dữ liệu
+- Môn học liên quan: Cơ sở dữ liệu, Bảo mật và quản lý dữ liệu
+- Làm việc tại: mọi doanh nghiệp có hệ thống dữ liệu lớn

@@ -1,0 +1,152 @@
+================================================================================
+KỸ NĂNG VÀ NỘI DUNG ĐÀO TẠO THEO NGÀNH/CHUYÊN NGÀNH
+================================================================================
+
+## 1. CHUYÊN NGÀNH CÔNG NGHỆ PHẦN MỀM
+
+### Mức độ lập trình: RẤT NHIỀU
+- Ngôn ngữ chính: C, C++, Java, C#, Python, JavaScript, SQL
+- Học lập trình từ cơ bản → nâng cao → chuyên sâu
+- Thực hành dự án phần mềm thực tế
+
+### Mức độ Toán – Thống kê: TRUNG BÌNH
+- Toán cao cấp 1, 2; Xác suất thống kê; Toán rời rạc
+- Không yêu cầu quá cao về thống kê
+
+### Có học AI/Machine Learning không? CÓ (cơ bản – nâng cao)
+- Học máy cơ bản, Trí tuệ nhân tạo, Học máy nâng cao
+- Ứng dụng AI vào sản phẩm phần mềm
+
+### Có học Database không? CÓ
+- Cơ sở dữ liệu, Lập trình Web nâng cao, Hệ phân tán
+
+### Có học Web/Mobile không? CÓ
+- Cơ sở lập trình Web, Lập trình Web nâng cao
+- Lập trình trên thiết bị di động
+
+### Có học Linux/Mạng không? CÓ (cơ bản)
+- Mạng máy tính, Thiết bị mạng, Nguyên lý hệ điều hành
+
+### Có học kiểm thử phần mềm không? CÓ
+- Kiểm thử và đảm bảo chất lượng phần mềm
+
+### Có học quản lý dự án không? CÓ
+- Quản trị dự án CNTT
+
+### Có học Cloud/DevOps không? CÓ (cơ bản)
+- Công nghệ điện toán đám mây
+
+### Có được làm dự án phần mềm thực tế không? CÓ
+- Thực tập hệ thống thông tin quản lý, Thực tập quản trị dự án phần mềm, Đồ án tốt nghiệp
+
+### Có được tham gia nghiên cứu khoa học không? CÓ
+- Tham gia đề tài NCKH với giảng viên
+
+---
+
+## 2. CHUYÊN NGÀNH HỆ THỐNG THƯƠNG MẠI ĐIỆN TỬ
+
+### Mức độ lập trình: NHIỀU
+- Ngôn ngữ chính: Python, Java, C#, JavaScript, SQL
+- Lập trình Web, Mobile phục vụ kinh doanh
+
+### Mức độ Toán – Thống kê: TRUNG BÌNH
+- Toán cao cấp, Xác suất thống kê, Thống kê ứng dụng trong kinh doanh
+
+### Có học AI/Machine Learning không? CÓ (cơ bản)
+- Học máy cơ bản, Trí tuệ nhân tạo, Học máy nâng cao
+- Ứng dụng phân tích hành vi khách hàng
+
+### Có học Database không? CÓ
+- Cơ sở dữ liệu, ERP, E-Logistics
+
+### Có học Web/Mobile không? CÓ
+- Cơ sở lập trình Web, Lập trình Web nâng cao
+
+### Có học kinh doanh không? CÓ — ĐẶC TRƯNG
+- Quản trị doanh nghiệp, Kinh tế học đại cương, Tài chính – tiền tệ
+- Nghiệp vụ kinh doanh online, Phân tích chiến lược TMĐT
+- Truyền thông marketing tích hợp, Pháp luật trong kinh doanh TMĐT
+
+### Có học thanh toán điện tử không? CÓ
+- Nằm trong Nhập môn TMĐT, Nghiệp vụ kinh doanh online
+
+### Có học quản lý đơn hàng/kho không? CÓ
+- E-Logistics, ERP, Nghiệp vụ kinh doanh online
+
+### Có được làm dự án thực tế không? CÓ
+- Thực tập xây dựng hệ thống TMĐT, Thực tập quản trị hệ thống TMĐT
+
+---
+
+## 3. CHUYÊN NGÀNH QUẢN TRỊ VÀ AN NINH MẠNG
+
+### Mức độ lập trình: TRUNG BÌNH – NHIỀU
+- Ngôn ngữ chính: Python, C, C++, Java, Script
+- Lập trình hệ thống, Lập trình Web nâng cao
+
+### Mức độ Toán – Thống kê: TRUNG BÌNH
+- Toán cao cấp, Xác suất thống kê, Toán rời rạc
+
+### Có học AI/Machine Learning không? CÓ (cơ bản – nâng cao)
+- Học máy cơ bản, Trí tuệ nhân tạo, Học máy nâng cao
+- Ứng dụng phát hiện xâm nhập
+
+### Có học Database không? CÓ
+- Cơ sở dữ liệu, Bảo mật và quản lý dữ liệu
+
+### Có học Mạng không? CÓ — CHUYÊN SÂU
+- Mạng máy tính, Thiết bị mạng, Quản trị mạng
+- Đánh giá hiệu năng mạng, Hệ điều hành mạng
+- Phân tích và thiết kế an toàn mạng máy tính
+
+### Có học Linux không? CÓ — CHUYÊN SÂU
+- Nguyên lý hệ điều hành, Hệ điều hành mạng, Lập trình hệ thống
+
+### Có học bảo mật không? CÓ — CHUYÊN SÂU
+- Nhập môn an toàn và bảo mật thông tin
+- Mật mã ứng dụng, Kiểm thử xâm nhập mạng
+- Quản trị tường lửa, An toàn hệ thống IoT và OT
+- Thu thập và phân tích thông tin an ninh mạng
+
+### Có học tấn công mạng không? CÓ
+- Kiểm thử xâm nhập mạng (Pentest)
+- Phân tích lỗ hổng hệ thống
+
+### Có được làm dự án thực tế không? CÓ
+- Thực tập an ninh mạng, Thực tập quản trị mạng
+
+---
+
+## 4. NGÀNH KHOA HỌC DỮ LIỆU
+
+### Mức độ lập trình: TRUNG BÌNH – CAO
+- Ngôn ngữ chính: Python, R, SQL, Java
+- Lập trình phân tích dữ liệu, Web, Blockchain
+
+### Mức độ Toán – Thống kê: CAO — ĐẶC TRƯNG
+- Toán cao cấp 1, 2; Xác suất thống kê; Toán rời rạc
+- Toán trong KHDL, Phân tích chuỗi thời gian
+
+### Có học AI/Machine Learning không? CÓ — CHUYÊN SÂU
+- Trí tuệ nhân tạo, Học máy nâng cao, Học sâu
+- Khai phá dữ liệu ảnh, Khai phá dữ liệu Web
+
+### Có học Database không? CÓ — CHUYÊN SÂU
+- Cơ sở dữ liệu, Kho dữ liệu, Xử lý dữ liệu lớn
+- Bảo mật và quản lý dữ liệu
+
+### Có học Python không? CÓ
+- Ngôn ngữ lập trình Python (HK2)
+
+### Có học Big Data không? CÓ
+- Xử lý dữ liệu lớn, Kho dữ liệu
+
+### Có học trực quan hóa dữ liệu không? CÓ
+- Thu thập và hiển thị dữ liệu cơ bản, Trực quan hóa dữ liệu
+
+### Có học Web/Mobile không? CÓ (cơ bản)
+- Cơ sở lập trình Web, Lập trình Web nâng cao
+
+### Có được làm dự án thực tế không? CÓ
+- Thực tập Khoa học dữ liệu, Thực tập trực quan hóa dữ liệu
