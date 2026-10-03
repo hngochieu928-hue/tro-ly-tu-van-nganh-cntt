@@ -1,0 +1,71 @@
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 1 gồm các môn: Toán cao cấp 1; Xác suất thống kê; Vật lý đại cương; Triết học Mác - Lênin; Pháp luật đại cương; Lập trình cơ bản.
+
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 2 gồm các môn: Tiếng Anh 1; Toán cao cấp 2; Toán rời rạc; Kinh tế chính trị Mác - Lênin; Năng lượng cho phát triển bền vững; Đại cương về quản lý điều hành và khởi nghiệp.
+
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 3 gồm các môn: Tiếng Anh 2; Chủ nghĩa xã hội khoa học; Ngôn ngữ lập trình Python; Công nghệ phần mềm; Lập trình C nâng cao; Cơ sở dữ liệu; Mạng máy tính; Kiến trúc máy tính.
+
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 4 gồm các môn: Tư tưởng Hồ Chí Minh; Tiếng Anh chuyên ngành CNPM; Nhập môn CTDL & GT; Nguyên lý lập trình hướng đối tượng; Cơ sở lập trình Web; Thiết bị mạng; Công nghệ điện toán đám mây; Nguyên lý hệ điều hành.
+
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 5 gồm các môn: Lịch sử Đảng Cộng sản Việt Nam; CTDL & GT nâng cao; Lập trình Java; Phân tích thiết kế HĐT; Lập trình .NET; Nhập môn an toàn và bảo mật thông tin; Hệ phân tán.
+
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 6 gồm các môn: Học máy cơ bản; Quản trị dự án CNTT; Kiểm thử và đảm bảo chất lượng phần mềm; Trí tuệ nhân tạo; Lập trình trên thiết bị di động; Lập trình Web nâng cao; Lập trình hệ thống; Phần mềm mã nguồn mở.
+
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 7 gồm các môn: Nhập môn xử lý ảnh; Học máy nâng cao; Phân tích và trực quan hóa dữ liệu; Lập trình Blockchain; Phát triển phần mềm Web an toàn; Ngôn ngữ kịch bản; IoT & Ứng dụng; Hệ thống thông tin không gian.
+
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 8 gồm các môn: Thực tập hệ thống thông tin quản lý; Thực tập quản trị dự án phần mềm; Thực tập hệ thống thông tin tích hợp.
+
+Chương trình khung chuyên ngành Công nghệ phần mềm thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 9 gồm các môn: Thực tập tốt nghiệp; Đồ án tốt nghiệp.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 1 gồm các môn: Xác suất thống kê; Toán cao cấp 1; Vật lý đại cương; Lập trình cơ bản; Triết học Mác - Lênin; Pháp luật đại cương.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 2 gồm các môn: Toán rời rạc; Tiếng Anh 1; Toán cao cấp 2; Kinh tế chính trị Mác - Lênin; Năng lượng cho phát triển bền vững; Đại cương về quản lý, điều hành và khởi nghiệp.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 3 gồm các môn: Lập trình Python; Tiếng Anh 2; Chủ nghĩa xã hội khoa học; Lập trình C nâng cao; Cơ sở dữ liệu; Mạng máy tính; Kiến trúc máy tính; Công nghệ phần mềm.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 4 gồm các môn: Tư tưởng Hồ Chí Minh; Nhập môn CTDL & GT; Nguyên lý lập trình HĐT; Cơ sở lập trình Web; Công nghệ điện toán đám mây; Tiếng Anh chuyên ngành an ninh mạng; Nguyên lý hệ điều hành; Thiết bị mạng.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 5 gồm các môn: Lịch sử Đảng; CTDL & GT nâng cao; Phân tích thiết kế HĐT; Lập trình .NET; Đánh giá hiệu năng mạng; Nhập môn an toàn và bảo mật thông tin; Hệ điều hành mạng; Phân tích và thiết kế an toàn mạng máy tính.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 6 gồm các môn: Học máy cơ bản; Trí tuệ nhân tạo; Lập trình Web nâng cao; Lập trình hệ thống; Phần mềm mã nguồn mở; Quản trị mạng; Thu thập và phân tích thông tin an ninh mạng.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 7 gồm các môn: Học máy nâng cao; Phân tích và trực quan hóa dữ liệu; Mật mã ứng dụng; An toàn hệ thống IoT và OT; Quản trị tường lửa; Quản trị dự án CNTT; Kiểm thử xâm nhập mạng; Hệ phân tán.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 8 gồm các môn: Thực tập an ninh mạng; Thực tập phân tích thiết kế an toàn mạng; Thực tập quản trị mạng.
+
+Chương trình khung chuyên ngành Quản trị và An ninh mạng thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 9 gồm các môn: Thực tập tốt nghiệp; Đồ án tốt nghiệp.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 1 gồm các môn: Xác suất thống kê; Toán cao cấp 1; Vật lý đại cương; Lập trình cơ bản; Triết học Mác - Lênin; Pháp luật đại cương.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 2 gồm các môn: Toán rời rạc; Tiếng Anh 1; Toán cao cấp 2; Kinh tế chính trị Mác - Lênin; Năng lượng cho phát triển bền vững; Đại cương về quản lý, điều hành và khởi nghiệp.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 3 gồm các môn: Lập trình Python; Tiếng Anh 2; Chủ nghĩa xã hội khoa học; Lập trình C nâng cao; Cơ sở dữ liệu; Công nghệ phần mềm; Mạng máy tính; Kiến trúc máy tính.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 4 gồm các môn: Tư tưởng Hồ Chí Minh; Nhập môn CTDL & GT; Nguyên lý lập trình HĐT; Cơ sở lập trình Web; Công nghệ điện toán đám mây; Nguyên lý hệ điều hành; Quản trị doanh nghiệp; Kinh tế học đại cương; Thống kê ứng dụng trong kinh doanh.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 5 gồm các môn: Lịch sử Đảng; CTDL & GT nâng cao; Phân tích thiết kế HĐT; Lập trình .NET; Nhập môn an toàn và bảo mật thông tin; Nhập môn thương mại điện tử; Tài chính - tiền tệ.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 6 gồm các môn: Học máy cơ bản; Trí tuệ nhân tạo; Lập trình Web nâng cao; Phần mềm mã nguồn mở; Phân tích chiến lược thương mại điện tử; Tiếng Anh chuyên ngành thương mại điện tử; Nghiệp vụ kinh doanh online và TTQM.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 7 gồm các môn: Học máy nâng cao; Phân tích và trực quan hóa dữ liệu; Lập trình Blockchain; Truyền thông marketing tích hợp; ERP; E-Logistics; Pháp luật trong kinh doanh thương mại điện tử.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 8 gồm các môn: Thực tập phân tích chiến lược thương mại điện tử; Thực tập quản trị hệ thống thương mại điện tử; Thực tập xây dựng hệ thống thương mại điện tử.
+
+Chương trình khung chuyên ngành Hệ thống Thương mại điện tử thuộc ngành Công nghệ thông tin (mã ngành 7480201), học kỳ 9 gồm các môn: Thực tập tốt nghiệp; Đồ án tốt nghiệp.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 1 gồm các môn: Lập trình cơ bản; Vật lý đại cương; Pháp luật đại cương; Toán cao cấp 1; Tiếng Anh 1; Xác suất thống kê; Triết học Mác - Lênin.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 2 gồm các môn: Năng lượng cho phát triển bền vững; Đại cương về quản lý điều hành và khởi nghiệp; Toán cao cấp 2; Tiếng Anh 2; Ngôn ngữ lập trình Python; Toán rời rạc; Kinh tế chính trị Mác - Lênin.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 3 gồm các môn: Kỹ thuật lập trình hướng đối tượng; Cơ sở dữ liệu; Mạng máy tính; Kiến trúc máy tính; Toán trong KHDL; Cấu trúc dữ liệu và giải thuật; Chủ nghĩa xã hội khoa học.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 4 gồm các môn: Lập trình Java; Cơ sở lập trình Web; Nhập môn an toàn và bảo mật thông tin; Nguyên lý hệ điều hành; Nhập môn KHDL; Trí tuệ nhân tạo; Tư tưởng Hồ Chí Minh.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 5 gồm các môn: Kho dữ liệu; Bảo mật và quản lý dữ liệu; Công nghệ điện toán đám mây; Thu thập và hiển thị dữ liệu cơ bản; Tiếng Anh chuyên ngành KHDL; Học máy nâng cao; Lịch sử Đảng Cộng sản Việt Nam.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 6 gồm các môn: Quản trị dự án CNTT; Xử lý dữ liệu lớn; Trực quan hóa dữ liệu; Khai phá dữ liệu ảnh; Lập trình Blockchain; Học sâu; Lập trình Web nâng cao.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 7 gồm các môn: Phân tích chuỗi thời gian; Khai phá dữ liệu Web. Ngoài ra, tự chọn 12 tín chỉ (chọn trong các môn sau): HTTT không gian; Hệ phân tán; Hệ chuyên gia; Phân tích DL IoT; Phát triển phần mềm Web an toàn; Ngôn ngữ lập trình R; Kiểm thử và đảm bảo chất lượng phần mềm; Công nghệ phần mềm; Quản trị rủi ro.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 8 gồm các môn: Thực tập quản trị dự án; Thực tập Khoa học dữ liệu; Thực tập trực quan hóa dữ liệu.
+
+Chương trình khung ngành Khoa học dữ liệu (mã ngành 7460108), học kỳ 9 gồm các môn: Thực tập tốt nghiệp; Đồ án tốt nghiệp.

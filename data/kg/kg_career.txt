@@ -1,0 +1,53 @@
+Vị trí nghề nghiệp Frontend Developer (Lập trình viên Front-End), thuộc định hướng chuyên ngành Công nghệ phần mềm. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: HTML, CSS, JavaScript, React/Vue/Angular, responsive design. Môn học liên quan: Cơ sở lập trình Web, Lập trình Web nâng cao, Ngôn ngữ kịch bản. Nơi làm việc: công ty phát triển web, startup, agency.
+
+Vị trí nghề nghiệp Backend Developer (Lập trình viên Back-End), thuộc định hướng chuyên ngành Công nghệ phần mềm. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: Java/Python/Node.js/C#, SQL, REST API, microservices. Môn học liên quan: Lập trình Java, Lập trình .NET, Cơ sở dữ liệu, Hệ phân tán. Nơi làm việc: công ty phần mềm, ngân hàng, doanh nghiệp lớn.
+
+Vị trí nghề nghiệp Full-stack Developer, thuộc định hướng chuyên ngành Công nghệ phần mềm. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: kết hợp cả Frontend + Backend. Môn học liên quan: toàn bộ nhóm lập trình Web. Nơi làm việc: startup, công ty outsource, freelance.
+
+Vị trí nghề nghiệp Mobile Developer (Lập trình viên Mobile), thuộc định hướng chuyên ngành Công nghệ phần mềm. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: Flutter, React Native, Java/Kotlin (Android), Swift (iOS). Môn học liên quan: Lập trình trên thiết bị di động. Nơi làm việc: công ty phát triển app, game studio.
+
+Vị trí nghề nghiệp Tester / QA Engineer, thuộc định hướng chuyên ngành Công nghệ phần mềm. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: kiểm thử thủ công, automation test, Selenium, JUnit. Môn học liên quan: Kiểm thử và đảm bảo chất lượng phần mềm. Nơi làm việc: mọi công ty phần mềm.
+
+Vị trí nghề nghiệp Business Analyst (BA), thuộc định hướng chuyên ngành Công nghệ phần mềm. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: phân tích nghiệp vụ, viết tài liệu, SQL cơ bản, giao tiếp. Môn học liên quan: Phân tích thiết kế HĐT, Quản trị dự án CNTT. Nơi làm việc: công ty phần mềm, ngân hàng, doanh nghiệp.
+
+Vị trí nghề nghiệp DevOps Engineer, thuộc định hướng chuyên ngành Công nghệ phần mềm. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: Docker, Kubernetes, CI/CD, Cloud (AWS/Azure). Môn học liên quan: Công nghệ điện toán đám mây, Hệ phân tán. Nơi làm việc: công ty công nghệ lớn.
+
+Vị trí nghề nghiệp Software Engineer (Kỹ sư phần mềm), thuộc định hướng chuyên ngành Công nghệ phần mềm. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: tổng hợp tất cả kỹ năng phát triển phần mềm. Môn học liên quan: không được nêu cụ thể trong tài liệu. Nơi làm việc: công ty phần mềm, tập đoàn công nghệ.
+
+Vị trí nghề nghiệp Chuyên viên phát triển hệ thống TMĐT, thuộc định hướng chuyên ngành Hệ thống Thương mại điện tử. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: lập trình Web, hiểu nghiệp vụ bán hàng, API thanh toán. Môn học liên quan: Nhập môn TMĐT, Lập trình Web nâng cao, Nghiệp vụ kinh doanh online. Nơi làm việc: Shopee, Lazada, Tiki, doanh nghiệp TMĐT.
+
+Vị trí nghề nghiệp Chuyên viên quản trị sàn TMĐT, thuộc định hướng chuyên ngành Hệ thống Thương mại điện tử. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: vận hành sàn, quản lý sản phẩm, phân tích dữ liệu bán hàng. Môn học liên quan: Phân tích chiến lược TMĐT, ERP, E-Logistics. Nơi làm việc: sàn TMĐT, doanh nghiệp bán lẻ.
+
+Vị trí nghề nghiệp Business Analyst trong TMĐT, thuộc định hướng chuyên ngành Hệ thống Thương mại điện tử. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: phân tích nghiệp vụ, SQL, hiểu hành vi khách hàng. Môn học liên quan: không được nêu cụ thể trong tài liệu. Nơi làm việc: công ty TMĐT, doanh nghiệp chuyển đổi số.
+
+Vị trí nghề nghiệp Chuyên viên Marketing Online / Digital Marketing, thuộc định hướng chuyên ngành Hệ thống Thương mại điện tử. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: SEO, SEM, chạy quảng cáo, phân tích dữ liệu marketing. Môn học liên quan: Truyền thông marketing tích hợp. Nơi làm việc: agency, doanh nghiệp TMĐT.
+
+Vị trí nghề nghiệp Chuyên viên thanh toán điện tử, thuộc định hướng chuyên ngành Hệ thống Thương mại điện tử. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: hiểu hệ thống thanh toán, bảo mật giao dịch, tích hợp cổng thanh toán. Môn học liên quan: không được nêu cụ thể trong tài liệu. Nơi làm việc: ngân hàng số, ví điện tử, cổng thanh toán.
+
+Vị trí nghề nghiệp Chuyên viên Logistics / E-Logistics, thuộc định hướng chuyên ngành Hệ thống Thương mại điện tử. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: quản lý kho, vận chuyển, tối ưu chuỗi cung ứng. Môn học liên quan: E-Logistics, ERP. Nơi làm việc: công ty logistics, sàn TMĐT.
+
+Vị trí nghề nghiệp Security Engineer (Kỹ sư bảo mật), thuộc định hướng chuyên ngành Quản trị và An ninh mạng. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: mã hóa, bảo mật hệ thống, firewall, IDS/IPS. Môn học liên quan: Mật mã ứng dụng, Quản trị tường lửa, An toàn hệ thống IoT và OT. Nơi làm việc: ngân hàng, công ty bảo mật, tập đoàn lớn.
+
+Vị trí nghề nghiệp Pentester (Kiểm thử xâm nhập), thuộc định hướng chuyên ngành Quản trị và An ninh mạng. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: tấn công có kiểm soát, tìm lỗ hổng, báo cáo bảo mật. Môn học liên quan: Kiểm thử xâm nhập mạng, Phân tích và thiết kế an toàn mạng máy tính. Nơi làm việc: công ty bảo mật, ngân hàng, tổ chức tài chính.
+
+Vị trí nghề nghiệp SOC Analyst (Chuyên viên phân tích an ninh), thuộc định hướng chuyên ngành Quản trị và An ninh mạng. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: giám sát log, phát hiện xâm nhập, ứng cứu sự cố. Môn học liên quan: Thu thập và phân tích thông tin an ninh mạng. Nơi làm việc: trung tâm SOC, ngân hàng, doanh nghiệp lớn.
+
+Vị trí nghề nghiệp Chuyên viên quản trị mạng, thuộc định hướng chuyên ngành Quản trị và An ninh mạng. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: cấu hình router/switch, quản trị hệ thống mạng. Môn học liên quan: Quản trị mạng, Hệ điều hành mạng, Đánh giá hiệu năng mạng. Nơi làm việc: mọi doanh nghiệp có hệ thống CNTT.
+
+Vị trí nghề nghiệp Chuyên viên an toàn thông tin, thuộc định hướng chuyên ngành Quản trị và An ninh mạng. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: xây dựng chính sách bảo mật, đánh giá rủi ro. Môn học liên quan: Nhập môn an toàn và bảo mật thông tin. Nơi làm việc: ngân hàng, tổ chức tài chính, cơ quan nhà nước.
+
+Vị trí nghề nghiệp Chuyên viên phân tích rủi ro và lỗ hổng, thuộc định hướng chuyên ngành Quản trị và An ninh mạng. Ngành đào tạo: Công nghệ thông tin, mã ngành 7480201. Kỹ năng cần có: đánh giá lỗ hổng, phân tích rủi ro bảo mật. Môn học liên quan: không được nêu cụ thể trong tài liệu. Nơi làm việc: công ty kiểm toán bảo mật, tổ chức tài chính.
+
+Vị trí nghề nghiệp Data Analyst (Chuyên viên phân tích dữ liệu), thuộc định hướng ngành Khoa học dữ liệu. Ngành đào tạo: Khoa học dữ liệu, mã ngành 7460108. Kỹ năng cần có: SQL, Excel, Python/R, trực quan hóa (Tableau/Power BI). Môn học liên quan: Trực quan hóa dữ liệu, Thu thập và hiển thị dữ liệu. Nơi làm việc: mọi doanh nghiệp có dữ liệu (TMĐT, ngân hàng, bán lẻ).
+
+Vị trí nghề nghiệp Data Scientist (Nhà khoa học dữ liệu), thuộc định hướng ngành Khoa học dữ liệu. Ngành đào tạo: Khoa học dữ liệu, mã ngành 7460108. Kỹ năng cần có: ML, thống kê, Python, mô hình dự báo. Môn học liên quan: Học máy nâng cao, Học sâu, Khai phá dữ liệu. Nơi làm việc: công ty công nghệ, tập đoàn lớn.
+
+Vị trí nghề nghiệp Machine Learning Engineer, thuộc định hướng ngành Khoa học dữ liệu. Ngành đào tạo: Khoa học dữ liệu, mã ngành 7460108. Kỹ năng cần có: ML + kỹ thuật phần mềm, deploy model, MLOps. Môn học liên quan: Học máy nâng cao, Lập trình Web nâng cao. Nơi làm việc: công ty AI, tập đoàn công nghệ.
+
+Vị trí nghề nghiệp Data Engineer (Kỹ sư dữ liệu), thuộc định hướng ngành Khoa học dữ liệu. Ngành đào tạo: Khoa học dữ liệu, mã ngành 7460108. Kỹ năng cần có: xây dựng pipeline dữ liệu, Big Data, Spark, Kafka. Môn học liên quan: Xử lý dữ liệu lớn, Kho dữ liệu. Nơi làm việc: công ty công nghệ, ngân hàng.
+
+Vị trí nghề nghiệp Business Intelligence Analyst, thuộc định hướng ngành Khoa học dữ liệu. Ngành đào tạo: Khoa học dữ liệu, mã ngành 7460108. Kỹ năng cần có: SQL, BI tools, phân tích kinh doanh. Môn học liên quan: không được nêu cụ thể trong tài liệu. Nơi làm việc: doanh nghiệp mọi ngành.
+
+Vị trí nghề nghiệp AI Engineer, thuộc định hướng ngành Khoa học dữ liệu. Ngành đào tạo: Khoa học dữ liệu, mã ngành 7460108. Kỹ năng cần có: Deep Learning, NLP, Computer Vision. Môn học liên quan: Học sâu, Khai phá dữ liệu ảnh. Nơi làm việc: công ty AI, tập đoàn công nghệ.
+
+Vị trí nghề nghiệp Chuyên viên quản trị cơ sở dữ liệu, thuộc định hướng ngành Khoa học dữ liệu. Ngành đào tạo: Khoa học dữ liệu, mã ngành 7460108. Kỹ năng cần có: quản trị DB, tối ưu truy vấn, bảo mật dữ liệu. Môn học liên quan: Cơ sở dữ liệu, Bảo mật và quản lý dữ liệu. Nơi làm việc: mọi doanh nghiệp có hệ thống dữ liệu lớn.

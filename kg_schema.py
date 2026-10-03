@@ -1,7 +1,7 @@
 # ============================================================
 # KG_SCHEMA.PY — LƯỢC ĐỒ ĐỒ THỊ TRI THỨC
 # ============================================================
-# 8 loại nút + 7 loại quan hệ cho miền tuyển sinh.
+# 11 loại nút + 10 loại quan hệ cho miền tuyển sinh và tư vấn ngành học.
 # Đây là mô hình KHÁI NIỆM. Dữ liệu sinh văn bản → embedding →
 # nạp vào ChromaDB phục vụ Hybrid RAG.
 # ============================================================
@@ -15,6 +15,10 @@ NODE_TYPES = {
     "AdmissionMethod":    {"properties": ["name", "formula", "description"]},
     "MajorStatistic":     {"properties": ["avgSalary", "employmentRate", "demand"]},
     "ProgramType":        {"properties": ["name", "description", "features"]},
+    # --- mở rộng cho tư vấn ngành học (CNTT, Khoa học dữ liệu) ---
+    "Specialization":     {"properties": ["name", "major_code", "major_name", "suitable_for", "knowledge"]},
+    "Course":             {"properties": ["program", "major_code", "major_name", "semester", "courses"]},
+    "Career":             {"properties": ["name", "major_code", "track", "skills", "courses", "workplaces"]},
 }
 
 RELATIONSHIP_TYPES = {
@@ -25,6 +29,9 @@ RELATIONSHIP_TYPES = {
     "USES_METHOD":          {"from": "AdmissionCriteria", "to": "AdmissionMethod"},
     "HAS_PROGRAM_TYPE":     {"from": "UniversityMajor",   "to": "ProgramType"},
     "STATISTICS_FOR":       {"from": "MajorStatistic",    "to": "Major"},
+    "SPECIALIZATION_OF":    {"from": "Specialization",     "to": "Major"},
+    "COURSE_IN":            {"from": "Course",             "to": "Major"},
+    "CAREER_FOR":           {"from": "Career",             "to": "Major"},
 }
 
 TEXT_TEMPLATES = {
@@ -59,6 +66,20 @@ TEXT_TEMPLATES = {
     ),
     "ProgramType": (
         "Loại chương trình đào tạo {name}: {description}. Đặc điểm: {features}."
+    ),
+    "Specialization": (
+        "Chuyên ngành {name} là chuyên ngành thuộc ngành {major_name} tại Trường "
+        "Đại học Điện lực. Mã ngành tương ứng: {major_code} (mã của ngành "
+        "{major_name}). Phù hợp với sinh viên: {suitable_for}. "
+        "Kiến thức được trang bị: {knowledge}."
+    ),
+    "Course": (
+        "Chương trình khung {program_full}, học kỳ {semester} gồm các môn: {courses}."
+    ),
+    "Career": (
+        "Vị trí nghề nghiệp {name}, thuộc định hướng {track}. Ngành đào tạo: "
+        "{major_name}, mã ngành {major_code}. Kỹ năng cần có: {skills}. "
+        "Môn học liên quan: {courses}. Nơi làm việc: {workplaces}."
     ),
 }
 

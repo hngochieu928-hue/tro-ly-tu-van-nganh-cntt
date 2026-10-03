@@ -36,6 +36,9 @@ FILE_TO_NODE = {
     "kg_admission_method.txt":    "AdmissionMethod",
     "kg_major_statistic.txt":     "MajorStatistic",
     "kg_program_type.txt":        "ProgramType",
+    "kg_specialization.txt":      "Specialization",
+    "kg_course.txt":              "Course",
+    "kg_career.txt":              "Career",
 }
 
 
@@ -121,7 +124,7 @@ def draw_graph(G, output_path=OUTPUT_PATH):
 
     plt.title(
         "Đồ thị tri thức miền tuyển sinh — Trường Đại học Điện lực\n"
-        f"(8 loại nút, {G.number_of_edges()} loại quan hệ)",
+        f"(11 loại nút, {G.number_of_edges()} loại quan hệ)",
         fontsize=15, fontweight="bold", pad=20,
     )
 

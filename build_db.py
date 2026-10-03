@@ -56,6 +56,9 @@ KG_FILE_TO_NODE = {
     "kg_admission_method.txt":    "AdmissionMethod",
     "kg_major_statistic.txt":     "MajorStatistic",
     "kg_program_type.txt":        "ProgramType",
+    "kg_specialization.txt":      "Specialization",
+    "kg_course.txt":              "Course",
+    "kg_career.txt":              "Career",
 }
 
 

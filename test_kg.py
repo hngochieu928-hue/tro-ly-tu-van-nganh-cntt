@@ -17,6 +17,9 @@ FILE_TO_NODE = {
     "kg_admission_method.txt":    "AdmissionMethod",
     "kg_major_statistic.txt":     "MajorStatistic",
     "kg_program_type.txt":        "ProgramType",
+    "kg_specialization.txt":      "Specialization",
+    "kg_course.txt":              "Course",
+    "kg_career.txt":              "Career",
 }
 
 
@@ -29,6 +32,9 @@ KEYWORD_CHECKS = {
     "AdmissionMethod":    ["Phương thức", "ĐXT"],
     "MajorStatistic":     ["việc làm", "tỷ lệ"],
     "ProgramType":        ["chương trình", "đào tạo"],
+    "Specialization":     ["Chuyên ngành", "mã ngành"],
+    "Course":             ["Môn học", "mã ngành"],
+    "Career":             ["Vị trí nghề nghiệp", "mã ngành"],
 }
 
 
@@ -52,8 +58,8 @@ def check_schema():
     n_nodes = len(NODE_TYPES)
     n_rels = len(RELATIONSHIP_TYPES)
 
-    ok_nodes = "✅" if n_nodes == 8 else "⚠️"
-    ok_rels = "✅" if n_rels == 7 else "⚠️"
+    ok_nodes = "✅" if n_nodes == 11 else "⚠️"
+    ok_rels = "✅" if n_rels == 10 else "⚠️"
 
     print(f"   {ok_nodes} Số loại nút       : {n_nodes}  (kỳ vọng: 8)")
     print(f"   {ok_rels} Số loại quan hệ   : {n_rels}  (kỳ vọng: 7)")

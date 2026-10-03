@@ -219,6 +219,146 @@ def extract_program_types():
     ]
 
 
+# --- Mở rộng cho tư vấn ngành học: Specialization / Course / Career ---
+# Ngành CNTT (7480201) có 3 chuyên ngành; ngành Khoa học dữ liệu (7460108)
+# không chia chuyên ngành. Mã ngành luôn được ghi vào văn bản sinh ra để câu
+# trả lời không thiếu mã ngành của ngành đang được hỏi.
+CNTT = {"code": "7480201", "name": "Công nghệ thông tin"}
+KHDL = {"code": "7460108", "name": "Khoa học dữ liệu"}
+
+SPECIALIZATIONS = {  # tên chuyên ngành -> từ khóa tiêu đề mục trong tài liệu giới thiệu
+    "Công nghệ phần mềm":         "CHUYÊN NGÀNH CÔNG NGHỆ PHẦN MỀM",
+    "Quản trị và An ninh mạng":   "CHUYÊN NGÀNH QUẢN TRỊ VÀ AN NINH MẠNG",
+    "Hệ thống Thương mại điện tử": "CHUYÊN NGÀNH HỆ THỐNG THƯƠNG MẠI ĐIỆN TỬ",
+}
+
+# file chương trình khung -> (nhãn chương trình, thông tin ngành)
+CURRICULUM_FILES = {
+    "chuong_trinh_khung_chuyen_nganh_cong_nghe_phan_mem.txt":
+        ("chuyên ngành Công nghệ phần mềm", CNTT),
+    "chuong_trinh_khung_chuyen_nganh_an_ninh_mang.txt":
+        ("chuyên ngành Quản trị và An ninh mạng", CNTT),
+    "chuong_trinh_khung_chuyen_nganh_he_thong_tmdt.txt":
+        ("chuyên ngành Hệ thống Thương mại điện tử", CNTT),
+    "chuong_trinh_khung_nganh_khoa_hoc_du_lieu.txt":
+        ("ngành Khoa học dữ liệu", KHDL),
+}
+
+
+def _clean_item(line):
+    return re.sub(r"\s+", " ", line.strip().lstrip("-•").strip()).rstrip(".;").strip()
+
+
+def extract_specializations(raw_data):
+    txt = raw_data.get("gioi_thieu_nganh_chuyen_nganh.txt", "")
+    # tách theo các mục đánh số "1. ...", "2. ..." ở đầu dòng
+    parts = re.split(r"(?m)^(?=\d+\.\s+[A-ZÀ-Ỹ])", txt)
+    result = []
+    for name, header in SPECIALIZATIONS.items():
+        body = next((p for p in parts if header in p.split("\n", 1)[0].upper()), None)
+        if not body:
+            continue
+
+        def block(start_rx, end_rx):
+            m = re.search(start_rx + r"[^\n]*\n(.*?)(?=" + end_rx + r")", body, re.S)
+            if not m:
+                return ""
+            items = [_clean_item(x) for x in m.group(1).split("\n")]
+            out = ""
+            for it in (i for i in items if i):
+                # mục kết thúc bằng ":" mở đầu danh sách con -> nối tiếp, không dùng ";"
+                out += (" " if out.endswith(":") else "; " if out else "") + it
+            return out
+
+        suitable = block(r"Phù hợp với sinh viên:", r"\n-?\s*Sinh viên được trang bị")
+        knowledge = block(r"Sinh viên được trang bị kiến thức về:", r"\nƯu điểm")
+        if not suitable or not knowledge:
+            continue
+        result.append({
+            "name": name,
+            "major_code": CNTT["code"], "major_name": CNTT["name"],
+            "suitable_for": suitable, "knowledge": knowledge,
+        })
+    return result
+
+
+def extract_courses(raw_data):
+    """Một nút Course cho mỗi học kỳ của mỗi chương trình khung (danh sách môn của
+    học kỳ đó). Nút theo từng môn riêng lẻ quá ngắn, lấn át các đoạn chương trình
+    khung gốc khi truy hồi nên không dùng."""
+    courses = []
+    for fn, (label, major) in CURRICULUM_FILES.items():
+        txt = raw_data.get(fn)
+        if not txt:
+            continue
+        if major is CNTT:
+            owner = "%s thuộc ngành %s (mã ngành %s)" % (label, major["name"], major["code"])
+        else:
+            owner = "%s (mã ngành %s)" % (label, major["code"])
+        sems, order = {}, []
+        sem = None
+        for line in txt.split("\n"):
+            m = re.match(r"\s*\[HỌC KỲ\s*(\d+)\]", line)
+            if m:
+                sem = int(m.group(1))
+                sems[sem] = {"req": [], "elective_head": "", "elective": []}
+                order.append(sem)
+                continue
+            if sem is None:
+                continue
+            m = re.match(r"\s*\*\s+(.+?)\s*$", line)
+            if m:
+                sems[sem]["elective_head"] = m.group(1).strip().rstrip(":").lower()
+                continue
+            m = re.match(r"\s*([-+])\s+(.+?)\s*$", line)
+            if m:
+                key = "elective" if m.group(1) == "+" else "req"
+                sems[sem][key].append(m.group(2).strip())
+        for sem in order:
+            d = sems[sem]
+            parts = []
+            if d["req"]:
+                parts.append("; ".join(d["req"]))
+            if d["elective"]:
+                parts.append("%s: %s" % (d["elective_head"] or "học phần tự chọn", "; ".join(d["elective"])))
+            courses.append({
+                "program_full": owner, "major_code": major["code"],
+                "major_name": major["name"], "semester": sem,
+                "courses": ". Ngoài ra, ".join(parts) if parts else "chưa có thông tin",
+            })
+    return courses
+
+
+def extract_careers(raw_data):
+    txt = raw_data.get("dinh_huong_nghe_nghiep_chi_tiet.txt", "")
+    careers = []
+    for sec in re.split(r"(?m)^## ", txt)[1:]:
+        title = sec.split("\n", 1)[0].upper()
+        if "KHOA HỌC DỮ LIỆU" in title:
+            major, track = KHDL, "ngành Khoa học dữ liệu"
+        else:
+            spec = next((n for n, h in SPECIALIZATIONS.items()
+                         if h.replace("CHUYÊN NGÀNH ", "") in title), None)
+            if not spec:
+                continue
+            major, track = CNTT, "chuyên ngành " + spec
+        for m in re.finditer(r"(?m)^\*\*(.+?)\*\*\s*\n((?:- .*\n?)+)", sec):
+            fields = {}
+            for ln in m.group(2).split("\n"):
+                fm = re.match(r"- (Kỹ năng|Môn học liên quan|Làm việc tại):\s*(.+)", ln.strip())
+                if fm:
+                    fields[fm.group(1)] = fm.group(2).strip().rstrip(".")
+            absent = "không được nêu cụ thể trong tài liệu"
+            careers.append({
+                "name": m.group(1).strip(),
+                "major_code": major["code"], "major_name": major["name"], "track": track,
+                "skills": fields.get("Kỹ năng", absent),
+                "courses": fields.get("Môn học liên quan", absent),
+                "workplaces": fields.get("Làm việc tại", absent),
+            })
+    return careers
+
+
 def build_university_major(universities, majors, criteria):
     if not universities or not majors:
         return []
@@ -300,6 +440,9 @@ def generate_all_texts(kg):
         "AdmissionMethod":    gen_text("AdmissionMethod", kg["AdmissionMethod"]),
         "MajorStatistic":     gen_text("MajorStatistic", kg["MajorStatistic"]),
         "ProgramType":        gen_text("ProgramType", kg["ProgramType"]),
+        "Specialization":     gen_text("Specialization", kg.get("Specialization", [])),
+        "Course":             gen_text("Course", kg.get("Course", [])),
+        "Career":             gen_text("Career", kg.get("Career", [])),
     }
 
 
@@ -316,6 +459,9 @@ FILE_MAP = {
     "AdmissionMethod":    "kg_admission_method.txt",
     "MajorStatistic":     "kg_major_statistic.txt",
     "ProgramType":        "kg_program_type.txt",
+    "Specialization":     "kg_specialization.txt",
+    "Course":             "kg_course.txt",
+    "Career":             "kg_career.txt",
 }
 
 
@@ -353,7 +499,7 @@ def main():
         print("❌ Không có dữ liệu.")
         return
 
-    print("🔍 Trích xuất 8 loại nút (NER)...")
+    print("🔍 Trích xuất 11 loại nút (NER)...")
     kg = {
         "University":         extract_university(raw),
         "Major":              extract_majors(raw),
@@ -362,6 +508,9 @@ def main():
         "AdmissionCriteria":  extract_admission_criteria(raw),
         "MajorStatistic":     extract_major_statistics(raw),
         "ProgramType":        extract_program_types(),
+        "Specialization":     extract_specializations(raw),
+        "Course":             extract_courses(raw),
+        "Career":             extract_careers(raw),
     }
     kg["UniversityMajor"] = build_university_major(
         kg["University"], kg["Major"], kg["AdmissionCriteria"]

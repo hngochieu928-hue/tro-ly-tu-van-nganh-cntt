@@ -461,6 +461,23 @@ def _rrf_merge(vec_docs, vec_metas, bm25_docs, bm25_metas, k=RRF_K):
     )
 
 
+_CURRICULUM_RX = re.compile(
+    r"\b(mon|mon hoc|hoc phan|hoc ky|chuong trinh khung|chuong trinh dao tao|"
+    r"chuong trinh hoc|tin chi)\b"
+)
+
+
+def _drop_course_nodes(docs, metas, question):
+    """Nút KG "Course" (danh sách môn theo học kỳ) lặp lại tên ngành/chuyên ngành
+    rất nhiều lần nên dễ lấn át các đoạn khác ở câu hỏi không liên quan đến
+    chương trình khung. Chỉ giữ chúng khi câu hỏi nói về môn học/học kỳ."""
+    q = _strip_diacritics(normalize_question(question) or "")
+    if _CURRICULUM_RX.search(q):
+        return docs, metas
+    keep = [i for i, m in enumerate(metas) if m.get("kg_node_type") != "Course"]
+    return [docs[i] for i in keep], [metas[i] for i in keep]
+
+
 def hybrid_search_documents(collection, question, top_k=FINAL_TOP_K, where=None):
     question = normalize_question(question)
     if not question:
@@ -481,6 +498,9 @@ def hybrid_search_documents(collection, question, top_k=FINAL_TOP_K, where=None)
             )
         except Exception:
             pass
+
+    vec_docs, vec_metas = _drop_course_nodes(vec_docs, vec_metas, question)
+    bm25_docs, bm25_metas = _drop_course_nodes(bm25_docs, bm25_metas, question)
 
     if USE_HYBRID and bm25_docs:
         merged_docs, merged_metas = _rrf_merge(

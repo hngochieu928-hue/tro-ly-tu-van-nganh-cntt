@@ -176,6 +176,21 @@ SOURCE_INFO = {
         "ref": "Tổng hợp từ tài liệu tuyển sinh",
         "kind": KIND_TRI_THUC,
     },
+    "kg_specialization.txt": {
+        "title": "Các chuyên ngành thuộc ngành Công nghệ thông tin",
+        "ref": "Tổng hợp từ tài liệu giới thiệu ngành và chuyên ngành",
+        "kind": KIND_TRI_THUC,
+    },
+    "kg_course.txt": {
+        "title": "Môn học trong chương trình khung theo ngành",
+        "ref": "Tổng hợp từ các chương trình khung",
+        "kind": KIND_TRI_THUC,
+    },
+    "kg_career.txt": {
+        "title": "Vị trí nghề nghiệp theo ngành và chuyên ngành",
+        "ref": "Tổng hợp từ tài liệu định hướng nghề nghiệp",
+        "kind": KIND_TRI_THUC,
+    },
 }
 
 
