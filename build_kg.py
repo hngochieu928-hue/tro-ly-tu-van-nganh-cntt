@@ -378,8 +378,16 @@ def build_university_major(universities, majors, criteria):
         if year == "2024":
             tuition = ("dự kiến theo Đề án tuyển sinh năm 2024: từ 420.000 đến "
                        "590.000 đồng/tín chỉ")
+        elif year in ("2025", "2026") and code[:3] in ("746", "748"):
+            # Khối ngành V (máy tính và công nghệ thông tin, Toán và thống kê):
+            # đơn giá 810.000 đồng/tín chỉ cho khóa tuyển sinh từ năm học 2025–2026
+            # trở đi theo QĐ 1563/QĐ-ĐHĐL (mức thu học phí năm học 2026–2027).
+            tuition = ("810.000 đồng/tín chỉ (Khối ngành V, đơn giá của khóa tuyển "
+                       "sinh từ năm học 2025–2026 trở đi theo quyết định mức thu học "
+                       "phí năm học 2026–2027)")
         else:
-            tuition = ("xem quyết định về mức thu học phí của năm học tương ứng "
+            tuition = ("tính theo số tín chỉ nhân đơn giá tín chỉ của khối ngành, "
+                       "nêu trong quyết định về mức thu học phí của năm học tương ứng "
                        "(tra cứu văn bản mức thu học phí)")
         ums.append({
             "university_code": univ["code"],

@@ -134,6 +134,15 @@ def detect_doc_filter(question):
         if any(kw in q for kw in keywords):
             return {"category": category}
 
+    # Câu hỏi về học phí (không thuộc tuyển sinh): mức thu nằm trong quy định/quy
+    # chế; không để đoạn tuyển sinh hay đồ thị tri thức (chỉ trỏ tới quyết định
+    # mức thu) lấn át. Năm 2024 còn có mức dự kiến trong đề án tuyển sinh.
+    if "hoc phi" in q and not any(kw in q for kw in _TUYEN_SINH_KEYWORDS):
+        doc_type = ["quy_dinh", "quy_che", "knowledge_graph"]
+        if "2024" in q or "de an" in q:
+            doc_type.append("tuyen_sinh")
+        return {"doc_type": doc_type}
+
     # Câu hỏi về tuyển sinh (phương thức, chỉ tiêu, đề án...) → chỉ tìm trong
     # văn bản tuyển sinh, kèm năm nếu câu hỏi nêu năm.
     if any(kw in q for kw in _TUYEN_SINH_KEYWORDS):
@@ -467,14 +476,24 @@ _CURRICULUM_RX = re.compile(
 )
 
 
+MAX_COURSE_NODES_NO_INTENT = 0
+
+
 def _drop_course_nodes(docs, metas, question):
     """Nút KG "Course" (danh sách môn theo học kỳ) lặp lại tên ngành/chuyên ngành
-    rất nhiều lần nên dễ lấn át các đoạn khác ở câu hỏi không liên quan đến
-    chương trình khung. Chỉ giữ chúng khi câu hỏi nói về môn học/học kỳ."""
+    rất nhiều lần nên dễ lấn át các đoạn khác. Chỉ giữ chúng khi câu hỏi nói về
+    môn học/học kỳ (MAX_COURSE_NODES_NO_INTENT = số nút được giữ khi không nói
+    tới; thử đặt 3 làm câu hỏi về nội dung chuyên ngành bị lấn át nên đặt 0)."""
     q = _strip_diacritics(normalize_question(question) or "")
     if _CURRICULUM_RX.search(q):
         return docs, metas
-    keep = [i for i, m in enumerate(metas) if m.get("kg_node_type") != "Course"]
+    keep, n_course = [], 0
+    for i, m in enumerate(metas):
+        if m.get("kg_node_type") == "Course":
+            n_course += 1
+            if n_course > MAX_COURSE_NODES_NO_INTENT:
+                continue
+        keep.append(i)
     return [docs[i] for i in keep], [metas[i] for i in keep]
 
 
@@ -629,9 +648,10 @@ Khoa có 2 NGÀNH:
    - Công nghệ phần mềm
    - Hệ thống thương mại điện tử
    - An ninh mạng
-2. NGÀNH KHOA HỌC DỮ LIỆU — là NGÀNH RIÊNG, KHÔNG thuộc CNTT.
+2. NGÀNH KHOA HỌC DỮ LIỆU — mã ngành 7460108 — là NGÀNH RIÊNG, KHÔNG thuộc CNTT.
 
 ⚠️ KHÔNG được nhầm NGÀNH với CHUYÊN NGÀNH.
+⚠️ MÃ NGÀNH: mỗi khi nhắc đến một ngành, hãy ghi kèm mã ngành (CNTT: 7480201; Khoa học dữ liệu: 7460108). Chuyên ngành không có mã riêng nên khi nhắc đến chuyên ngành, ghi mã của ngành CNTT (7480201).
 
 🎯 NGUYÊN TẮC TRẢ LỜI:
 1. Chỉ trả lời dựa trên CONTEXT được cung cấp. KHÔNG tự bịa.
