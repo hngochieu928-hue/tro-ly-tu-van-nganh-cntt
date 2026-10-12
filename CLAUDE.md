@@ -4,7 +4,7 @@ Chatbot RAG (Streamlit) tư vấn tuyển sinh các ngành/chuyên ngành Khoa C
 Trả lời người dùng bằng tiếng Việt.
 
 ## Cấu trúc
-- `app.py` — giao diện Streamlit (file lớn, ~1.500 dòng: chỉ đọc phần cần sửa)
+- `app.py` — giao diện Streamlit (file lớn, ~1.700 dòng: chỉ đọc phần cần sửa)
 - `rag_utils.py` — lõi RAG: lọc metadata, hybrid search (vector + BM25, RRF), rerank, dựng prompt, gọi LLM
 - `external_llm.py` — gọi LLM cloud (OpenAI, Gemini, Claude, DeepSeek, Groq)
 - `config.py` — mọi tham số (model, top-k, chunk, provider). Đổi tham số ở đây, không hard-code
