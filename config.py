@@ -101,10 +101,9 @@ DEFAULT_PROVIDER = "gemini"
 PROVIDER_MODELS = {
     "ollama":   ["qwen2.5:3b", "qwen2.5:7b", "llama3.2:3b"],
     "openai":   ["gpt-4o-mini", "gpt-4o", "gpt-4-turbo"],
-    "gemini":   ["gemini-flash-lite-latest",  # mặc định: quota free tier rộng rãi nhất
-                 "gemini-flash-latest",       # mạnh hơn nhưng free tier chỉ ~20 request/ngày
-                 "gemini-3.5-flash-lite",
-                 "gemini-pro-latest"],
+    # 12/11/2026: các bí danh gemini-*-latest trả 404 NOT_FOUND (API v1),
+    # nên chỉ giữ mô hình đã thử chạy được trên bản triển khai.
+    "gemini":   ["gemini-3.5-flash-lite"],
     "claude":   ["claude-sonnet-5",
                  "claude-opus-5",
                  "claude-haiku-4-5-20251001"],
